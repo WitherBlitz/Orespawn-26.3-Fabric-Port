@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "orespawn:item/empty_critter_cage"
+  }
+}

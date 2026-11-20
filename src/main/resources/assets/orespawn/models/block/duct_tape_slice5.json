@@ -1,0 +1,44 @@
+{
+  "textures": {
+    "particle": "orespawn:block/duct_tape_side",
+    "bottom": "orespawn:block/duct_tape_bottom",
+    "top": "orespawn:block/duct_tape_top",
+    "side": "orespawn:block/duct_tape_side",
+    "inside": "orespawn:block/duct_tape_inner"
+  },
+  "elements": [
+    {
+      "from": [
+        11,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        4,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#inside"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

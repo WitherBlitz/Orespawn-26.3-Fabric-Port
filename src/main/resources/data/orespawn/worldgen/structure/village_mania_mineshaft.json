@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:mineshaft",
+  "biomes": [
+    "orespawn:villages"
+  ],
+  "mineshaft_type": "normal",
+  "spawn_overrides": {},
+  "step": "underground_structures"
+}

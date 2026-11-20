@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block_column",
+  "direction": "up",
+  "allowed_placement": {
+    "type": "minecraft:true"
+  },
+  "prioritize_tip": false,
+  "layers": [
+    {
+      "height": 1,
+      "provider": {
+        "id": "orespawn:strawberry_plant",
+        "properties": {
+          "age": "0"
+        }
+      }
+    }
+  ]
+}

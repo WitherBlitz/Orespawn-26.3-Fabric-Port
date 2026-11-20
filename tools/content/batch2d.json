@@ -1,0 +1,140 @@
+{
+  "creatures": {
+    "crab": {
+      "name": "Crab",
+      "egg": "eggcrab",
+      "textures": {
+        "RobotCrabtexture.png": "crab.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "scorpion": {
+      "name": "Scorpion",
+      "egg": "eggscorpion",
+      "textures": {
+        "Scorpion.png": "scorpion.png"
+      },
+      "ragdoll": "from_model",
+      "loot_table": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:uranium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:titanium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:empty",
+                "weight": 7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "small_worm": {
+      "name": "Small Worm",
+      "egg": "eggsmallworm",
+      "textures": {
+        "WormSmalltexture.png": "small_worm.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "medium_worm": {
+      "name": "Medium Worm",
+      "egg": "eggmediumworm",
+      "textures": {
+        "WormMediumtexture.png": "medium_worm.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "large_worm": {
+      "name": "Large Worm",
+      "egg": "egglargeworm",
+      "textures": {
+        "WormLargetexture.png": "large_worm.png"
+      },
+      "ragdoll": "from_model"
+    }
+  },
+  "sounds": [
+    "leaves_hit",
+    "scorpion_attack",
+    "scorpion_living",
+    "scorpion_hit",
+    "cryo_death",
+    "little_splat",
+    "big_splat",
+    "alo_death"
+  ]
+}

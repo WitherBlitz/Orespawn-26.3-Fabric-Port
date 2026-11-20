@@ -1,0 +1,98 @@
+{
+  "creatures": {
+    "creeping_horror": {
+      "name": "Creeping Horror", "egg": "eggcreepinghorror",
+      "egg_ore": {"texture": "orecreepinghorror", "name": "Creeping Horror"},
+      "textures": {"CreepingHorror.png": "creeping_horror.png"},
+      "ragdoll": null
+    },
+    "terrible_terror": {
+      "name": "Terrible Terror", "egg": "eggterribleterror",
+      "egg_ore": {"texture": "oreterribleterror", "name": "Terrible Terror"},
+      "textures": {"TerribleTerror.png": "terrible_terror.png"},
+      "ragdoll": "from_model"
+    },
+    "lurking_terror": {
+      "name": "Lurking Terror", "egg": "egglurkingterror",
+      "egg_ore": {"texture": "orelurkingterror", "name": "Lurking Terror"},
+      "textures": {"LurkingTerror.png": "lurking_terror.png"},
+      "ragdoll": null
+    },
+    "nightmare": {
+      "name": "Nightmare", "egg": "eggnightmare",
+      "egg_ore": {"texture": "orenightmare", "name": "Nightmare"},
+      "textures": {"PitchBlacktexture.png": "nightmare.png"},
+      "ragdoll": null
+    },
+    "kyuubi": {
+      "name": "Kyuubi", "egg": "eggkyuubi",
+      "egg_ore": {"texture": "orekyuubi", "name": "Kyuubi"},
+      "textures": {"Kyuubi.png": "kyuubi.png"},
+      "loot": [
+        {"item": "minecraft:coal", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:redstone_block", "min": 3, "max": 3, "looting": false},
+        {"item": "minecraft:quartz_block", "min": 4, "max": 4, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "wtf": {
+      "name": "WTF?", "egg": "egggammametroid",
+      "egg_ore": {"texture": "oregammametroid", "name": "WTF?"},
+      "textures": {"GammaMetroid.png": "wtf.png"},
+      "loot": [
+        {"item": "minecraft:gold_nugget", "min": 5, "max": 14, "looting": false},
+        {"item": "minecraft:iron_ingot", "min": 6, "max": 15, "looting": false}
+      ],
+      "ragdoll": "from_model"
+    },
+    "alien": {
+      "name": "Alien", "egg": "eggalien",
+      "egg_ore": {"texture": "orealien", "name": "Alien"},
+      "textures": {"MyAlien.png": "alien.png"},
+      "loot": [
+        {"item": "minecraft:spider_eye", "min": 5, "max": 10, "looting": false},
+        {"item": "minecraft:flint", "min": 5, "max": 10, "looting": false},
+        {"item": "minecraft:map", "min": 1, "max": 1, "looting": false},
+        {"item": "minecraft:clock", "min": 1, "max": 1, "looting": false},
+        {"item": "minecraft:compass", "min": 1, "max": 1, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "basilisk": {
+      "name": "Basilisk", "egg": "eggbasilisc",
+      "egg_ore": {"texture": "orebasilisc", "name": "Basilisk"},
+      "textures": {"basilisk.png": "basilisk.png"},
+      "ragdoll": "from_model"
+    },
+    "cephadrome": {
+      "name": "Cephadrome", "egg": "eggcephadrome",
+      "egg_ore": {"texture": "orecephadrome", "name": "Cephadrome"},
+      "textures": {"Cephadrome.png": "cephadrome.png"},
+      "ragdoll": null
+    },
+    "cliff_racer": {
+      "name": "Cliff Racer", "egg": "eggcliffracer",
+      "egg_ore": {"texture": "orecliffracer", "name": "Cliff Racer"},
+      "textures": {"Cliffracertexture.png": "cliff_racer.png"},
+      "ragdoll": "from_model"
+    }
+  },
+  "items": {
+    "nightmare_scale": {"texture": "nightmarescale", "name": "Nightmare Scale"},
+    "basilisk_scale": {"texture": "basiliskscale", "name": "Basilisk Scale"}
+  },
+  "sounds": [
+    "creepinghorror_living", "creepinghorror_hit", "creepinghorror_dead",
+    "terribleterror_living", "terribleterror_hit", "terribleterror_dead",
+    "lurkinghorror_living", "lurkinghorror_hit", "lurkinghorror_dead",
+    "pitchblack_living", "pitchblack_hit", "pitchblack_dead",
+    "kyuubi_living", "alo_hurt", "alo_death",
+    "wtf_living", "duck_hurt",
+    "alien_living", "alien_hurt", "alien_death",
+    "basilisk_living", "emperorscorpion_death",
+    "cliffracer"
+  ],
+  "lang": {
+    "item.orespawn.nightmare_spawn_egg": "Spawn Nightmare!!!"
+  }
+}

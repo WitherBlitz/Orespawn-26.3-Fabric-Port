@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:crystal_energy",
+    "orespawn:crystal_shards"
+  ],
+  "result": {
+    "id": "orespawn:crystal_torch",
+    "count": 6
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "orespawn:kyanite",
+    "I": "orespawn:crystal_shards"
+  },
+  "pattern": [
+    "EE",
+    "EI",
+    " I"
+  ],
+  "result": {
+    "id": "orespawn:kyanite_axe"
+  }
+}

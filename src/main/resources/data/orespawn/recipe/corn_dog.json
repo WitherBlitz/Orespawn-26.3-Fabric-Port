@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "ingredient": "orespawn:raw_corn_dog",
+  "result": {
+    "id": "orespawn:corn_dog"
+  }
+}

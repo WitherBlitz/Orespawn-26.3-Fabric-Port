@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:criminal_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:criminal_spawn_egg"
+  }
+}

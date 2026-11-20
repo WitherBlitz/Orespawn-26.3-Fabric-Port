@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:crystal_planks",
+    "orespawn:crystal_tree_wood",
+    "orespawn:crystal_workbench",
+    "orespawn:duplicator_tree_wood",
+    "orespawn:sky_tree_wood"
+  ]
+}

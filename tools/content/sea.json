@@ -1,0 +1,123 @@
+{
+  "creatures": {
+    "attack_squid": {
+      "name": "Attack Squid",
+      "egg": "eggattacksquid",
+      "egg_ore": {"texture": "oreattacksquid", "name": "Attack Squid"},
+      "textures": {"AttackSquid.png": "attack_squid.png"},
+      "ragdoll": "from_model"
+    },
+    "hammerhead": {
+      "name": "Hammerhead",
+      "egg": "egghammerhead",
+      "egg_ore": {"texture": "orehammerhead", "name": "Hammerhead"},
+      "textures": {"Hammerheadtexture.png": "hammerhead.png"},
+      "ragdoll": null
+    },
+    "irukandji": {
+      "name": "Irukandji",
+      "egg": "eggirukandji",
+      "egg_ore": {"texture": "oreirukandji", "name": "Irukandji"},
+      "textures": {"Irukandjitexture.png": "irukandji.png"},
+      "loot": [{"item": "orespawn:dead_irukandji", "min": 0, "max": 2, "looting": true}],
+      "ragdoll": "from_model"
+    },
+    "sea_monster": {
+      "name": "Sea Monster",
+      "egg": "eggseamonster",
+      "egg_ore": {"texture": "oreseamonster", "name": "Sea Monster"},
+      "textures": {"SeaMonstertexture.png": "sea_monster.png"},
+      "ragdoll": "from_model"
+    },
+    "sea_viper": {
+      "name": "Sea Viper",
+      "egg": "eggseaviper",
+      "egg_ore": {"texture": "oreseaviper", "name": "Sea Viper"},
+      "textures": {"SeaVipertexture.png": "sea_viper.png"},
+      "ragdoll": null
+    },
+    "cloud_shark": {
+      "name": "Cloud Shark",
+      "egg": "eggcloudshark",
+      "egg_ore": {"texture": "orecloudshark", "name": "Cloud Shark"},
+      "textures": {"CloudShark.png": "cloud_shark.png"},
+      "loot_table": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:paper",
+                "weight": 1,
+                "modifier": [
+                  {"type": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 0, "max": 2}},
+                  {"type": "minecraft:enchanted_count_increase", "count": {"type": "minecraft:uniform", "min": 0.0, "max": 1.0}, "enchantment": "minecraft:looting"}
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:string",
+                "weight": 1,
+                "modifier": [
+                  {"type": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 0, "max": 2}},
+                  {"type": "minecraft:enchanted_count_increase", "count": {"type": "minecraft:uniform", "min": 0.0, "max": 1.0}, "enchantment": "minecraft:looting"}
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:bone",
+                "weight": 1,
+                "modifier": [
+                  {"type": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 0, "max": 2}},
+                  {"type": "minecraft:enchanted_count_increase", "count": {"type": "minecraft:uniform", "min": 0.0, "max": 1.0}, "enchantment": "minecraft:looting"}
+                ]
+              }
+            ]
+          }
+        ],
+        "random_sequence": "orespawn:entities/cloud_shark"
+      },
+      "ragdoll": "from_model"
+    },
+    "hydrolisc": {
+      "name": "Hydrolisc",
+      "egg": "egghydrolisc",
+      "egg_ore": {"texture": "orehydrolisc", "name": "Hydrolisc"},
+      "textures": {"hydrolisc.png": "hydrolisc.png"},
+      "ragdoll": null
+    },
+    "water_dragon": {
+      "name": "Water Dragon",
+      "egg": "eggwaterdragon",
+      "egg_ore": {"texture": "orewaterdragon", "name": "WaterDragon"},
+      "textures": {"WaterDragon.png": "water_dragon.png"},
+      "ragdoll": "from_model"
+    },
+    "crystal_urchin": {
+      "name": "Crystal Urchin",
+      "egg": "eggurchin",
+      "egg_ore": {"texture": "oreurchin", "name": "Urchin"},
+      "textures": {"Urchintexture.png": "crystal_urchin.png"},
+      "ragdoll": "from_model"
+    }
+  },
+  "items": {
+    "dead_irukandji": {"texture": "deadirukandji", "name": "Dead Irukandji"},
+    "sunspot_urchin": {"texture": "sunspoturchin", "name": "Sunspot Urchin"},
+    "waterdragon_charge": {"texture": "waterball", "name": "WaterDragon Charge"},
+    "sea_monster_scale": {"texture": "seamonsterscale", "name": "Sea Monster Scale"},
+    "sea_viper_tongue": {"texture": "seavipertongue", "name": "Sea Viper Tongue"},
+    "water_dragon_scale": {"texture": "waterdragonscale", "name": "Water Dragon Scale"}
+  },
+  "sounds": ["squid_hurt", "squid_death", "hammerhead_living", "alo_hurt", "hammerhead_death", "ratdead", "seamonster_living",
+    "seamonster_hit", "seamonster_death", "seaviper_living", "seaviper_hit", "seaviper_death", "little_splat", "big_splat", "cryo_hurt",
+    "cryo_death", "waterdragon_hurt", "waterdragon_death", "kyuubi_living", "glasshit", "glassdead"],
+  "lang": {
+    "entity.orespawn.ink_sack": "Ink Sack",
+    "entity.orespawn.water_ball": "Water Ball",
+    "entity.orespawn.sunspot_urchin": "Sunspot Urchin",
+    "entity.orespawn.dead_irukandji": "Dead Irukandji"
+  }
+}

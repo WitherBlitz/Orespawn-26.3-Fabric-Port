@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:stick",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "IWI",
+    "W W",
+    "IWI"
+  ],
+  "result": {
+    "id": "orespawn:empty_critter_cage",
+    "count": 2
+  }
+}

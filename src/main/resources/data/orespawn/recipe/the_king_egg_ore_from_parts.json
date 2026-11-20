@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore",
+    "orespawn:the_king_egg_part_ore"
+  ],
+  "result": {
+    "id": "orespawn:the_king_egg_ore"
+  }
+}

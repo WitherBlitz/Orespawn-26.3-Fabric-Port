@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": "minecraft:tool/can_shear",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:scary_leaves"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/scary_leaves"
+}

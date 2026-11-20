@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:cloud_shark_egg_ore"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/cloud_shark_egg_ore"
+}

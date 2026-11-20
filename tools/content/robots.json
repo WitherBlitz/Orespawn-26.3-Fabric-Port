@@ -1,0 +1,133 @@
+{
+  "creatures": {
+    "bomb_omb": {
+      "name": "Bomb-Omb",
+      "egg": "eggrobot1",
+      "textures": {
+        "Robot1.png": "bomb_omb.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:gunpowder",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ],
+      "ragdoll": null
+    },
+    "robo_pounder": {
+      "name": "Robo-Pounder",
+      "egg": "eggrobot2",
+      "textures": {
+        "Robot2.png": "robo_pounder.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "robo_gunner": {
+      "name": "Robo-Gunner",
+      "egg": "eggrobot3",
+      "textures": {
+        "Robot3.png": "robo_gunner.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "robo_warrior": {
+      "name": "Robo-Warrior",
+      "egg": "eggrobot4",
+      "textures": {
+        "Robot4.png": "robo_warrior.png"
+      },
+      "ragdoll": null
+    },
+    "robo_sniper": {
+      "name": "Robo-Sniper",
+      "egg": "eggrobot5",
+      "textures": {
+        "Robot5texture.png": "robo_sniper.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "jeffery": {
+      "name": "Jeffery",
+      "egg": "eggrobot6",
+      "textures": {
+        "GiantRobottexture.png": "jeffery.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "robot_spider": {
+      "name": "Robot Spider",
+      "egg": "eggspiderrobot",
+      "textures": {
+        "SpiderRobottexture.png": "robot_spider.png",
+        "Island.png": "island.png",
+        "IslandToo.png": "island_too.png"
+      },
+      "ragdoll": null
+    },
+    "spider_driver": {
+      "name": "Spider Driver",
+      "egg": "eggspiderdriver",
+      "egg_ore": {
+        "texture": "orespiderdriver",
+        "name": "Spider Driver"
+      },
+      "textures": {
+        "spiderdriver.png": "spider_driver.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:string",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ],
+      "ragdoll": "from_model"
+    },
+    "robot_red_ant": {
+      "name": "Robot Red Ant",
+      "egg": "eggantrobot",
+      "textures": {
+        "AntRobottexture.png": "robot_red_ant.png"
+      },
+      "ragdoll": null
+    }
+  },
+  "items": {
+    "spider_robot_kit": {
+      "texture": "spiderrobotkit",
+      "name": "Spider Robot Kit"
+    },
+    "red_ant_robot_kit": {
+      "texture": "antrobotkit",
+      "name": "Red Ant Robot Kit"
+    }
+  },
+  "sounds": [
+    "kyuubi_living",
+    "scorpion_hit",
+    "robot1_death",
+    "robot_living",
+    "robot_hurt",
+    "robot_death",
+    "robotspider",
+    "robotspidermount"
+  ],
+  "lang": {
+    "item.orespawn.robot_spider_spawn_egg": "Spawn Giant Spider Robot",
+    "item.orespawn.robot_red_ant_spawn_egg": "Spawn Red Ant Robot",
+    "item.orespawn.spider_driver_spawn_egg": "Spawn Spider Robot Driver",
+    "entity.orespawn.island": "Light Floating Island",
+    "entity.orespawn.island_too": "Dark Floating Island",
+    "block.orespawn.island_block": "Island Block"
+  },
+  "blocks": {
+    "island_block": {
+      "texture": "island",
+      "name": "Island Block",
+      "model": "cross"
+    }
+  }
+}

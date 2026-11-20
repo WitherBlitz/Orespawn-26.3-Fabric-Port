@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:apple_cow",
+    "orespawn:golden_apple_cow",
+    "orespawn:enchanted_golden_apple_cow",
+    "orespawn:bird",
+    "orespawn:chipmunk",
+    "orespawn:frog",
+    "orespawn:beaver",
+    "orespawn:cassowary",
+    "orespawn:rat",
+    "orespawn:pet_rat"
+  ]
+}

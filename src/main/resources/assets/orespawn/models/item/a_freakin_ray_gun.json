@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "orespawn:item/a_freakin_ray_gun"
+  }
+}

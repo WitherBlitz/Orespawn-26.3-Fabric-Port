@@ -1,0 +1,29 @@
+# Build output and logs
+build/
+.gradle/
+run/
+out/
+*.log
+
+# The original OreSpawn 1.7.10-20.3 file: never committed (see README, "What you need")
+original/
+
+# Test screenshots (they show OreSpawn's textures)
+screenshots/
+
+# OreSpawn's own files must never be committed: the mod reads them from the original file at runtime.
+# The old asset scripts (tools/gen_assets.py, crystal_assets.py, farming_assets.py) wrote them here.
+src/main/resources/assets/orespawn/textures/
+src/main/resources/assets/orespawn/sounds/
+src/main/resources/assets/orespawn/sounds.json
+# What tools/dungeons/port_dungeons.py writes: OreSpawn's dungeon code translated line for line, and its chest lists.
+# The mod runs OreSpawn's original dungeon code instead (orespawn.original.OriginalDungeons).
+src/main/java/orespawn/world/dungeons/GenericDungeon.java
+src/main/java/orespawn/world/dungeons/BasiliskMaze.java
+src/main/java/orespawn/world/dungeons/NightmareDungeon.java
+src/main/java/orespawn/world/dungeons/RubyBirdDungeon.java
+src/main/java/orespawn/world/dungeons/OreSpawnWorldDungeons.java
+src/main/resources/data/orespawn/loot_table/chests/dungeons/
+
+# Python caches
+__pycache__/

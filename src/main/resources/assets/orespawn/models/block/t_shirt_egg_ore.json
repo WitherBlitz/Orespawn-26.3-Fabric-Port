@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "orespawn:block/t_shirt_egg_ore"
+  }
+}

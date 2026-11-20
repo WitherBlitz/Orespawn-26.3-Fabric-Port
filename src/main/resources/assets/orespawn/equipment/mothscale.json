@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:mothscale"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:mothscale"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:mothscale"
+      }
+    ]
+  }
+}

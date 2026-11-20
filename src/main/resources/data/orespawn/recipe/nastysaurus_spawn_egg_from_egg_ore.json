@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:nastysaurus_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:nastysaurus_spawn_egg"
+  }
+}

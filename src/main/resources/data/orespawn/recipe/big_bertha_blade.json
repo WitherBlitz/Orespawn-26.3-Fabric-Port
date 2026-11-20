@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "orespawn:kraken_tooth",
+    "orespawn:worm_tooth",
+    "orespawn:trex_tooth",
+    "orespawn:ultimate_sword",
+    "orespawn:caterkiller_jaws",
+    "orespawn:sea_viper_tongue",
+    "orespawn:vortex_eye"
+  ],
+  "result": {
+    "id": "orespawn:big_bertha_blade"
+  }
+}

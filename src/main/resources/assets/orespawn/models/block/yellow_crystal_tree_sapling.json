@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "orespawn:block/yellow_crystal_tree_sapling"
+  }
+}

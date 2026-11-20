@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "orespawn:item/cave_fisher_spawn_egg"
+  }
+}

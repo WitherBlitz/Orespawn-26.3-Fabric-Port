@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:hercules_beetle_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:hercules_beetle_spawn_egg"
+  }
+}

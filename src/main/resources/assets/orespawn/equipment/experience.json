@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:experience"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:experience"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:experience"
+      }
+    ]
+  }
+}

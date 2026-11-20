@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_tree_sapling"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/experience_tree_sapling"
+}

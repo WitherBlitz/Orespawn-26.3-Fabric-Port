@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:royal"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:royal"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:royal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "creatures": {
+    "gazelle": {
+      "name": "Gazelle",
+      "egg": "egggazelle",
+      "textures": {
+        "Gazelletexture.png": "gazelle.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:beef",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ]
+    },
+    "ostrich": {
+      "name": "Ostrich",
+      "egg": "eggostrich",
+      "textures": {
+        "Ostrichtexture.png": "ostrich.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:feather",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ]
+    },
+    "lizard": {
+      "name": "Lizard",
+      "egg": "egglizard",
+      "textures": {
+        "Lizard.png": "lizard.png"
+      }
+    }
+  },
+  "sounds": [
+    "scorpion_hit",
+    "cryo_hurt",
+    "cryo_death",
+    "alo_hurt",
+    "alo_death"
+  ]
+}

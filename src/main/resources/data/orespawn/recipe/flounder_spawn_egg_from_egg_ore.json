@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:flounder_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:flounder_spawn_egg"
+  }
+}

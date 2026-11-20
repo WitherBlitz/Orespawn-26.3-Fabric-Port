@@ -1,0 +1,82 @@
+{
+  "creatures": {
+    "alosaurus": {
+      "name": "Alosaurus", "egg": "eggalosaurus",
+      "egg_ore": {"texture": "orealosaurus", "name": "Alosaurus"},
+      "textures": {"alosaurus.png": "alosaurus.png"},
+      "loot": [
+        {"item": "minecraft:gold_nugget", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:beef", "min": 6, "max": 6, "looting": false}
+      ],
+      "ragdoll": "from_model"
+    },
+    "t_rex": {
+      "name": "T. Rex", "egg": "eggtrex",
+      "egg_ore": {"texture": "oretrex", "name": "T. Rex"},
+      "textures": {"TRextexture.png": "t_rex.png"},
+      "loot": [
+        {"item": "orespawn:trex_tooth", "min": 1, "max": 1, "looting": false},
+        {"item": "minecraft:item_frame", "min": 1, "max": 1, "looting": false},
+        {"item": "minecraft:beef", "min": 7, "max": 7, "looting": false},
+        {"item": "orespawn:uranium_nugget", "min": 2, "max": 5, "looting": false},
+        {"item": "orespawn:titanium_nugget", "min": 2, "max": 5, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "nastysaurus": {
+      "name": "Nastysaurus", "egg": "eggnastysaurus",
+      "egg_ore": {"texture": "orenastysaurus", "name": "Nastysaurus"},
+      "textures": {"Nastysaurustexture.png": "nastysaurus.png"},
+      "loot": [
+        {"item": "minecraft:iron_ingot", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:rotten_flesh", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:leather", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:string", "min": 10, "max": 10, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "pointysaurus": {
+      "name": "Pointysaurus", "egg": "eggpointysaurus",
+      "egg_ore": {"texture": "orepointysaurus", "name": "Pointysaurus"},
+      "textures": {"Pointysaurustexture.png": "pointysaurus.png"},
+      "loot": [
+        {"item": "minecraft:leather", "min": 10, "max": 10, "looting": false},
+        {"item": "minecraft:beef", "min": 6, "max": 6, "looting": false},
+        {"item": "minecraft:rotten_flesh", "min": 6, "max": 6, "looting": false},
+        {"item": "minecraft:string", "min": 6, "max": 6, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "cryolophosaurus": {
+      "name": "Cryolophosaurus", "egg": "eggcryolophosaurus",
+      "egg_ore": {"texture": "orecryolophosaurus", "name": "Cryolophosaurus"},
+      "textures": {"cryolophosaurus.png": "cryolophosaurus.png"},
+      "ragdoll": "from_model"
+    },
+    "baryonyx": {
+      "name": "Baryonyx", "egg": "eggbaryonyx",
+      "egg_ore": {"texture": "orebaryonyx", "name": "Baryonyx"},
+      "textures": {"Baryonyx.png": "baryonyx.png"},
+      "loot": [
+        {"item": "minecraft:beef", "min": 2, "max": 6, "looting": false}
+      ],
+      "ragdoll": null
+    },
+    "camarasaurus": {
+      "name": "Camarasaurus", "egg": "eggcamarasaurus",
+      "egg_ore": {"texture": "orecamarasaurus", "name": "Camarasaurus"},
+      "textures": {"camarasaurus.png": "camarasaurus.png"},
+      "ragdoll": "from_model"
+    },
+    "velocity_raptor": {
+      "name": "Velocity Raptor", "egg": "eggvelocityraptor",
+      "egg_ore": {"texture": "orevelocityraptor", "name": "Velocity Raptor"},
+      "textures": {"velocityraptor.png": "velocity_raptor.png"},
+      "ragdoll": null
+    }
+  },
+  "items": {
+    "trex_tooth": {"texture": "trextooth", "name": "TRex Tooth"}
+  },
+  "sounds": ["alo_living", "alo_hurt", "alo_death", "trex_living", "trex_death", "cryo_living", "cryo_hurt", "cryo_death", "duck_hurt"]
+}

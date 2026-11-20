@@ -1,0 +1,10 @@
+{
+  "type": "orespawn:islands",
+  "generator": {
+    "type": "orespawn:islands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "orespawn:islands"
+    }
+  }
+}

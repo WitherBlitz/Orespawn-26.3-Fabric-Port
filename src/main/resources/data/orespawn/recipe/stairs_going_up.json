@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:cobblestone",
+    "G": "minecraft:gunpowder"
+  },
+  "pattern": [
+    "GC",
+    " C",
+    " C"
+  ],
+  "result": {
+    "id": "orespawn:stairs_going_up",
+    "count": 8
+  }
+}

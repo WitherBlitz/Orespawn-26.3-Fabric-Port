@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:mobzilla_scale_block"
+  ],
+  "result": {
+    "id": "orespawn:mobzilla_scale",
+    "count": 9
+  }
+}

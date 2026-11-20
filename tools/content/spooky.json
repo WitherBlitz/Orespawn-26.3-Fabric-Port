@@ -1,0 +1,59 @@
+{
+  "creatures": {
+    "ghost": {
+      "name": "Ghost", "egg": "eggghost",
+      "textures": {"Ghosttexture.png": "ghost.png"},
+      "ragdoll": null
+    },
+    "ghost_pumpkin_skelly": {
+      "name": "Ghost Pumpkin Skelly", "egg": "eggghostskelly",
+      "textures": {"GhostSkellytexture.png": "ghost_pumpkin_skelly.png"},
+      "ragdoll": null
+    },
+    "ender_knight": {
+      "name": "Ender Knight", "egg": "eggenderknight",
+      "egg_ore": {"texture": "oreenderknight", "name": "Ender Knight"},
+      "textures": {"EnderKnighttexture.png": "ender_knight.png"},
+      "ragdoll": null
+    },
+    "ender_reaper": {
+      "name": "Ender Reaper", "egg": "eggenderreaper",
+      "egg_ore": {"texture": "oreenderreaper", "name": "Ender Reaper"},
+      "textures": {"EnderReapertexture.png": "ender_reaper.png"},
+      "ragdoll": null
+    },
+    "fairy": {
+      "name": "Fairy", "egg": "eggfairy",
+      "egg_ore": {"texture": "orefairy", "name": "Fairy"},
+      "textures": {
+        "fairytexture.png": "fairy.png", "fairytexture2.png": "fairy2.png", "fairytexture3.png": "fairy3.png",
+        "fairytexture4.png": "fairy4.png", "fairytexture5.png": "fairy5.png", "fairytexture6.png": "fairy6.png",
+        "fairytexture7.png": "fairy7.png", "fairytexture8.png": "fairy8.png", "fairytexture9.png": "fairy9.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "dungeon_beast": {
+      "name": "Dungeon Beast", "egg": "eggdungeonbeast",
+      "egg_ore": {"texture": "oredungeonbeast", "name": "Dungeon Beast"},
+      "textures": {"Botwtexture.png": "dungeon_beast.png"},
+      "ragdoll": null
+    },
+    "leaf_monster": {
+      "name": "Leaf Monster", "egg": "eggleafmonster",
+      "egg_ore": {"texture": "oreleafmonster", "name": "Leaf Monster"},
+      "textures": {"LeafMonstertexture.png": "leaf_monster.png"},
+      "ragdoll": "from_model"
+    },
+    "triffid": {
+      "name": "Triffid", "egg": "eggtriffid",
+      "egg_ore": {"texture": "oretriffid", "name": "Triffid"},
+      "textures": {"Triffidtexture.png": "triffid.png"},
+      "ragdoll": null
+    }
+  },
+  "items": {
+    "green_goo": {"texture": "greengoo", "name": "Green Goo"}
+  },
+  "sounds": ["ghost_sound", "chain_rattles", "big_splat", "dbhit", "dbdead", "leaves_hit", "leaves_death", "triffid_living", "triffid_hit",
+    "triffid_dead"]
+}

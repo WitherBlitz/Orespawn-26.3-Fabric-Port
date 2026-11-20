@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:emerald_chestplate",
+    "orespawn:ruby_chestplate",
+    "orespawn:amethyst_chestplate",
+    "orespawn:lapis_chestplate",
+    "orespawn:ultimate_chestplate",
+    "orespawn:experience_chestplate",
+    "orespawn:lava_eel_chestplate",
+    "orespawn:moth_scale_chestplate",
+    "orespawn:peacock_feather_chestplate",
+    "orespawn:mobzilla_scale_chestplate",
+    "orespawn:royal_guardian_chestplate",
+    "orespawn:queen_scale_chestplate",
+    "orespawn:pink_tourmailine_chestplate",
+    "orespawn:tigers_eye_chestplate"
+  ]
+}

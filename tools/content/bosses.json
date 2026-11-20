@@ -1,0 +1,270 @@
+{
+  "creatures": {
+    "mobzilla": {
+      "name": "Mobzilla",
+      "egg": "egggodzilla",
+      "egg_ore": {
+        "texture": "oregodzilla",
+        "name": "Mobzilla"
+      },
+      "textures": {
+        "Godzillatexture.png": "mobzilla.png"
+      },
+      "ragdoll": null
+    },
+    "the_king": {
+      "name": "The King",
+      "egg": "eggtheking",
+      "egg_ore": {
+        "texture": "oretheking",
+        "name": "The King",
+        "worldgen": false
+      },
+      "textures": {
+        "TheKingtexture.png": "the_king.png"
+      },
+      "ragdoll": null
+    },
+    "the_queen": {
+      "name": "The Queen",
+      "egg": "eggthequeen",
+      "egg_ore": {
+        "texture": "orethequeen",
+        "name": "The Queen",
+        "worldgen": false
+      },
+      "textures": {
+        "TheQueentexture.png": "the_queen.png",
+        "TheQueentexture2.png": "the_queen_happy.png"
+      },
+      "ragdoll": null
+    },
+    "the_prince": {
+      "name": "The Prince",
+      "egg": "eggtheprince",
+      "textures": {
+        "ThePrincetexture.png": "the_prince.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:beef",
+          "min": 1,
+          "max": 4,
+          "looting": false
+        }
+      ],
+      "ragdoll": null
+    },
+    "the_young_prince": {
+      "name": "The Young Prince",
+      "egg": "eggtheprince",
+      "textures": {
+        "PrinceTeentexture.png": "the_young_prince.png"
+      },
+      "ragdoll": null
+    },
+    "the_young_adult_prince": {
+      "name": "The Young Adult Prince",
+      "egg": "eggtheprince",
+      "ragdoll": null
+    },
+    "the_princess": {
+      "name": "The Princess",
+      "egg": "eggtheprincess",
+      "textures": {
+        "ThePrincesstexture.png": "the_princess.png",
+        "ThePrincesstexture2.png": "the_princess_attacking.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:beef",
+          "min": 1,
+          "max": 4,
+          "looting": false
+        }
+      ],
+      "ragdoll": null
+    },
+    "the_kraken": {
+      "name": "The Kraken",
+      "egg": "eggkraken",
+      "egg_ore": {
+        "texture": "orekraken",
+        "name": "Kraken"
+      },
+      "textures": {
+        "Kraken.png": "the_kraken.png"
+      },
+      "ragdoll": null
+    }
+  },
+  "entity_textures": {
+    "PurplePowertexture.png": "purple_power.png",
+    "PurplePowertexture2.png": "purple_power2.png",
+    "PurplePowertexture3.png": "purple_power3.png",
+    "PurplePowertexture4.png": "purple_power4.png",
+    "PurplePowertexture10.png": "purple_power10.png"
+  },
+  "items": {
+    "mobzilla_scale": {
+      "texture": "godzillascale",
+      "name": "Mobzilla Scale"
+    },
+    "the_queen_scale": {
+      "texture": "queenscale",
+      "name": "The Queen Scale"
+    },
+    "kraken_tooth": {
+      "texture": "krakentooth",
+      "name": "Kraken Tooth"
+    }
+  },
+  "blocks": {
+    "mobzilla_scale_block": {
+      "texture": "blockmobzillascale",
+      "name": "Mobzilla Scale Block"
+    },
+    "the_king_spawner_block": {
+      "model": "cross",
+      "texture": "kingspawner",
+      "name": "The King Spawner Block"
+    },
+    "the_queen_spawner_block": {
+      "model": "cross",
+      "texture": "queenspawner",
+      "name": "The Queen Spawner Block"
+    },
+    "mobzilla_egg_part_ore": {
+      "texture": "oregodzillapart",
+      "name": "Ancient Dried Mobzilla Spawn Egg Part",
+      "egg_ore_worldgen": true
+    },
+    "the_king_egg_part_ore": {
+      "texture": "orethekingpart",
+      "name": "Ancient Dried The King Spawn Egg Part",
+      "egg_ore_worldgen": true
+    },
+    "the_queen_egg_part_ore": {
+      "texture": "orethequeenpart",
+      "name": "Ancient Dried The Queen Spawn Egg Part",
+      "egg_ore_worldgen": true
+    }
+  },
+  "sounds": [
+    "godzilla_living",
+    "godzilla_death",
+    "alo_hurt",
+    "alo_death",
+    "king_living",
+    "king_hit",
+    "trex_death",
+    "MothraWings",
+    "kraken_living",
+    "roar",
+    "duck_hurt",
+    "cryo_death"
+  ],
+  "recipes": {
+    "mobzilla_scale_block": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "pattern": [
+        "TTT",
+        "TTT",
+        "TTT"
+      ],
+      "key": {
+        "T": "orespawn:mobzilla_scale"
+      },
+      "result": {
+        "id": "orespawn:mobzilla_scale_block"
+      }
+    },
+    "mobzilla_scale_from_block": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:mobzilla_scale_block"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_scale",
+        "count": 9
+      }
+    },
+    "mobzilla_egg_ore_from_parts": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore",
+        "orespawn:mobzilla_egg_part_ore"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_egg_ore"
+      }
+    },
+    "the_king_egg_ore_from_parts": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore",
+        "orespawn:the_king_egg_part_ore"
+      ],
+      "result": {
+        "id": "orespawn:the_king_egg_ore"
+      }
+    },
+    "the_queen_egg_ore_from_parts": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore",
+        "orespawn:the_queen_egg_part_ore"
+      ],
+      "result": {
+        "id": "orespawn:the_queen_egg_ore"
+      }
+    }
+  },
+  "tags": {
+    "block/minecraft/mineable/shovel": [
+      "orespawn:mobzilla_egg_part_ore",
+      "orespawn:the_king_egg_part_ore",
+      "orespawn:the_queen_egg_part_ore"
+    ],
+    "block/minecraft/mineable/pickaxe": [
+      "orespawn:mobzilla_scale_block"
+    ],
+    "entity_type/minecraft/redirectable_projectile": [
+      "orespawn:better_fireball"
+    ]
+  },
+  "lang": {
+    "item.orespawn.the_kraken_spawn_egg": "Uh, no. Don't.",
+    "entity.orespawn.mobzilla_head": "Mobzilla",
+    "entity.orespawn.king_head": "The King",
+    "entity.orespawn.queen_head": "The Queen",
+    "entity.orespawn.better_fireball": "Fireball",
+    "entity.orespawn.purple_power": "PurplePower"
+  }
+}

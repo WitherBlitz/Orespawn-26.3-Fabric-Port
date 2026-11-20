@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:molenoid_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:molenoid_spawn_egg"
+  }
+}

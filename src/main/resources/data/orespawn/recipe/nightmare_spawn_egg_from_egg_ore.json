@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:nightmare_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:nightmare_spawn_egg"
+  }
+}

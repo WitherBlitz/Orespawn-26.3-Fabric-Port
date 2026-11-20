@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:oak_planks",
+    "R": "minecraft:redstone",
+    "D": "minecraft:diamond"
+  },
+  "pattern": [
+    "WWW",
+    "DRD"
+  ],
+  "result": {
+    "id": "orespawn:hoverboard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:stick",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "orespawn:experience_orb_catcher"
+  }
+}

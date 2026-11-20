@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "orespawn:utopia_big",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1307710,
+    "spacing": 1,
+    "separation": 0
+  }
+}

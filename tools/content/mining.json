@@ -1,0 +1,227 @@
+{
+  "worldgen": {
+    "biome/mining": {
+      "attributes": {
+        "minecraft:gameplay/natural_mob_spawns": {
+          "argument": {
+            "spawn_costs": {},
+            "spawns_by_category": {
+              "ambient": [
+                {
+                  "type": "minecraft:bat",
+                  "count": 8,
+                  "weight": 10
+                }
+              ],
+              "creature": [
+                {
+                  "type": "minecraft:sheep",
+                  "count": 4,
+                  "weight": 12
+                },
+                {
+                  "type": "minecraft:pig",
+                  "count": 4,
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:chicken",
+                  "count": 4,
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:cow",
+                  "count": 4,
+                  "weight": 8
+                }
+              ],
+              "monster": [
+                {
+                  "type": "minecraft:spider",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:zombie",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:skeleton",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:creeper",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:slime",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:enderman",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 1,
+                    "max_inclusive": 4
+                  },
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:witch",
+                  "count": 1,
+                  "weight": 5
+                }
+              ],
+              "water_creature": [
+                {
+                  "type": "minecraft:squid",
+                  "count": 4,
+                  "weight": 10
+                }
+              ]
+            }
+          },
+          "modifier": "overlay"
+        },
+        "minecraft:visual/sky_color": "#78a7ff"
+      },
+      "carvers": [],
+      "downfall": 0.01,
+      "effects": {
+        "water_color": "#3f76e4"
+      },
+      "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "minecraft:disk_sand",
+          "minecraft:disk_clay",
+          "minecraft:disk_gravel"
+        ],
+        [],
+        [],
+        [
+          "minecraft:trees_windswept_hills",
+          "minecraft:flower_default",
+          "minecraft:patch_grass_badlands",
+          "minecraft:brown_mushroom_normal",
+          "minecraft:red_mushroom_normal",
+          "minecraft:patch_pumpkin",
+          "minecraft:patch_sugar_cane"
+        ],
+        [
+          "minecraft:freeze_top_layer"
+        ]
+      ],
+      "has_precipitation": true,
+      "temperature": 0.8
+    },
+    "feature/mining_ant_nests": {
+      "type": "orespawn:ant_nests",
+      "red_freq": 2
+    },
+    "placed_feature/mining_ant_nests": {
+      "feature": "orespawn:mining_ant_nests",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 30
+        },
+        {
+          "type": "minecraft:count",
+          "count": 4
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        }
+      ]
+    }
+  },
+  "data": {
+    "dimension_type/mining.json": {
+      "ambient_light": 0.0,
+      "attributes": {
+        "minecraft:audio/ambient_sounds": {
+          "mood": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+          }
+        },
+        "minecraft:audio/background_music": {
+          "creative": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.creative"
+          },
+          "default": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.game"
+          }
+        },
+        "minecraft:gameplay/bed_rule": {
+          "can_set_spawn": "always",
+          "can_sleep": "when_dark",
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:gameplay/nether_portal_spawns_piglin": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:gameplay/straw_bed_rule": {
+          "can_set_spawn": "never",
+          "can_sleep": "when_dark",
+          "destroy_on_leave": true,
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:visual/ambient_light_color": "#0a0a0a",
+        "minecraft:visual/cloud_color": "#ccffffff",
+        "minecraft:visual/cloud_height": 128.33,
+        "minecraft:visual/fog_color": "#c0d8ff",
+        "minecraft:visual/sky_color": "#78a7ff"
+      },
+      "coordinate_scale": 1.0,
+      "default_clock": "minecraft:overworld",
+      "has_ceiling": false,
+      "has_ender_dragon_fight": false,
+      "has_skylight": true,
+      "height": 256,
+      "infiniburn": "#minecraft:infiniburn_overworld",
+      "logical_height": 256,
+      "min_y": 0,
+      "monster_spawn_block_light_limit": 0,
+      "monster_spawn_light_level": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 7,
+        "min_inclusive": 0
+      },
+      "timelines": "#minecraft:in_overworld"
+    },
+    "dimension/mining.json": {
+      "type": "orespawn:mining",
+      "generator": {
+        "type": "orespawn:mining",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "orespawn:mining"
+        }
+      }
+    }
+  }
+}

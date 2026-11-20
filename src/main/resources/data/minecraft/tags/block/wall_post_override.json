@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:extreme_torch",
+    "orespawn:extreme_torch_wall",
+    "orespawn:creeper_repellent",
+    "orespawn:creeper_repellent_wall",
+    "orespawn:kraken_repellent",
+    "orespawn:kraken_repellent_wall"
+  ]
+}

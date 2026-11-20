@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:cryolophosaurus_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:cryolophosaurus_spawn_egg"
+  }
+}

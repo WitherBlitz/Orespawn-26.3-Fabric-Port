@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:leonopteryx_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:leonopteryx_spawn_egg"
+  }
+}

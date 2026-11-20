@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:mantis_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:mantis_spawn_egg"
+  }
+}

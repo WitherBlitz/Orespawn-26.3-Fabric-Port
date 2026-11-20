@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:experience_bottle",
+    "A": "orespawn:apple_tree_seed"
+  },
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "result": {
+    "id": "orespawn:experience_tree_seed"
+  }
+}

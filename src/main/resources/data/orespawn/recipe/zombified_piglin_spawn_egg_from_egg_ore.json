@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:zombified_piglin_egg_ore"
+  ],
+  "result": {
+    "id": "minecraft:zombified_piglin_spawn_egg"
+  }
+}

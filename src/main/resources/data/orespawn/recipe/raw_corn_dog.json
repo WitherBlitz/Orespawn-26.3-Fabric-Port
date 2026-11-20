@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:corn",
+    "minecraft:chicken",
+    "minecraft:porkchop",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "orespawn:raw_corn_dog",
+    "count": 4
+  }
+}

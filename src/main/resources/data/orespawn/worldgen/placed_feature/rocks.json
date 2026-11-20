@@ -1,0 +1,8 @@
+{
+  "feature": "orespawn:rocks",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

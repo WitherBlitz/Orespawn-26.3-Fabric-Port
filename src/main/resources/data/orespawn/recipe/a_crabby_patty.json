@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:crab_meat",
+    "orespawn:lettuce",
+    "orespawn:tomato",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "orespawn:a_crabby_patty"
+  }
+}

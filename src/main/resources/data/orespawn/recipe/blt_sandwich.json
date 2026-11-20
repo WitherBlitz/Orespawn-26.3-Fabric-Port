@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:bacon",
+    "orespawn:lettuce",
+    "orespawn:tomato",
+    "orespawn:butter",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "orespawn:blt_sandwich"
+  }
+}

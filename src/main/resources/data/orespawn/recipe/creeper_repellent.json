@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:registry_contains",
+      "registry": "minecraft:item",
+      "values": [
+        "orespawn:green_goo"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "orespawn:green_goo",
+    "T": "orespawn:extreme_torch",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "D D",
+    "STS",
+    "D D"
+  ],
+  "result": {
+    "id": "orespawn:creeper_repellent"
+  }
+}

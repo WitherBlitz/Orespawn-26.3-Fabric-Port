@@ -1,0 +1,627 @@
+# canonical id	kind	OreSpawnMain field	OreSpawn class	texture/unlocalized name	English name
+a_crabby_patty	item	MyCrabbyPatty	ItemPopcorn	crabbypatty	A Crabby Patty!
+a_freakin_ray_gun	item	MyRayGun	ItemRayGun	RayGun	A Freakin' Ray Gun!
+acid	item	MyAcid	ItemAcid	acid	Acid
+amethyst	item	MyAmethyst	ItemSalt	amethyst	Amethyst
+amethyst_axe	item	MyAmethystAxe	AmethystAxe	amethystaxe	Amethyst Axe
+amethyst_block	block	MyBlockAmethystBlock	BlockRuby	blockamethyst	Amethyst Block
+amethyst_hoe	item	MyAmethystHoe	AmethystHoe	amethysthoe	Amethyst Hoe
+amethyst_ore	block	MyOreAmethystBlock	OreAmethyst	oreamethyst	Amethyst Ore
+amethyst_pickaxe	item	MyAmethystPickaxe	AmethystPickaxe	amethystpickaxe	Amethyst Pickaxe
+amethyst_shovel	item	MyAmethystShovel	AmethystShovel	amethystshovel	Amethyst Shovel
+amethyst_sword	item	MyAmethystSword	AmethystSword	amethystsword	Amethyst Sword
+ancient_dried_alien_spawn_egg	block	MyAlienSpawnBlock	OreGenericEgg	orealien	Ancient Dried Alien Spawn Egg
+ancient_dried_alosaurus_spawn_egg	block	MyAloSpawnBlock	OreGenericEgg	orealosaurus	Ancient Dried Alosaurus Spawn Egg
+ancient_dried_apple_cow_spawn_egg	block	MyRedCowSpawnBlock	OreGenericEgg	oreredcow	Ancient Dried Apple Cow Spawn Egg
+ancient_dried_attack_squid_spawn_egg	block	MyAttackSquidSpawnBlock	OreGenericEgg	oreattacksquid	Ancient Dried Attack Squid Spawn Egg
+ancient_dried_baby_dragon_spawn_egg	block	MySpyroSpawnBlock	OreGenericEgg	orespyro	Ancient Dried Baby Dragon Spawn Egg
+ancient_dried_baryonyx_spawn_egg	block	MyBaryonyxSpawnBlock	OreGenericEgg	orebaryonyx	Ancient Dried Baryonyx Spawn Egg
+ancient_dried_basilisk_spawn_egg	block	MyBasilSpawnBlock	OreGenericEgg	orebasilisc	Ancient Dried Basilisk Spawn Egg
+ancient_dried_bat_spawn_egg	block	MyBatSpawnBlock	OreGenericEgg	orebat	Ancient Dried Bat Spawn Egg
+ancient_dried_beaver_spawn_egg	block	MyBeaverSpawnBlock	OreGenericEgg	orebeaver	Ancient Dried Beaver Spawn Egg
+ancient_dried_bee_spawn_egg	block	MyBeeSpawnBlock	OreGenericEgg	orebee	Ancient Dried Bee Spawn Egg
+ancient_dried_bird_spawn_egg	block	MyCockateilSpawnBlock	OreGenericEgg	orecockateil	Ancient Dried Bird Spawn Egg
+ancient_dried_blaze_spawn_egg	block	MyBlazeSpawnBlock	OreGenericEgg	oreblaze	Ancient Dried Blaze Spawn Egg
+ancient_dried_boyfriend_spawn_egg	block	MyBoyfriendSpawnBlock	OreGenericEgg	oreboyfriend	Ancient Dried Boyfriend Spawn Egg
+ancient_dried_brutalfly_spawn_egg	block	MyBrutalflySpawnBlock	OreGenericEgg	orebrutalfly	Ancient Dried Brutalfly Spawn Egg
+ancient_dried_camarasaurus_spawn_egg	block	MyCamaSpawnBlock	OreGenericEgg	orecamarasaurus	Ancient Dried Camarasaurus Spawn Egg
+ancient_dried_cassowary_spawn_egg	block	MyCassowarySpawnBlock	OreGenericEgg	orecassowary	Ancient Dried Cassowary Spawn Egg
+ancient_dried_caterkiller_spawn_egg	block	MyCaterKillerSpawnBlock	OreGenericEgg	orecaterkiller	Ancient Dried CaterKiller Spawn Egg
+ancient_dried_cave_fisher_spawn_egg	block	MyCaveFisherSpawnBlock	OreGenericEgg	orecavefisher	Ancient Dried Cave Fisher Spawn Egg
+ancient_dried_cave_spider_spawn_egg	block	MyCaveSpiderSpawnBlock	OreGenericEgg	orecavespider	Ancient Dried Cave Spider Spawn Egg
+ancient_dried_cephadrome_spawn_egg	block	MyCephadromeSpawnBlock	OreGenericEgg	orecephadrome	Ancient Dried Cephadrome Spawn Egg
+ancient_dried_chicken_spawn_egg	block	MyChickenSpawnBlock	OreGenericEgg	orechicken	Ancient Dried Chicken Spawn Egg
+ancient_dried_chipmunk_spawn_egg	block	MyChipmunkSpawnBlock	OreGenericEgg	orechipmunk	Ancient Dried Chipmunk Spawn Egg
+ancient_dried_cliff_racer_spawn_egg	block	MyCliffRacerSpawnBlock	OreGenericEgg	orecliffracer	Ancient Dried Cliff Racer Spawn Egg
+ancient_dried_cloud_shark_spawn_egg	block	MyCloudSharkSpawnBlock	OreGenericEgg	orecloudshark	Ancient Dried Cloud Shark Spawn Egg
+ancient_dried_cow_spawn_egg	block	MyCowSpawnBlock	OreGenericEgg	orecow	Ancient Dried Cow Spawn Egg
+ancient_dried_crab_spawn_egg	block	MyCrabSpawnBlock	OreGenericEgg	orecrab	Ancient Dried Crab Spawn Egg
+ancient_dried_creeper_spawn_egg	block	MyCreeperSpawnBlock	OreGenericEgg	orecreeper	Ancient Dried Creeper Spawn Egg
+ancient_dried_creeping_horror_spawn_egg	block	MyCreepingHorrorSpawnBlock	OreGenericEgg	orecreepinghorror	Ancient Dried Creeping Horror Spawn Egg
+ancient_dried_cricket_spawn_egg	block	MyCricketSpawnBlock	OreGenericEgg	orecricket	Ancient Dried Cricket Spawn Egg
+ancient_dried_criminal_spawn_egg	block	MyCriminalSpawnBlock	OreGenericEgg	orecriminal	Ancient Dried Criminal Spawn Egg
+ancient_dried_cryolophosaurus_spawn_egg	block	MyCryoSpawnBlock	OreGenericEgg	orecryolophosaurus	Ancient Dried Cryolophosaurus Spawn Egg
+ancient_dried_crystal_cow_spawn_egg	block	MyCrystalCowSpawnBlock	OreGenericEgg	orecrystalcow	Ancient Dried Crystal Cow Spawn Egg
+ancient_dried_dragon_spawn_egg	block	MyDragonSpawnBlock	OreGenericEgg	oredragon	Ancient Dried Dragon Spawn Egg
+ancient_dried_dragonfly_spawn_egg	block	MyDragonflySpawnBlock	OreGenericEgg	oredragonfly	Ancient Dried Dragonfly Spawn Egg
+ancient_dried_dungeon_beast_spawn_egg	block	MyDungeonBeastSpawnBlock	OreGenericEgg	oredungeonbeast	Ancient Dried Dungeon Beast Spawn Egg
+ancient_dried_easter_bunny_spawn_egg	block	MyEasterBunnySpawnBlock	OreGenericEgg	oreeasterbunny	Ancient Dried Easter Bunny Spawn Egg
+ancient_dried_emperor_scorpion_spawn_egg	block	MyEmperorScorpionSpawnBlock	OreGenericEgg	oreemperorscorpion	Ancient Dried Emperor Scorpion Spawn Egg
+ancient_dried_enchanted_golden_apple_cow_spawn_egg	block	MyEnchantedCowSpawnBlock	OreGenericEgg	oreenchantedcow	Ancient Dried Enchanted Golden Apple Cow Spawn Egg
+ancient_dried_ender_dragon_spawn_egg	block	MyEnderDragonSpawnBlock	OreGenericEgg	oreenderdragon	Ancient Dried Ender Dragon Spawn Egg
+ancient_dried_ender_knight_spawn_egg	block	MyEnderKnightSpawnBlock	OreGenericEgg	oreenderknight	Ancient Dried Ender Knight Spawn Egg
+ancient_dried_ender_reaper_spawn_egg	block	MyEnderReaperSpawnBlock	OreGenericEgg	oreenderreaper	Ancient Dried Ender Reaper Spawn Egg
+ancient_dried_enderman_spawn_egg	block	MyEndermanSpawnBlock	OreGenericEgg	oreenderman	Ancient Dried Enderman Spawn Egg
+ancient_dried_fairy_spawn_egg	block	MyFairySpawnBlock	OreGenericEgg	orefairy	Ancient Dried Fairy Spawn Egg
+ancient_dried_flounder_spawn_egg	block	MyFlounderSpawnBlock	OreGenericEgg	oreflounder	Ancient Dried Flounder Spawn Egg
+ancient_dried_frog_spawn_egg	block	MyFrogSpawnBlock	OreGenericEgg	orefrog	Ancient Dried Frog Spawn Egg
+ancient_dried_gazelle_spawn_egg	block	MyGazelleSpawnBlock	OreGenericEgg	oregazelle	Ancient Dried Gazelle Spawn Egg
+ancient_dried_ghast_spawn_egg	block	MyGhastSpawnBlock	OreGenericEgg	oreghast	Ancient Dried Ghast Spawn Egg
+ancient_dried_girlfriend_spawn_egg	block	MyGirlfriendSpawnBlock	OreGenericEgg	oregirlfriend	Ancient Dried Girlfriend Spawn Egg
+ancient_dried_gold_fish_spawn_egg	block	MyGoldFishSpawnBlock	OreGenericEgg	oregoldfish	Ancient Dried Gold Fish Spawn Egg
+ancient_dried_golden_apple_cow_spawn_egg	block	MyGoldCowSpawnBlock	OreGenericEgg	oregoldcow	Ancient Dried Golden Apple Cow Spawn Egg
+ancient_dried_hammerhead_spawn_egg	block	MyHammerheadSpawnBlock	OreGenericEgg	orehammerhead	Ancient Dried Hammerhead Spawn Egg
+ancient_dried_hercules_beetle_spawn_egg	block	MyHerculesSpawnBlock	OreGenericEgg	orehercules	Ancient Dried Hercules Beetle Spawn Egg
+ancient_dried_horse_spawn_egg	block	MyHorseSpawnBlock	OreGenericEgg	orehorse	Ancient Dried Horse Spawn Egg
+ancient_dried_hydrolisc_spawn_egg	block	MyHydroSpawnBlock	OreGenericEgg	orehydrolisc	Ancient Dried Hydrolisc Spawn Egg
+ancient_dried_iron_golem_spawn_egg	block	MyIronGolemSpawnBlock	OreGenericEgg	oreirongolem	Ancient Dried Iron Golem Spawn Egg
+ancient_dried_irukandji_spawn_egg	block	MyIrukandjiSpawnBlock	OreGenericEgg	oreirukandji	Ancient Dried Irukandji Spawn Egg
+ancient_dried_jumpy_bug_spawn_egg	block	MyTrooperBugSpawnBlock	OreGenericEgg	oretrooper	Ancient Dried Jumpy Bug Spawn Egg
+ancient_dried_kraken_spawn_egg	block	MyKrakenSpawnBlock	OreGenericEgg	orekraken	Ancient Dried Kraken Spawn Egg
+ancient_dried_kyuubi_spawn_egg	block	MyKyuubiSpawnBlock	OreGenericEgg	orekyuubi	Ancient Dried Kyuubi Spawn Egg
+ancient_dried_large_worm_spawn_egg	block	MyLargeWormSpawnBlock	OreGenericEgg	orelargeworm	Ancient Dried Large Worm Spawn Egg
+ancient_dried_leaf_monster_spawn_egg	block	MyLeafMonsterSpawnBlock	OreGenericEgg	oreleafmonster	Ancient Dried Leaf Monster Spawn Egg
+ancient_dried_leonopteryx_spawn_egg	block	MyLeonSpawnBlock	OreGenericEgg	oreleon	Ancient Dried Leonopteryx Spawn Egg
+ancient_dried_lizard_spawn_egg	block	MyLizardSpawnBlock	OreGenericEgg	orelizard	Ancient Dried Lizard Spawn Egg
+ancient_dried_lurking_terror_spawn_egg	block	MyLurkingTerrorSpawnBlock	OreGenericEgg	orelurkingterror	Ancient Dried Lurking Terror Spawn Egg
+ancient_dried_magma_cube_spawn_egg	block	MyMagmaCubeSpawnBlock	OreGenericEgg	oremagmacube	Ancient Dried Magma Cube Spawn Egg
+ancient_dried_mantis_spawn_egg	block	MyMantisSpawnBlock	OreGenericEgg	oremantis	Ancient Dried Mantis Spawn Egg
+ancient_dried_medium_worm_spawn_egg	block	MyMediumWormSpawnBlock	OreGenericEgg	oremediumworm	Ancient Dried Medium Worm Spawn Egg
+ancient_dried_mobzilla_spawn_egg	block	MyGodzillaSpawnBlock	OreGenericEgg	oregodzilla	Ancient Dried Mobzilla Spawn Egg
+ancient_dried_mobzilla_spawn_egg_part	block	MyGodzillaPartSpawnBlock	OreGenericEgg	oregodzillapart	Ancient Dried Mobzilla Spawn Egg Part
+ancient_dried_molenoid_spawn_egg	block	MyMolenoidSpawnBlock	OreGenericEgg	oremolenoid	Ancient Dried Molenoid Spawn Egg
+ancient_dried_mooshroom_spawn_egg	block	MyMooshroomSpawnBlock	OreGenericEgg	oremooshroom	Ancient Dried Mooshroom Spawn Egg
+ancient_dried_mothra_spawn_egg	block	MyMOTHRASpawnBlock	OreGenericEgg	oreMOTHRA	Ancient Dried MOTHRA Spawn Egg
+ancient_dried_nastysaurus_spawn_egg	block	MyNastysaurusSpawnBlock	OreGenericEgg	orenastysaurus	Ancient Dried Nastysaurus Spawn Egg
+ancient_dried_nightmare_spawn_egg	block	MyPitchBlackSpawnBlock	OreGenericEgg	orenightmare	Ancient Dried Nightmare Spawn Egg
+ancient_dried_ocelot_spawn_egg	block	MyOcelotSpawnBlock	OreGenericEgg	oreocelot	Ancient Dried Ocelot Spawn Egg
+ancient_dried_ostrich_spawn_egg	block	MyOstrichSpawnBlock	OreGenericEgg	oreostrich	Ancient Dried Ostrich Spawn Egg
+ancient_dried_peacock_spawn_egg	block	MyPeacockSpawnBlock	OreGenericEgg	orepeacock	Ancient Dried Peacock Spawn Egg
+ancient_dried_pig_spawn_egg	block	MyPigSpawnBlock	OreGenericEgg	orepig	Ancient Dried Pig Spawn Egg
+ancient_dried_pointysaurus_spawn_egg	block	MyPointysaurusSpawnBlock	OreGenericEgg	orepointysaurus	Ancient Dried Pointysaurus Spawn Egg
+ancient_dried_rat_spawn_egg	block	MyRatSpawnBlock	OreGenericEgg	orerat	Ancient Dried Rat Spawn Egg
+ancient_dried_rotator_spawn_egg	block	MyRotatorSpawnBlock	OreGenericEgg	orerotator	Ancient Dried Rotator Spawn Egg
+ancient_dried_rubber_ducky_spawn_egg	block	MyRubberDuckySpawnBlock	OreGenericEgg	orerubberducky	Ancient Dried Rubber Ducky Spawn Egg
+ancient_dried_scorpion_spawn_egg	block	MyScorpionSpawnBlock	OreGenericEgg	orescorpion	Ancient Dried Scorpion Spawn Egg
+ancient_dried_sea_monster_spawn_egg	block	MySeaMonsterSpawnBlock	OreGenericEgg	oreseamonster	Ancient Dried Sea Monster Spawn Egg
+ancient_dried_sea_viper_spawn_egg	block	MySeaViperSpawnBlock	OreGenericEgg	oreseaviper	Ancient Dried Sea Viper Spawn Egg
+ancient_dried_sheep_spawn_egg	block	MySheepSpawnBlock	OreGenericEgg	oresheep	Ancient Dried Sheep Spawn Egg
+ancient_dried_silverfish_spawn_egg	block	MySilverfishSpawnBlock	OreGenericEgg	oresilverfish	Ancient Dried Silverfish Spawn Egg
+ancient_dried_skate_spawn_egg	block	MySkateSpawnBlock	OreGenericEgg	oreskate	Ancient Dried Skate Spawn Egg
+ancient_dried_skeleton_spawn_egg	block	MySkeletonSpawnBlock	OreGenericEgg	oreskeleton	Ancient Dried Skeleton Spawn Egg
+ancient_dried_slime_spawn_egg	block	MySlimeSpawnBlock	OreGenericEgg	oreslime	Ancient Dried Slime Spawn Egg
+ancient_dried_small_worm_spawn_egg	block	MySmallWormSpawnBlock	OreGenericEgg	oresmallworm	Ancient Dried Small Worm Spawn Egg
+ancient_dried_snow_golem_spawn_egg	block	MySnowGolemSpawnBlock	OreGenericEgg	oresnowgolem	Ancient Dried Snow Golem Spawn Egg
+ancient_dried_spider_driver_spawn_egg	block	MySpiderDriverSpawnBlock	OreGenericEgg	orespiderdriver	Ancient Dried Spider Driver Spawn Egg
+ancient_dried_spider_spawn_egg	block	MySpiderSpawnBlock	OreGenericEgg	orespider	Ancient Dried Spider Spawn Egg
+ancient_dried_spit_bug_spawn_egg	block	MySpitBugSpawnBlock	OreGenericEgg	orespit	Ancient Dried Spit Bug Spawn Egg
+ancient_dried_squid_spawn_egg	block	MySquidSpawnBlock	OreGenericEgg	oresquid	Ancient Dried Squid Spawn Egg
+ancient_dried_stink_bug_spawn_egg	block	MyStinkBugSpawnBlock	OreGenericEgg	orestink	Ancient Dried Stink Bug Spawn Egg
+ancient_dried_stinky_spawn_egg	block	MyStinkySpawnBlock	OreGenericEgg	orestinky	Ancient Dried Stinky Spawn Egg
+ancient_dried_t_rex_spawn_egg	block	MyTRexSpawnBlock	OreGenericEgg	oretrex	Ancient Dried T. Rex Spawn Egg
+ancient_dried_t_shirt_spawn_egg	block	MyTshirtSpawnBlock	OreGenericEgg	oretshirt	Ancient Dried T-Shirt Spawn Egg
+ancient_dried_terrible_terror_spawn_egg	block	MyTerribleTerrorSpawnBlock	OreGenericEgg	oreterribleterror	Ancient Dried Terrible Terror Spawn Egg
+ancient_dried_the_king_spawn_egg	block	MyTheKingSpawnBlock	OreGenericEgg	oretheking	Ancient Dried The King Spawn Egg
+ancient_dried_the_king_spawn_egg_part	block	MyTheKingPartSpawnBlock	OreGenericEgg	orethekingpart	Ancient Dried The King Spawn Egg Part
+ancient_dried_the_queen_spawn_egg	block	MyTheQueenSpawnBlock	OreGenericEgg	orethequeen	Ancient Dried The Queen Spawn Egg
+ancient_dried_the_queen_spawn_egg_part	block	MyTheQueenPartSpawnBlock	OreGenericEgg	orethequeenpart	Ancient Dried The Queen Spawn Egg Part
+ancient_dried_triffid_spawn_egg	block	MyTriffidSpawnBlock	OreGenericEgg	oretriffid	Ancient Dried Triffid Spawn Egg
+ancient_dried_urchin_spawn_egg	block	MyUrchinSpawnBlock	OreGenericEgg	oreurchin	Ancient Dried Urchin Spawn Egg
+ancient_dried_velocity_raptor_spawn_egg	block	MyVeloSpawnBlock	OreGenericEgg	orevelocityraptor	Ancient Dried Velocity Raptor Spawn Egg
+ancient_dried_villager_spawn_egg	block	MyVillagerSpawnBlock	OreGenericEgg	orevillager	Ancient Dried Villager Spawn Egg
+ancient_dried_vortex_spawn_egg	block	MyVortexSpawnBlock	OreGenericEgg	orevortex	Ancient Dried Vortex Spawn Egg
+ancient_dried_waterdragon_spawn_egg	block	MyWaterDragonSpawnBlock	OreGenericEgg	orewaterdragon	Ancient Dried WaterDragon Spawn Egg
+ancient_dried_whale_spawn_egg	block	MyWhaleSpawnBlock	OreGenericEgg	orewhale	Ancient Dried Whale Spawn Egg
+ancient_dried_witch_spawn_egg	block	MyWitchSpawnBlock	OreGenericEgg	orewitch	Ancient Dried Witch Spawn Egg
+ancient_dried_wither_boss_spawn_egg	block	MyWitherBossSpawnBlock	OreGenericEgg	orewitherboss	Ancient Dried Wither Boss Spawn Egg
+ancient_dried_wither_skeleton_spawn_egg	block	MyWitherSkeletonSpawnBlock	OreGenericEgg	orewitherskeleton	Ancient Dried Wither Skeleton Spawn Egg
+ancient_dried_wolf_spawn_egg	block	MyWolfSpawnBlock	OreGenericEgg	orewolf	Ancient Dried Wolf Spawn Egg
+ancient_dried_wtf_spawn_egg	block	MyGammaMetroidSpawnBlock	OreGenericEgg	oregammametroid	Ancient Dried WTF? Spawn Egg
+ancient_dried_zombie_pigman_spawn_egg	block	MyZombiePigmanSpawnBlock	OreGenericEgg	orezombiepigman	Ancient Dried Zombie Pigman Spawn Egg
+ancient_dried_zombie_spawn_egg	block	MyZombieSpawnBlock	OreGenericEgg	orezombie	Ancient Dried Zombie Spawn Egg
+ant_nest	block	MyAntBlock	AntBlock	AntBlock	Ant Nest
+apple_tree_seed	item	MyAppleSeed	ItemAppleSeed	appletree_seed	Apple Tree Seed
+attitude_adjuster	item	MyHammy	Bertha	hammysmall	Attitude Adjuster
+bacon	item	MyBacon	ItemSunFish	cookedbacon	Bacon!
+bag_of_popcorn	item	MyPopcornBag	ItemPopcorn	popcorn_bag	Bag of Popcorn
+basilisk_scale	item	MyBasiliskScale	ItemSalt	basiliskscale	Basilisk Scale
+battle_axe	item	MyBattleAxe	UltimateSword	battleaxesmall	Battle Axe
+big_bertha	item	MyBertha	Bertha	berthasmall	Big Bertha
+big_bertha_blade	item	BerthaBlade	ItemSalt	bbblade	Big Bertha Blade
+big_bertha_guard	item	BerthaGuard	ItemSalt	bbguard	Big Bertha Guard
+big_bertha_handle	item	BerthaHandle	ItemSalt	bbhandle	Big Bertha Handle
+big_hammer	item	MyBigHammer	BigHammer	bighammer	Big Hammer
+big_rock	item	MyRock	ItemRock	rock	Big Rock
+black_heels	item	MyItemShoes_1	ItemShoes	blackheels	Black Heels
+blt_sandwich	item	MyBLT	ItemPopcorn	blt_sandwich	BLT Sandwich!
+blue_crystal_tree_sapling	block	MyCrystalPlant3	BlockCrystalPlant	crystalsapling3	Blue Crystal Tree Sapling
+blue_fish	item	MyBlueFish	ItemGenericFish	bluefish	Blue Fish
+boots	item	MyItemShoes_3	ItemShoes	boots	Boots
+butter	item	MyButter	ItemPopcorn	butter	Butter
+butter_candy	item	MyButterCandy	ItemSunFish	buttercandy	Butter Candy!
+buttered_and_salted_popcorn	item	MyButteredSaltedPopcorn	ItemPopcorn	popcorn_buttered_salted	Buttered and Salted Popcorn
+buttered_popcorn	item	MyButteredPopcorn	ItemPopcorn	popcorn_buttered	Buttered Popcorn
+butterfly_plant	item	MyButterflySeed	ItemButterflySeed	butterfly_seed	Butterfly Plant
+caged_alien	item	CagedAlien	CritterCage	cagealien	Caged Alien
+caged_alosaurus	item	CagedAlo	CritterCage	cagealosaurus	Caged Alosaurus
+caged_apple_cow	item	CagedRedCow	CritterCage	cageredcow	Caged Apple Cow
+caged_attack_squid	item	CagedAttackSquid	CritterCage	cageattacksquid	Caged Attack Squid
+caged_baby_dragon	item	CagedSpyro	CritterCage	cagespyro	Caged Baby Dragon
+caged_baryonyx	item	CagedBaryonyx	CritterCage	cagebaryonyx	Caged Baryonyx
+caged_basilisk	item	CagedBasil	CritterCage	cagebasilisc	Caged Basilisk
+caged_bat	item	CagedBat	CritterCage	cagebat	Caged Bat
+caged_beaver	item	CagedBeaver	CritterCage	cagebeaver	Caged Beaver
+caged_bee	item	CagedBee	CritterCage	cagebee	Caged Bee
+caged_bird	item	CagedCockateil	CritterCage	cagecockateil	Caged Bird
+caged_blaze	item	CagedBlaze	CritterCage	cageblaze	Caged Blaze
+caged_boyfriend	item	CagedBoyfriend	CritterCage	cageboyfriend	Caged Boyfriend
+caged_brutalfly	item	CagedBrutalfly	CritterCage	cagebrutalfly	Caged Brutalfly
+caged_camarasaurus	item	CagedCama	CritterCage	cagecamarasaurus	Caged Camarasaurus
+caged_cassowary	item	CagedCassowary	CritterCage	cagecassowary	Caged Cassowary
+caged_caterkiller	item	CagedCaterKiller	CritterCage	cagecaterkiller	Caged CaterKiller
+caged_cave_fisher	item	CagedCaveFisher	CritterCage	cagecavefisher	Caged Cave Fisher
+caged_cave_spider	item	CagedCaveSpider	CritterCage	cagecavespider	Caged Cave Spider
+caged_cephadrome	item	CagedCephadrome	CritterCage	cagecephadrome	Caged Cephadrome
+caged_chicken	item	CagedChicken	CritterCage	cagechicken	Caged Chicken
+caged_chipmunk	item	CagedChipmunk	CritterCage	cagechipmunk	Caged Chipmunk
+caged_cliff_racer	item	CagedCliffRacer	CritterCage	cagecliffracer	Caged Cliff Racer
+caged_cloud_shark	item	CagedCloudShark	CritterCage	cagecloudshark	Caged Cloud Shark
+caged_cow	item	CagedCow	CritterCage	cagecow	Caged Cow
+caged_crab	item	CagedCrab	CritterCage	cagecrab	Caged Crab
+caged_creeper	item	CagedCreeper	CritterCage	cagecreeper	Caged Creeper
+caged_creeping_horror	item	CagedCreepingHorror	CritterCage	cagecreepinghorror	Caged Creeping Horror
+caged_cricket	item	CagedCricket	CritterCage	cagecricket	Caged Cricket
+caged_criminal	item	CagedCriminal	CritterCage	cagecriminal	Caged Criminal
+caged_cryosaurus	item	CagedCryo	CritterCage	cagecryolophosaurus	Caged Cryosaurus
+caged_crystal_cow	item	CagedCrystalCow	CritterCage	cagecrystalcow	Caged Crystal Cow
+caged_crystal_urchin	item	CagedUrchin	CritterCage	cageurchin	Caged Crystal Urchin
+caged_dragon	item	CagedDragon	CritterCage	cagedragon	Caged Dragon
+caged_dragonfly	item	CagedDragonfly	CritterCage	cagedragonfly	Caged Dragonfly
+caged_dungeon_beast	item	CagedDungeonBeast	CritterCage	cagedungeonbeast	Caged Dungeon Beast
+caged_easter_bunny	item	CagedEasterBunny	CritterCage	cageeasterbunny	Caged Easter Bunny
+caged_emperor_scorpion	item	CagedEmperorScorpion	CritterCage	cageemperorscorpion	Caged Emperor Scorpion
+caged_enchanted_golden_apple_cow	item	CagedEnchantedCow	CritterCage	cageenchantedcow	Caged Enchanted Golden Apple Cow
+caged_ender_dragon	item	CagedEnderDragon	CritterCage	cageenderdragon	Caged Ender Dragon
+caged_ender_knight	item	CagedEnderKnight	CritterCage	cageenderknight	Caged Ender Knight
+caged_ender_reaper	item	CagedEnderReaper	CritterCage	cageenderreaper	Caged Ender Reaper
+caged_enderman	item	CagedEnderman	CritterCage	cageenderman	Caged Enderman
+caged_fairy	item	CagedFairy	CritterCage	cagefairy	Caged Fairy
+caged_firefly	item	CagedFirefly	CritterCage	cagefirefly	Caged Firefly
+caged_flounder	item	CagedFlounder	CritterCage	cageflounder	Caged Flounder
+caged_frog	item	CagedFrog	CritterCage	cagefrog	Caged Frog
+caged_gazelle	item	CagedGazelle	CritterCage	cagegazelle	Caged Gazelle
+caged_ghast	item	CagedGhast	CritterCage	cageghast	Caged Ghast
+caged_girlfriend	item	CagedGirlfriend	CritterCage	cagegirlfriend	Caged Girlfriend
+caged_gold_fish	item	CagedGoldFish	CritterCage	cagegoldfish	Caged Gold Fish
+caged_golden_apple_cow	item	CagedGoldCow	CritterCage	cagegoldcow	Caged Golden Apple Cow
+caged_hammerhead	item	CagedHammerhead	CritterCage	cagehammerhead	Caged Hammerhead
+caged_hercules_beetle	item	CagedHercules	CritterCage	cagehercules	Caged Hercules Beetle
+caged_horse	item	CagedHorse	CritterCage	cagehorse	Caged Horse
+caged_hydrolisc	item	CagedHydro	CritterCage	cagehydrolisc	Caged Hydrolisc
+caged_iron_golem	item	CagedIronGolem	CritterCage	cageirongolem	Caged Iron Golem
+caged_irukandji	item	CagedIrukandji	CritterCage	cageirukandji	Caged Irukandji
+caged_jumpy_bug	item	CagedTrooper	CritterCage	cagetrooper	Caged Jumpy Bug
+caged_kraken	item	CagedKraken	CritterCage	cagekraken	Caged Kraken
+caged_kyuubi	item	CagedKyuubi	CritterCage	cagekyuubi	Caged Kyuubi
+caged_large_worm	item	CagedLargeWorm	CritterCage	cagelargeworm	Caged Large Worm
+caged_leaf_monster	item	CagedLeafMonster	CritterCage	cageleafmonster	Caged Leaf Monster
+caged_leonopteryx	item	CagedLeon	CritterCage	cageleon	Caged Leonopteryx
+caged_lizard	item	CagedLizard	CritterCage	cagelizard	Caged Lizard
+caged_lurking_terror	item	CagedLurkingTerror	CritterCage	cagelurkingterror	Caged Lurking Terror
+caged_magma_cube	item	CagedMagmaCube	CritterCage	cagemagmacube	Caged Magma Cube
+caged_mantis	item	CagedMantis	CritterCage	cagemantis	Caged Mantis
+caged_medium_worm	item	CagedMediumWorm	CritterCage	cagemediumworm	Caged Medium Worm
+caged_molenoid	item	CagedMolenoid	CritterCage	cagemolenoid	Caged Molenoid
+caged_mooshroom	item	CagedMooshroom	CritterCage	cagemooshroom	Caged Mooshroom
+caged_mothra	item	CagedMOTHRA	CritterCage	cageMOTHRA	Caged MOTHRA
+caged_nastysaurus	item	CagedNastysaurus	CritterCage	cagenastysaurus	Caged Nastysaurus
+caged_nightmare	item	CagedPitchBlack	CritterCage	cagenightmare	Caged Nightmare
+caged_ocelot	item	CagedOcelot	CritterCage	cageocelot	Caged Ocelot
+caged_ostrich	item	CagedOstrich	CritterCage	cageostrich	Caged Ostrich
+caged_peacock	item	CagedPeacock	CritterCage	cagepeacock	Caged Peacock
+caged_pig	item	CagedPig	CritterCage	cagepig	Caged Pig
+caged_pointysaurus	item	CagedPointysaurus	CritterCage	cagepointysaurus	Caged Pointysaurus
+caged_rat	item	CagedRat	CritterCage	cagerat	Caged Rat
+caged_rotator	item	CagedRotator	CritterCage	cagerotator	Caged Rotator
+caged_rubber_ducky	item	CagedRubberDucky	CritterCage	cagerubberducky	Caged Rubber Ducky
+caged_scorpion	item	CagedScorpion	CritterCage	cagescorpion	Caged Scorpion
+caged_sea_monster	item	CagedSeaMonster	CritterCage	cageseamonster	Caged Sea Monster
+caged_sea_viper	item	CagedSeaViper	CritterCage	cageseaviper	Caged Sea Viper
+caged_sheep	item	CagedSheep	CritterCage	cagesheep	Caged Sheep
+caged_silverfish	item	CagedSilverfish	CritterCage	cagesilverfish	Caged Silverfish
+caged_skate	item	CagedSkate	CritterCage	cageskate	Caged Skate
+caged_skeleton	item	CagedSkeleton	CritterCage	cageskeleton	Caged Skeleton
+caged_slime	item	CagedSlime	CritterCage	cageslime	Caged Slime
+caged_small_worm	item	CagedSmallWorm	CritterCage	cagesmallworm	Caged Small Worm
+caged_snow_golem	item	CagedSnowGolem	CritterCage	cagesnowgolem	Caged Snow Golem
+caged_spider	item	CagedSpider	CritterCage	cagespider	Caged Spider
+caged_spider_driver	item	CagedSpiderDriver	CritterCage	cagespiderdriver	Caged Spider Driver
+caged_spit_bug	item	CagedSpit	CritterCage	cagespit	Caged Spit Bug
+caged_squid	item	CagedSquid	CritterCage	cagesquid	Caged Squid
+caged_stink_bug	item	CagedStink	CritterCage	cagestink	Caged Stink Bug
+caged_stinky	item	CagedStinky	CritterCage	cagestinky	Caged Stinky
+caged_t_rex	item	CagedTRex	CritterCage	cagetrex	Caged T. Rex
+caged_terrible_terror	item	CagedTerribleTerror	CritterCage	cageterribleterror	Caged Terrible Terror
+caged_triffid	item	CagedTriffid	CritterCage	cagetriffid	Caged Triffid
+caged_velocity_raptor	item	CagedVelo	CritterCage	cagevelocityraptor	Caged Velocity Raptor
+caged_villager	item	CagedVillager	CritterCage	cagevillager	Caged Villager
+caged_vortex	item	CagedVortex	CritterCage	cagevortex	Caged Vortex
+caged_water_dragon	item	CagedWaterDragon	CritterCage	cagewaterdragon	Caged Water Dragon
+caged_whale	item	CagedWhale	CritterCage	cagewhale	Caged Whale
+caged_witch	item	CagedWitch	CritterCage	cagewitch	Caged Witch
+caged_wither_boss	item	CagedWitherBoss	CritterCage	cagewitherboss	Caged Wither Boss
+caged_wither_skeleton	item	CagedWitherSkeleton	CritterCage	cagewitherskeleton	Caged Wither Skeleton
+caged_wolf	item	CagedWolf	CritterCage	cagewolf	Caged Wolf
+caged_wtf	item	CagedGammaMetroid	CritterCage	cagegammametroid	Caged WTF?
+caged_zombie	item	CagedZombie	CritterCage	cagezombie	Caged Zombie
+caged_zombiepigman	item	CagedZombiePigman	CritterCage	cagezombiepigman	Caged ZombiePigman
+caterkiller_jaws	item	CaterKillerJaw	ItemSalt	caterkillerjaw	CaterKiller Jaws
+chainsaw	item	MyChainsaw	UltimateSword	chainsawsmall	Chainsaw
+cheese	item	MyCheese	ItemPopcorn	cheese	Cheese
+cherries	item	MyCherry	ItemStrawberry	cherries	Cherries
+cherry_pit	item	MyCherrySeed	ItemAppleSeed	cherrytree_seed	Cherry Pit
+cooked_peacock	item	MyPeacock	ItemPopcorn	cookedpeacock	Cooked Peacock
+corn	item	MyCornCob	ItemCornCob	corn_seed	Corn
+corn_dog	item	MyCornDog	ItemPopcorn	corndog_cooked	Corn Dog
+corn_plant	block	MyCornPlant1	BlockCorn	corn_0	Corn Plant
+corn_plant	block	MyCornPlant2	BlockCorn	corn_1	Corn Plant
+corn_plant	block	MyCornPlant3	BlockCorn	corn_2	Corn Plant
+corn_plant	block	MyCornPlant4	BlockCorn	corn_3	Corn Plant
+crab_meat	item	MyCrabMeat	ItemSunFish	cookedcrabmeat	Crab Meat!
+creeper_launcher	item	CreeperLauncher	ItemCreeperLauncher	creeperlauncher	Creeper Launcher
+creeper_repellent	block	CreeperRepellent	CreeperRepellent	creeperrepellent	Creeper Repellent
+crystal_apple	item	MyCrystalApple	ItemSunFish	crystalapple	Crystal Apple
+crystal_energy	block	CrystalCoal	OreCrystal	crystalcoal	Crystal Energy
+crystal_furnace	block	CrystalFurnaceBlock	CrystalFurnace	crystalfurnace	Crystal Furnace
+crystal_furnace	block	CrystalFurnaceOnBlock	CrystalFurnace	crystalfurnace	Crystal Furnace
+crystal_grass	block	CrystalGrass	CrystalGrass	crystalgrass	Crystal Grass
+crystal_planks	block	CrystalPlanksBlock	CrystalWood	crystalplanks	Crystal Planks
+crystal_shards	item	CrystalSticks	ItemCrystalSticks	crystalsticks	Crystal Shards
+crystal_termite_nest	block	CrystalTermiteBlock	CrystalAntBlock	CrystalTermiteBlock	Crystal Termite Nest
+crystal_torch	block	CrystalTorch	BlockCrystalTorch	crystaltorch	Crystal Torch
+crystal_wood_axe	item	MyCrystalWoodAxe	CrystalAxe	crystalwoodaxe	Crystal Wood Axe
+crystal_wood_hoe	item	MyCrystalWoodHoe	CrystalHoe	crystalwoodhoe	Crystal Wood Hoe
+crystal_wood_pickaxe	item	MyCrystalWoodPickaxe	CrystalPickaxe	crystalwoodpickaxe	Crystal Wood Pickaxe
+crystal_wood_shovel	item	MyCrystalWoodShovel	CrystalShovel	crystalwoodshovel	Crystal Wood Shovel
+crystal_wood_sword	item	MyCrystalWoodSword	CrystalSword	crystalwoodsword	Crystal Wood Sword
+crystal_workbench	block	CrystalWorkbenchBlock	CrystalWorkbench	crystalworkbench	Crystal Workbench
+crystalized_fairies	block	CrystalFairy	OreBasicStone	crystalfairy	Crystalized Fairies
+crystalized_rats	block	CrystalRat	OreBasicStone	crystalrat	Crystalized Rats
+dead_irukandji	item	MyIrukandji	ItemIrukandji	deadirukandji	Dead Irukandji
+dead_stink_bug	item	MyDeadStinkBug	ItemSalt	deadstinkbug	Dead Stink Bug
+duct_tape	block	MyDuctTapeBlock	BlockDuctTape	ducttape	Duct Tape!
+duct_tape	item	MyDuctTapeItem	ItemDuctTape	ducttape	Duct Tape!
+emerald_axe	item	MyEmeraldAxe	EmeraldAxe	emeraldaxe	Emerald Axe
+emerald_boots	item	EmeraldBoots	ItemOreSpawnArmor	emerald_boots	Emerald Boots
+emerald_chestplate	item	EmeraldBody	ItemOreSpawnArmor	emerald_chest	Emerald Chestplate
+emerald_hoe	item	MyEmeraldHoe	EmeraldHoe	emeraldhoe	Emerald Hoe
+emerald_pickaxe	item	MyEmeraldPickaxe	EmeraldPickaxe	emeraldpickaxe	Emerald Pickaxe
+emerald_shovel	item	MyEmeraldShovel	EmeraldShovel	emeraldshovel	Emerald Shovel
+emerald_sword	item	MyEmeraldSword	EmeraldSword	emeraldsword	Emerald Sword
+emperor_scorpion_scale	item	MyEmperorScorpionScale	ItemSalt	emperorscorpionscale	Emperor Scorpion Scale
+empty_critter_cage	item	CageEmpty	CritterCage	cageempty	Empty Critter Cage
+ender_pearl_block	block	MyEnderPearlBlock	OreGenericEgg	blockenderpearl	Ender-Pearl Block
+experience_orb_catcher	item	MyExperienceCatcher	ExperienceCatcher	experiencecatcher	Experience Orb Catcher
+experience_sword	item	MyExperienceSword	ExperienceSword	experiencesword	Experience Sword
+experience_tree_sapling	block	MyExperiencePlant	BlockExperiencePlant	experiencesapling	Experience Tree Sapling
+experience_tree_seed	item	MyExperienceTreeSeed	ItemExperienceTreeSeed	experiencetree_seed	Experience Tree Seed
+explosive_crystal	item	MyCrystalTNTRock	ItemRock	rockcrystaltnt	Explosive Crystal
+explosive_rock	item	MyTNTRock	ItemRock	rocktnt	Explosive Rock
+extra_large_zoo_cage	item	ZooCage10	ZooCage	zoo10	Extra Large Zoo Cage
+extra_small_zoo_cage	item	ZooCage2	ZooCage	zoo2	Extra Small Zoo Cage
+extreme_torch	block	ExtremeTorch	BlockExtremeTorch	extremetorch	Extreme Torch
+eye_of_ender_block	block	MyEyeOfEnderBlock	OreGenericEgg	blockeyeofender	Eye-of-Ender Block
+fairy_sword	item	MyFairySword	FairySword	fairysword	Fairy Sword
+fire_fish	item	MyFireFish	ItemFireFish	firefish	Fire Fish
+firefly_plant	item	MyFireflySeed	ItemFireflySeed	firefly_seed	Firefly Plant
+flame_crystal	item	MyCrystalRedRock	ItemRock	rockcrystalred	Flame Crystal
+flame_rock	item	MyRedRock	ItemRock	rockred	Flame Rock
+game_controller	item	MyItemGameController	ItemShoes	gamecontroller	Game Controller
+garden_salad	item	MySalad	ItemPopcorn	salad	Garden Salad
+green_fish	item	MyGreenFish	ItemGenericFish	greenfish	Green Fish
+green_goo	item	GreenGoo	ItemSalt	greengoo	Green Goo
+grey_fish	item	MyGreyFish	ItemGenericFish	greyfish	Grey Fish
+hoverboard	item	MyElevator	ItemElevator	elevator	Hoverboard
+ice_ball	item	MyIceBall	ItemIceBall	iceball	Ice Ball
+insta_bridge	item	MyStepAccross	StepAccross	step_accross	Insta-Bridge
+instant_survival_garden	item	InstantGarden	InstantGarden	instantgarden	Instant Survival Garden
+instant_survival_shelter	item	InstantShelter	InstantShelter	instantshelter	Instant Survival Shelter
+irukandji_arrow	item	MyIrukandjiArrow	ItemIrukandjiArrow	irukandjiarrow	Irukandji Arrow
+island_block	block	MyIslandBlock	IslandBlock	island	Island Block
+jumpy_bug_scale	item	MyJumpyBugScale	ItemSalt	jumpybugscale	Jumpy Bug Scale
+kraken_repellent	block	KrakenRepellent	KrakenRepellent	krakenrepellent	Kraken Repellent
+kraken_tooth	item	MyKrakenTooth	ItemSalt	krakentooth	Kraken Tooth
+kyanite	block	CrystalStone	OreBasicStone	crystalstone	Kyanite
+kyanite_axe	item	MyCrystalStoneAxe	CrystalAxe	crystalstoneaxe	Kyanite Axe
+kyanite_hoe	item	MyCrystalStoneHoe	CrystalHoe	crystalstonehoe	Kyanite Hoe
+kyanite_pickaxe	item	MyCrystalStonePickaxe	CrystalPickaxe	crystalstonepickaxe	Kyanite Pickaxe
+kyanite_shovel	item	MyCrystalStoneShovel	CrystalShovel	crystalstoneshovel	Kyanite Shovel
+kyanite_sword	item	MyCrystalStoneSword	CrystalSword	crystalstonesword	Kyanite Sword
+lapis_lazuli_boots	item	LapisBoots	ItemOreSpawnArmor	lapis_boots	Lapis Lazuli Boots
+lapis_lazuli_chestplate	item	LapisBody	ItemOreSpawnArmor	lapis_chest	Lapis Lazuli Chestplate
+lapis_lazuli_helmet	item	LapisHelmet	ItemOreSpawnArmor	lapis_helmet	Lapis Lazuli Helmet
+lapis_lazuli_leggings	item	LapisLegs	ItemOreSpawnArmor	lapis_leggings	Lapis Lazuli Leggings
+large_zoo_cage	item	ZooCage8	ZooCage	zoo8	Large Zoo Cage
+lava_eel	item	MyLavaEel	ItemLavaEel	lavaeel	Lava Eel
+lava_eel_boots	item	LavaEelBoots	ItemOreSpawnArmor	lavaeel_boots	Lava Eel Boots
+lava_eel_chestplate	item	LavaEelBody	ItemOreSpawnArmor	lavaeel_chest	Lava Eel Chestplate
+lava_foam	block	MyLavafoamBlock	Lavafoam	lavafoam	Lava Foam
+lettuce	item	MyLettuce	ItemLettuce	lettuce_seed	Lettuce
+lettuce_plant	block	MyLettucePlant1	BlockLettuce	lettuce_0	Lettuce Plant
+lettuce_plant	block	MyLettucePlant2	BlockLettuce	lettuce_1	Lettuce Plant
+lettuce_plant	block	MyLettucePlant3	BlockLettuce	lettuce_2	Lettuce Plant
+lettuce_plant	block	MyLettucePlant4	BlockLettuce	lettuce_3	Lettuce Plant
+love	item	MyLove	ItemSunFish	heart	Love
+mantis_claw	item	MyMantisClaw	MantisClaw	mantisclaw	Mantis Claw
+medium_zoo_cage	item	ZooCage6	ZooCage	zoo6	Medium Zoo Cage
+miners_dream	item	MinersDream	ItemMinersDream	minersdream	Miner's Dream
+mobzilla_scale	item	MyGodzillaScale	ItemSalt	godzillascale	Mobzilla Scale
+mobzilla_scale_block	block	MyBlockMobzillaScaleBlock	BlockRuby	blockmobzillascale	Mobzilla Scale Block
+molenoid_dirt	block	MyMoleDirtBlock	MoleDirtBlock	moledirt	Molenoid Dirt
+molenoid_nose	item	MolenoidNose	ItemSalt	molenoidnose	Molenoid Nose
+mosquito_plant	item	MyMosquitoSeed	ItemMosquitoSeed	mosquito_seed	Mosquito Plant
+moth_plant	item	MyMothSeed	ItemMothSeed	moth_seed	Moth Plant
+moth_scale	item	MyMothScale	ItemSalt	mothscale	Moth Scale
+nether_tracker	item	NetherLost	ItemNetherLost	netherlost	Nether Tracker
+nightmare_scale	item	MyNightmareScale	ItemSalt	nightmarescale	Nightmare Scale
+nightmare_sword	item	MyNightmareSword	NightmareSword	nightmaresword	Nightmare Sword
+omg_no_dont_do_it	item	MagicApple	ItemMagicApple	magicapple	OMG! No! Don't do it!!!
+painful_rock	item	MySpikeyRock	ItemRock	rockspikey	Painful Rock
+peach	item	MyPeach	ItemStrawberry	peach	Peach
+peach_pit	item	MyPeachSeed	ItemAppleSeed	peachtree_seed	Peach Pit
+peacock_feather	item	MyPeacockFeather	ItemSalt	peacockfeather	Peacock Feather
+pink_fish	item	MyPinkFish	ItemGenericFish	pinkfish	Pink Fish
+pink_tourmailine_boots	item	CrystalPinkBoots	ItemOreSpawnArmor	pink_boots	Pink Tourmailine Boots
+pink_tourmailine_chestplate	item	CrystalPinkBody	ItemOreSpawnArmor	pink_chest	Pink Tourmailine Chestplate
+pink_tourmailine_helmet	item	CrystalPinkHelmet	ItemOreSpawnArmor	pink_helmet	Pink Tourmailine Helmet
+pink_tourmailine_leggings	item	CrystalPinkLegs	ItemOreSpawnArmor	pink_leggings	Pink Tourmailine Leggings
+pink_tourmaline	block	CrystalCrystal	OreCrystalCrystal	crystalcrystal	Pink Tourmaline
+pink_tourmaline_axe	item	MyCrystalPinkAxe	CrystalAxe	crystalpinkaxe	Pink Tourmaline Axe
+pink_tourmaline_block	block	MyCrystalPinkBlock	BlockCrystal	crystalpink_block	Pink Tourmaline Block
+pink_tourmaline_hoe	item	MyCrystalPinkHoe	CrystalHoe	crystalpinkhoe	Pink Tourmaline Hoe
+pink_tourmaline_ingot	item	MyCrystalPinkIngot	IngotUranium	crystalpink_ingot	Pink Tourmaline Ingot
+pink_tourmaline_pickaxe	item	MyCrystalPinkPickaxe	CrystalPickaxe	crystalpinkpickaxe	Pink Tourmaline Pickaxe
+pink_tourmaline_shovel	item	MyCrystalPinkShovel	CrystalShovel	crystalpinkshovel	Pink Tourmaline Shovel
+pink_tourmaline_sword	item	MyCrystalPinkSword	CrystalSword	crystalpinksword	Pink Tourmaline Sword
+pizza	block	MyPizzaBlock	BlockPizza	pizza	Pizza!
+pizza	item	MyPizzaItem	ItemPizza	pizza	Pizza!
+poison_crystal	item	MyCrystalGreenRock	ItemRock	rockcrystalgreen	Poison Crystal
+poison_rock	item	MyGreenRock	ItemRock	rockgreen	Poison Rock
+poison_sword	item	MyPoisonSword	PoisonSword	poisonsword	Poison Sword
+popcorn	item	MyPopcorn	ItemPopcorn	popcorn	Popcorn
+queen_scale_battle_axe	item	MyQueenBattleAxe	UltimateSword	queenbattleaxesmall	Queen Scale Battle Axe
+queen_scale_boots	item	QueenBoots	ItemOreSpawnArmor	queen_boots	Queen Scale Boots
+queen_scale_chestplate	item	QueenBody	ItemOreSpawnArmor	queen_chest	Queen Scale Chestplate
+queen_scale_helmet	item	QueenHelmet	ItemOreSpawnArmor	queen_helmet	Queen Scale Helmet
+queen_scale_leggings	item	QueenLegs	ItemOreSpawnArmor	queen_leggings	Queen Scale Leggings
+quinoa	item	MyQuinoa	ItemCornCob	quinoa	Quinoa
+quinoa_plant	block	MyQuinoaPlant1	BlockQuinoa	quinoa_0	Quinoa Plant
+quinoa_plant	block	MyQuinoaPlant2	BlockQuinoa	quinoa_1	Quinoa Plant
+quinoa_plant	block	MyQuinoaPlant3	BlockQuinoa	quinoa_2	Quinoa Plant
+quinoa_plant	block	MyQuinoaPlant4	BlockQuinoa	quinoa_3	Quinoa Plant
+radish	item	MyRadish	ItemRadish	radish	Radish
+rainbow_ant_nest	block	MyRainbowAntBlock	AntBlock	RainbowAntBlock	Rainbow Ant Nest
+random_dungeon	item	RandomDungeon	ItemRandomDungeon	randomdungeon	Random Dungeon
+random_dungeon_spawner	block	MyDungeonSpawnerBlock	DungeonSpawnerBlock	dungeonspawner	Random Dungeon Spawner
+random_teleport_block	block	MyRTPBlock	RTPBlock	blockteleport	Random Teleport Block
+rat_sword	item	MyRatSword	RatSword	ratsword	Rat Sword
+raw_bacon	item	MyRawBacon	ItemPopcorn	bacon	Raw Bacon
+raw_corn_dog	item	MyRawCornDog	ItemPopcorn	corndog_raw	Raw Corn Dog
+raw_crab_meat	item	MyRawCrabMeat	ItemPopcorn	crabmeat	Raw Crab Meat
+raw_peacock	item	MyRawPeacock	ItemPopcorn	rawpeacock	Raw Peacock
+red_ant_nest	block	MyRedAntBlock	AntBlock	RedAntBlock	Red Ant Nest
+red_ant_robot_kit	item	AntRobotKit	ItemSpiderRobotKit	antrobotkit	Red Ant Robot Kit
+red_ant_troll_block	block	RedAntTroll	OreBasicStone	redanttroll	Red Ant Troll Block
+red_crystal_tree_sapling	block	MyCrystalPlant	BlockCrystalPlant	crystalsapling	Red Crystal Tree Sapling
+red_heels	item	MyItemShoes	ItemShoes	redheels	Red Heels
+rice	item	MyRice	ItemRadish	rice	Rice
+robot_laser_charge	item	MyLaserBall	ItemLaserBall	laserball	Robot Laser Charge
+rock_fish	item	MyRockFish	ItemGenericFish	rockfish	Rock Fish
+rose_sword	item	MyRoseSword	EmeraldSword	rosesword	Rose Sword
+royal_guardian_boots	item	RoyalBoots	ItemOreSpawnArmor	royal_boots	Royal Guardian Boots
+royal_guardian_chestplate	item	RoyalBody	ItemOreSpawnArmor	royal_chest	Royal Guardian Chestplate
+royal_guardian_helmet	item	RoyalHelmet	ItemOreSpawnArmor	royal_helmet	Royal Guardian Helmet
+royal_guardian_leggings	item	RoyalLegs	ItemOreSpawnArmor	royal_leggings	Royal Guardian Leggings
+royal_guardian_sword	item	MyRoyal	Bertha	royalsmall	Royal Guardian Sword
+ruby	item	MyRuby	ItemSalt	ruby	Ruby
+ruby_axe	item	MyRubyAxe	RubyAxe	rubyaxe	Ruby Axe
+ruby_block	block	MyBlockRubyBlock	BlockRuby	blockruby	Ruby Block
+ruby_boots	item	RubyBoots	ItemOreSpawnArmor	ruby_boots	Ruby Boots
+ruby_chestplate	item	RubyBody	ItemOreSpawnArmor	ruby_chest	Ruby Chestplate
+ruby_helmet	item	RubyHelmet	ItemOreSpawnArmor	ruby_helmet	Ruby Helmet
+ruby_hoe	item	MyRubyHoe	RubyHoe	rubyhoe	Ruby Hoe
+ruby_leggings	item	RubyLegs	ItemOreSpawnArmor	ruby_leggings	Ruby Leggings
+ruby_ore	block	MyOreRubyBlock	OreRuby	oreruby	Ruby Ore
+ruby_pickaxe	item	MyRubyPickaxe	RubyPickaxe	rubypickaxe	Ruby Pickaxe
+ruby_shovel	item	MyRubyShovel	RubyShovel	rubyshovel	Ruby Shovel
+ruby_sword	item	MyRubySword	RubySword	rubysword	Ruby Sword
+salt	item	MySalt	ItemSalt	salt	Salt
+salt_ore	block	MyOreSaltBlock	OreSalt	oresalt	Salt Ore
+sea_monster_scale	item	SeaMonsterScale	ItemSalt	seamonsterscale	Sea Monster Scale
+sea_viper_tongue	item	SeaViperTongue	ItemSalt	seavipertongue	Sea Viper Tongue
+sifter	item	Sifter	ItemSifter	sifter	Sifter
+skate_string_bow	item	MySkateBow	SkateBow	skatebow	Skate String Bow
+slice	item	MySlice	Bertha	slicesmall	Slice
+slippers	item	MyItemShoes_2	ItemShoes	slippers	Slippers
+slowness_crystal	item	MyCrystalBlueRock	ItemRock	rockcrystalblue	Slowness Crystal
+slowness_rock	item	MyBlueRock	ItemRock	rockblue	Slowness Rock
+small_rock	item	MySmallRock	ItemRock	rocksmall	Small Rock
+small_zoo_cage	item	ZooCage4	ZooCage	zoo4	Small Zoo Cage
+spark_fish	item	MySparkFish	ItemSparkFish	sparkfish	Spark Fish
+spawn_alien	item	AlienEgg	ItemSpawnEgg	eggalien	Spawn Alien
+spawn_alosaurus	item	AloEgg	ItemSpawnEgg	eggalosaurus	Spawn Alosaurus
+spawn_apple_cow	item	RedCowEgg	ItemSpawnEgg	eggredcow	Spawn Apple Cow
+spawn_attack_squid	item	AttackSquidEgg	ItemSpawnEgg	eggattacksquid	Spawn Attack Squid
+spawn_baby_dragon	item	SpyroEgg	ItemSpawnEgg	eggspyro	Spawn Baby Dragon
+spawn_baryonyx	item	BaryonyxEgg	ItemSpawnEgg	eggbaryonyx	Spawn Baryonyx
+spawn_basilisk	item	BasilEgg	ItemSpawnEgg	eggbasilisc	Spawn Basilisk
+spawn_beaver	item	BeaverEgg	ItemSpawnEgg	eggbeaver	Spawn Beaver
+spawn_bee	item	BeeEgg	ItemSpawnEgg	eggbee	Spawn Bee
+spawn_bird	item	CockateilEgg	ItemSpawnEgg	eggcockateil	Spawn Bird
+spawn_bomb_omb	item	Robot1Egg	ItemSpawnEgg	eggrobot1	Spawn Bomb-Omb
+spawn_boyfriend	item	BoyfriendEgg	ItemSpawnEgg	eggboyfriend	Spawn Boyfriend
+spawn_brown_ant	item	BrownAntEgg	ItemSpawnEgg	eggbrownant	Spawn Brown Ant
+spawn_brutalfly	item	BrutalflyEgg	ItemSpawnEgg	eggbrutalfly	Spawn Brutalfly
+spawn_butterfly	item	ButterflyEgg	ItemSpawnEgg	eggbutterfly	Spawn Butterfly
+spawn_camarasaurus	item	CamaEgg	ItemSpawnEgg	eggcamarasaurus	Spawn Camarasaurus
+spawn_cassowary	item	CassowaryEgg	ItemSpawnEgg	eggcassowary	Spawn Cassowary
+spawn_caterkiller	item	CaterKillerEgg	ItemSpawnEgg	eggcaterkiller	Spawn CaterKiller
+spawn_cave_fisher	item	CaveFisherEgg	ItemSpawnEgg	eggcavefisher	Spawn Cave Fisher
+spawn_cephadrome	item	CephadromeEgg	ItemSpawnEgg	eggcephadrome	Spawn Cephadrome
+spawn_chipmunk	item	ChipmunkEgg	ItemSpawnEgg	eggchipmunk	Spawn Chipmunk
+spawn_cliff_racer	item	CliffRacerEgg	ItemSpawnEgg	eggcliffracer	Spawn Cliff Racer
+spawn_cloud_shark	item	CloudSharkEgg	ItemSpawnEgg	eggcloudshark	Spawn Cloud Shark
+spawn_coin	item	CoinEgg	ItemSpawnEgg	eggcoin	Spawn Coin
+spawn_crab	item	CrabEgg	ItemSpawnEgg	eggcrab	Spawn Crab
+spawn_creeping_horror	item	CreepingHorrorEgg	ItemSpawnEgg	eggcreepinghorror	Spawn Creeping Horror
+spawn_cricket	item	CricketEgg	ItemSpawnEgg	eggcricket	Spawn Cricket
+spawn_criminal	item	CriminalEgg	ItemSpawnEgg	eggcriminal	Spawn Criminal
+spawn_cryolophosaurus	item	CryoEgg	ItemSpawnEgg	eggcryolophosaurus	Spawn Cryolophosaurus
+spawn_crystal_cow	item	CrystalCowEgg	ItemSpawnEgg	eggcrystalcow	Spawn Crystal Cow
+spawn_crystal_urchin	item	UrchinEgg	ItemSpawnEgg	eggurchin	Spawn Crystal Urchin
+spawn_dragon	item	DragonEgg	ItemSpawnEgg	eggdragon	Spawn Dragon
+spawn_dragonfly	item	DragonflyEgg	ItemSpawnEgg	eggdragonfly	Spawn Dragonfly
+spawn_dungeon_beast	item	DungeonBeastEgg	ItemSpawnEgg	eggdungeonbeast	Spawn Dungeon Beast
+spawn_easter_bunny	item	EasterBunnyEgg	ItemSpawnEgg	eggeasterbunny	Spawn Easter Bunny
+spawn_emperor_scorpion	item	EmperorScorpionEgg	ItemSpawnEgg	eggemperorscorpion	Spawn Emperor Scorpion!
+spawn_enchanted_golden_apple_cow	item	EnchantedCowEgg	ItemSpawnEgg	eggenchantedcow	Spawn Enchanted Golden Apple Cow
+spawn_ender_dragon	item	EnderDragonEgg	ItemSpawnEgg	eggenderdragon	Spawn Ender Dragon
+spawn_ender_knight	item	EnderKnightEgg	ItemSpawnEgg	eggenderknight	Spawn Ender Knight
+spawn_ender_reaper	item	EnderReaperEgg	ItemSpawnEgg	eggenderreaper	Spawn Ender Reaper
+spawn_fairy	item	FairyEgg	ItemSpawnEgg	eggfairy	Spawn Fairy
+spawn_firefly	item	FireflyEgg	ItemSpawnEgg	eggfirefly	Spawn Firefly
+spawn_flounder	item	FlounderEgg	ItemSpawnEgg	eggflounder	Spawn Flounder
+spawn_frog	item	FrogEgg	ItemSpawnEgg	eggfrog	Spawn Frog
+spawn_gazelle	item	GazelleEgg	ItemSpawnEgg	egggazelle	Spawn Gazelle
+spawn_ghost	item	GhostEgg	ItemSpawnEgg	eggghost	Spawn Ghost
+spawn_ghost_pumpkin_skelly	item	GhostSkellyEgg	ItemSpawnEgg	eggghostskelly	Spawn Ghost Pumpkin Skelly
+spawn_giant_spider_robot	item	SpiderRobotEgg	ItemSpawnEgg	eggspiderrobot	Spawn Giant Spider Robot
+spawn_girlfriend	item	GirlfriendEgg	ItemSpawnEgg	egggirlfriend	Spawn Girlfriend
+spawn_gold_fish	item	GoldFishEgg	ItemSpawnEgg	egggoldfish	Spawn Gold Fish
+spawn_golden_apple_cow	item	GoldCowEgg	ItemSpawnEgg	egggoldcow	Spawn Golden Apple Cow
+spawn_hammerhead	item	HammerheadEgg	ItemSpawnEgg	egghammerhead	Spawn Hammerhead
+spawn_hercules_beetle	item	HerculesEgg	ItemSpawnEgg	egghercules	Spawn Hercules Beetle
+spawn_hydrolisc	item	HydroEgg	ItemSpawnEgg	egghydrolisc	Spawn Hydrolisc
+spawn_iron_golem	item	IronGolemEgg	ItemSpawnEgg	eggirongolem	Spawn Iron Golem
+spawn_irukandji	item	IrukandjiEgg	ItemSpawnEgg	eggirukandji	Spawn Irukandji
+spawn_jeffery	item	JefferyEgg	ItemSpawnEgg	eggrobot6	Spawn Jeffery
+spawn_jumpy_bug	item	TrooperBugEgg	ItemSpawnEgg	eggtrooper	Spawn Jumpy Bug
+spawn_kyuubi	item	KyuubiEgg	ItemSpawnEgg	eggkyuubi	Spawn Kyuubi
+spawn_large_worm	item	LargeWormEgg	ItemSpawnEgg	egglargeworm	Spawn Large Worm
+spawn_leaf_monster	item	LeafMonsterEgg	ItemSpawnEgg	eggleafmonster	Spawn Leaf Monster
+spawn_leonopteryx	item	LeonEgg	ItemSpawnEgg	eggleon	Spawn Leonopteryx
+spawn_lizard	item	LizardEgg	ItemSpawnEgg	egglizard	Spawn Lizard
+spawn_lurking_terror	item	LurkingTerrorEgg	ItemSpawnEgg	egglurkingterror	Spawn Lurking Terror
+spawn_mantis	item	MantisEgg	ItemSpawnEgg	eggmantis	Spawn Mantis
+spawn_medium_worm	item	MediumWormEgg	ItemSpawnEgg	eggmediumworm	Spawn Medium Worm
+spawn_mobzilla	item	GodzillaEgg	ItemSpawnEgg	egggodzilla	Spawn Mobzilla
+spawn_molenoid	item	MolenoidEgg	ItemSpawnEgg	eggmolenoid	Spawn Molenoid
+spawn_mosquito	item	MosquitoEgg	ItemSpawnEgg	eggmosquito	Spawn Mosquito
+spawn_moth	item	MothEgg	ItemSpawnEgg	eggmoth	Spawn Moth
+spawn_mothra	item	MOTHRAEgg	ItemSpawnEgg	eggMOTHRA	Spawn MOTHRA!
+spawn_nastysaurus	item	NastysaurusEgg	ItemSpawnEgg	eggnastysaurus	Spawn Nastysaurus
+spawn_nightmare	item	PitchBlackEgg	ItemSpawnEgg	eggnightmare	Spawn Nightmare!!!
+spawn_ostrich	item	OstrichEgg	ItemSpawnEgg	eggostrich	Spawn Ostrich
+spawn_peacock	item	PeacockEgg	ItemSpawnEgg	eggpeacock	Spawn Peacock
+spawn_pointysaurus	item	PointysaurusEgg	ItemSpawnEgg	eggpointysaurus	Spawn Pointysaurus
+spawn_rainbow_ant	item	RainbowAntEgg	ItemSpawnEgg	eggrainbowant	Spawn Rainbow Ant
+spawn_rat	item	RatEgg	ItemSpawnEgg	eggrat	Spawn Rat
+spawn_red_ant	item	RedAntEgg	ItemSpawnEgg	eggredant	Spawn Red Ant
+spawn_red_ant_robot	item	AntRobotEgg	ItemSpawnEgg	eggantrobot	Spawn Red Ant Robot
+spawn_robo_gunner	item	Robot3Egg	ItemSpawnEgg	eggrobot3	Spawn Robo-Gunner
+spawn_robo_pounder	item	Robot2Egg	ItemSpawnEgg	eggrobot2	Spawn Robo-Pounder
+spawn_robo_sniper	item	Robot5Egg	ItemSpawnEgg	eggrobot5	Spawn Robo-Sniper
+spawn_robo_warrior	item	Robot4Egg	ItemSpawnEgg	eggrobot4	Spawn Robo-Warrior
+spawn_rotator	item	RotatorEgg	ItemSpawnEgg	eggrotator	Spawn Rotator
+spawn_rubber_ducky	item	RubberDuckyEgg	ItemSpawnEgg	eggrubberducky	Spawn Rubber Ducky
+spawn_scorpion	item	ScorpionEgg	ItemSpawnEgg	eggscorpion	Spawn Scorpion
+spawn_sea_monster	item	SeaMonsterEgg	ItemSpawnEgg	eggseamonster	Spawn Sea Monster
+spawn_sea_viper	item	SeaViperEgg	ItemSpawnEgg	eggseaviper	Spawn Sea Viper
+spawn_skate	item	SkateEgg	ItemSpawnEgg	eggskate	Spawn Skate
+spawn_small_worm	item	SmallWormEgg	ItemSpawnEgg	eggsmallworm	Spawn Small Worm
+spawn_snow_golem	item	SnowGolemEgg	ItemSpawnEgg	eggsnowgolem	Spawn Snow Golem
+spawn_spider_robot_driver	item	SpiderDriverEgg	ItemSpawnEgg	eggspiderdriver	Spawn Spider Robot Driver
+spawn_spit_bug	item	SpitBugEgg	ItemSpawnEgg	eggspit	Spawn Spit Bug
+spawn_stink_bug	item	StinkBugEgg	ItemSpawnEgg	eggstink	Spawn Stink Bug
+spawn_stinky	item	StinkyEgg	ItemSpawnEgg	eggstinky	Spawn Stinky
+spawn_t_rex	item	TRexEgg	ItemSpawnEgg	eggtrex	Spawn T. Rex
+spawn_t_shirt	item	TshirtEgg	ItemSpawnEgg	eggtshirt	Spawn T-Shirt!
+spawn_termite	item	TermiteEgg	ItemSpawnEgg	eggtermite	Spawn Termite
+spawn_terrible_terror	item	TerribleTerrorEgg	ItemSpawnEgg	eggterribleterror	Spawn Terrible Terror
+spawn_the_king	item	TheKingEgg	ItemSpawnEgg	eggtheking	Spawn The King
+spawn_the_prince	item	ThePrinceEgg	ItemSpawnEgg	eggtheprince	Spawn The Prince
+spawn_the_princess	item	ThePrincessEgg	ItemSpawnEgg	eggtheprincess	Spawn The Princess
+spawn_the_queen	item	TheQueenEgg	ItemSpawnEgg	eggthequeen	Spawn The Queen
+spawn_triffid	item	TriffidEgg	ItemSpawnEgg	eggtriffid	Spawn Triffid
+spawn_unstable_ant	item	UnstableAntEgg	ItemSpawnEgg	eggunstableant	Spawn Unstable Ant
+spawn_velocity_raptor	item	VeloEgg	ItemSpawnEgg	eggvelocityraptor	Spawn Velocity Raptor
+spawn_vortex	item	VortexEgg	ItemSpawnEgg	eggvortex	Spawn Vortex
+spawn_water_dragon	item	WaterDragonEgg	ItemSpawnEgg	eggwaterdragon	Spawn Water Dragon
+spawn_whale	item	WhaleEgg	ItemSpawnEgg	eggwhale	Spawn Whale
+spawn_wither_boss	item	WitherBossEgg	ItemSpawnEgg	eggwitherboss	Spawn Wither Boss
+spawn_wither_skeleton	item	WitherSkeletonEgg	ItemSpawnEgg	eggwitherskeleton	Spawn Wither Skeleton
+spawn_wtf	item	GammaMetroidEgg	ItemSpawnEgg	egggammametroid	Spawn WTF?
+spider_robot_kit	item	SpiderRobotKit	ItemSpiderRobotKit	spiderrobotkit	Spider Robot Kit
+squidzooka	item	MySquidZooka	ItemSquidZooka	squidzookasmall	SquidZooka!
+stairs_going_down	item	MyStepDown	StepDown	step_down	Stairs going Down
+stairs_going_up	item	MyStepUp	StepUp	step_up	Stairs going Up
+strawberry	item	MyStrawberry	ItemStrawberry	strawberry	Strawberry
+strawberry_plant	item	MyStrawberrySeed	ItemStrawberrySeed	strawberry_seed	Strawberry Plant
+sun_fish	item	MySunFish	ItemSunFish	sunfish	Sun Fish
+sunspot_urchin	item	MySunspotUrchin	ItemSunspotUrchin	sunspoturchin	Sunspot Urchin
+termite_nest	block	TermiteBlock	AntBlock	TermiteBlock	Termite Nest
+termite_troll_block	block	TermiteTroll	OreBasicStone	termitetroll	Termite Troll Block
+the_king_spawner_block	block	MyKingSpawnerBlock	KingSpawnerBlock	kingspawner	The King Spawner Block
+the_queen_scale	item	MyQueenScale	ItemSalt	queenscale	The Queen Scale
+the_queen_spawner_block	block	MyQueenSpawnerBlock	QueenSpawnerBlock	queenspawner	The Queen Spawner Block
+the_ultimate_axe	item	MyUltimateAxe	UltimateAxe	ultimateaxe	The Ultimate Axe
+the_ultimate_bow	item	MyUltimateBow	UltimateBow	ultimatebow	The Ultimate Bow
+the_ultimate_fishing_rod	item	MyUltimateFishingRod	UltimateFishingRod	ultimatefishingrod	The Ultimate Fishing Rod
+the_ultimate_hoe	item	MyUltimateHoe	UltimateHoe	ultimatehoe	The Ultimate Hoe
+the_ultimate_pickaxe	item	MyUltimatePickaxe	UltimatePickaxe	ultimatepickaxe	The Ultimate Pickaxe
+the_ultimate_shovel	item	MyUltimateShovel	UltimateShovel	ultimateshovel	The Ultimate Shovel
+the_ultimate_sword	item	MyUltimateSword	UltimateSword	ultimatesword	The Ultimate Sword
+thunder_staff	item	MyThunderStaff	ItemThunderStaff	thunderstaff	Thunder Staff
+tigers_eye	block	TigersEye	OreCrystalCrystal	tigerseye	Tiger's Eye
+tigers_eye_axe	item	MyTigersEyeAxe	CrystalAxe	tigerseye_axe	Tiger's Eye Axe
+tigers_eye_block	block	MyTigersEyeBlock	BlockCrystal	tigerseye_block	Tiger's Eye Block
+tigers_eye_hoe	item	MyTigersEyeHoe	CrystalHoe	tigerseye_hoe	Tiger's Eye Hoe
+tigers_eye_ingot	item	MyTigersEyeIngot	IngotUranium	tigerseye_ingot	Tiger's Eye Ingot
+tigers_eye_pickaxe	item	MyTigersEyePickaxe	CrystalPickaxe	tigerseye_pickaxe	Tiger's Eye Pickaxe
+tigers_eye_shovel	item	MyTigersEyeShovel	CrystalShovel	tigerseye_shovel	Tiger's Eye Shovel
+tigers_eye_sword	item	MyTigersEyeSword	CrystalSword	tigerseye_sword	Tiger's Eye Sword
+titanium_block	block	MyBlockTitaniumBlock	BlockTitanium	blocktitanium	Titanium Block
+titanium_ingot	item	MyIngotTitanium	IngotTitanium	ingottitanium	Titanium Ingot
+titanium_nugget	item	TitaniumNugget	ItemSalt	titanium_nugget	Titanium Nugget
+titanium_ore	block	MyOreTitaniumBlock	OreTitanium	oretitanium	Titanium Ore
+tomato	item	MyTomato	ItemTomato	tomato_seed	Tomato
+tomato_plant	block	MyTomatoPlant1	BlockTomato	tomato_0	Tomato Plant
+tomato_plant	block	MyTomatoPlant2	BlockTomato	tomato_1	Tomato Plant
+tomato_plant	block	MyTomatoPlant3	BlockTomato	tomato_2	Tomato Plant
+tomato_plant	block	MyTomatoPlant4	BlockTomato	tomato_3	Tomato Plant
+trex_tooth	item	TRexTooth	ItemSalt	trextooth	TRex Tooth
+uh_no_dont	item	KrakenEgg	ItemSpawnEgg	eggkraken	Uh, no. Don't.
+unstable_ant_nest	block	MyUnstableAntBlock	AntBlock	UnstableAntBlock	Unstable Ant Nest
+uranium_block	block	MyBlockUraniumBlock	BlockUranium	blockuranium	Uranium Block
+uranium_ingot	item	MyIngotUranium	IngotUranium	ingoturanium	Uranium Ingot
+uranium_nugget	item	UraniumNugget	ItemSalt	uranium_nugget	Uranium Nugget
+uranium_ore	block	MyOreUraniumBlock	OreUranium	oreuranium	Uranium Ore
+vortex_eye	item	VortexEye	ItemSalt	vortexeye	Vortex Eye
+water_dragon_scale	item	MyWaterDragonScale	ItemSalt	waterdragonscale	Water Dragon Scale
+waterdragon_charge	item	MyWaterBall	ItemWaterBall	waterball	WaterDragon Charge
+weakness_rock	item	MyPurpleRock	ItemRock	rockpurple	Weakness Rock
+wood_fish	item	MyWoodFish	ItemGenericFish	woodfish	Wood Fish
+worm_tooth	item	WormTooth	ItemSalt	wormtooth	Worm Tooth
+wrench	item	MyWrench	ItemWrench	wrench	Wrench
+yellow_crystal_tree_sapling	block	MyCrystalPlant2	BlockCrystalPlant	crystalsapling2	Yellow Crystal Tree Sapling
+zookeeper_shard	item	ZooKeeper	ItemZooKeeper	zookeeper	ZooKeeper Shard

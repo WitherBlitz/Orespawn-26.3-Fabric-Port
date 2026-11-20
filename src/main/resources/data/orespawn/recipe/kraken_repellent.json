@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "orespawn:dead_stink_bug",
+    "T": "orespawn:extreme_torch",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "D D",
+    "STS",
+    "D D"
+  ],
+  "result": {
+    "id": "orespawn:kraken_repellent"
+  }
+}

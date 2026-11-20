@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "orespawn:block/experience_tree_sapling"
+  }
+}

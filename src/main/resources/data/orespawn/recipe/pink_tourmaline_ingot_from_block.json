@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:pink_tourmaline_block"
+  ],
+  "result": {
+    "id": "orespawn:pink_tourmaline_ingot",
+    "count": 9
+  }
+}

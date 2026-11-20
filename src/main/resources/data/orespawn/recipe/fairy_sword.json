@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "orespawn:crystalized_fairies",
+    "I": "orespawn:crystal_shards"
+  },
+  "pattern": [
+    "E",
+    "E",
+    "I"
+  ],
+  "result": {
+    "id": "orespawn:fairy_sword"
+  }
+}

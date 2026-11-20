@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "orespawn:block/duct_tape"
+    },
+    "bites=1": {
+      "model": "orespawn:block/duct_tape_slice1"
+    },
+    "bites=2": {
+      "model": "orespawn:block/duct_tape_slice2"
+    },
+    "bites=3": {
+      "model": "orespawn:block/duct_tape_slice3"
+    },
+    "bites=4": {
+      "model": "orespawn:block/duct_tape_slice4"
+    },
+    "bites=5": {
+      "model": "orespawn:block/duct_tape_slice5"
+    }
+  }
+}

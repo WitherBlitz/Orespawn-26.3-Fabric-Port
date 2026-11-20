@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:tomato",
+    "orespawn:cheese",
+    "orespawn:bacon",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "orespawn:pizza"
+  }
+}

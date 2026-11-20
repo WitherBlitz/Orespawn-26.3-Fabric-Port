@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:ender_reaper_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:ender_reaper_spawn_egg"
+  }
+}

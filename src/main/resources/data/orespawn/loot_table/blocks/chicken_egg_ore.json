@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:chicken_egg_ore"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/chicken_egg_ore"
+}

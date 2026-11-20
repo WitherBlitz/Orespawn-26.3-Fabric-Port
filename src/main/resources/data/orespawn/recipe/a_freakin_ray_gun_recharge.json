@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:redstone_block",
+    "orespawn:a_freakin_ray_gun"
+  ],
+  "result": {
+    "id": "orespawn:a_freakin_ray_gun"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "orespawn.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"client.PackRepositoryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

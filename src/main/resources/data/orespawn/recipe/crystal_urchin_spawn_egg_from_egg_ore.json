@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:crystal_urchin_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:crystal_urchin_spawn_egg"
+  }
+}

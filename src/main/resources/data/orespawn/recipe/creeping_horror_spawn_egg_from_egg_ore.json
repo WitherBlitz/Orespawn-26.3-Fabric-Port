@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:creeping_horror_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:creeping_horror_spawn_egg"
+  }
+}

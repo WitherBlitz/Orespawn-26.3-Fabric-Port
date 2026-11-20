@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:velocity_raptor_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:velocity_raptor_spawn_egg"
+  }
+}

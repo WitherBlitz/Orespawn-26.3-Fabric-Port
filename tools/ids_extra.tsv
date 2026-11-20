@@ -1,0 +1,59 @@
+# OreSpawnMain registrations missing from ids.tsv (armor, leaves, plants, flowers, logs): port id, kind, field, English name
+amethyst_chestplate	item	AmethystBody	Amethyst Chestplate
+amethyst_boots	item	AmethystBoots	Amethyst Boots
+amethyst_helmet	item	AmethystHelmet	Amethyst Helmet
+amethyst_leggings	item	AmethystLegs	Amethyst Leggings
+blue_crystal_flower	block	CrystalFlowerBlueBlock	Blue Crystal Flower
+green_crystal_flower	block	CrystalFlowerGreenBlock	Green Crystal Flower
+red_crystal_flower	block	CrystalFlowerRedBlock	Red Crystal Flower
+yellow_crystal_flower	block	CrystalFlowerYellowBlock	Yellow Crystal Flower
+emerald_helmet	item	EmeraldHelmet	Emerald Helmet
+emerald_leggings	item	EmeraldLegs	Emerald Leggings
+experience_chestplate	item	ExperienceBody	Experience Chestplate
+experience_boots	item	ExperienceBoots	Experience Boots
+experience_helmet	item	ExperienceHelmet	Experience Helmet
+experience_leggings	item	ExperienceLegs	Experience Leggings
+lava_eel_helmet	item	LavaEelHelmet	Lava Eel Helmet
+lava_eel_leggings	item	LavaEelLegs	Lava Eel Leggings
+mobzilla_scale_chestplate	item	MobzillaBody	Mobzilla Scale Chestplate
+mobzilla_scale_boots	item	MobzillaBoots	Mobzilla Scale Boots
+mobzilla_scale_helmet	item	MobzillaHelmet	Mobzilla Scale Helmet
+mobzilla_scale_leggings	item	MobzillaLegs	Mobzilla Scale Leggings
+moth_scale_chestplate	item	MothScaleBody	Moth Scale Chestplate
+moth_scale_boots	item	MothScaleBoots	Moth Scale Boots
+moth_scale_helmet	item	MothScaleHelmet	Moth Scale Helmet
+moth_scale_leggings	item	MothScaleLegs	Moth Scale Leggings
+apple_leaves	block	MyAppleLeaves	Apple Tree Leaves
+butterfly_plant	block	MyButterflyPlant	
+cherry_leaves	block	MyCherryLeaves	Cherry Tree Leaves
+red_crystal_tree_leaves	block	MyCrystalLeaves	Crystal Tree Leaves
+yellow_crystal_tree_leaves	block	MyCrystalLeaves2	Crystal Tree Leaves
+blue_crystal_tree_leaves	block	MyCrystalLeaves3	Crystal Tree Leaves
+crystal_tree_wood	block	MyCrystalTreeLog	Crystal Tree Wood
+duplicator_tree_wood	block	MyDT	Duplicator Tree Wood
+experience_leaves	block	MyExperienceLeaves	Experience Tree Leaves
+firefly_plant	block	MyFireflyPlant	
+black_flower	block	MyFlowerBlackBlock	Black Flower
+blue_flower	block	MyFlowerBlueBlock	Blue Flower
+pink_flower	block	MyFlowerPinkBlock	Pink Flower
+dead_flower	block	MyFlowerScaryBlock	Dead Flower
+mosquito_plant	block	MyMosquitoPlant	
+moth_plant	block	MyMothPlant	
+peach_leaves	block	MyPeachLeaves	Peach Tree Leaves
+radish_plant	block	MyRadishPlant	
+rice_plant	block	MyRicePlant	
+scary_leaves	block	MyScaryLeaves	Scary Tree Leaves
+sky_tree_wood	block	MySkyTreeLog	Sky Tree Wood
+strawberry_plant	block	MyStrawberryPlant	
+peacock_feather_chestplate	item	PeacockFeatherBody	Peacock Feather Chestplate
+peacock_feather_boots	item	PeacockFeatherBoots	Peacock Feather Boots
+peacock_feather_helmet	item	PeacockFeatherHelmet	Peacock Feather Helmet
+peacock_feather_leggings	item	PeacockFeatherLegs	Peacock Feather Leggings
+tigers_eye_chestplate	item	TigersEyeBody	Tiger's Eye Chestplate
+tigers_eye_boots	item	TigersEyeBoots	Tiger's Eye Boots
+tigers_eye_helmet	item	TigersEyeHelmet	Tiger's Eye Helmet
+tigers_eye_leggings	item	TigersEyeLegs	Tiger's Eye Leggings
+the_ultimate_chestplate	item	UltimateBody	The Ultimate Chestplate
+the_ultimate_boots	item	UltimateBoots	The Ultimate Boots
+the_ultimate_helmet	item	UltimateHelmet	The Ultimate Helmet
+the_ultimate_leggings	item	UltimateLegs	The Ultimate Leggings

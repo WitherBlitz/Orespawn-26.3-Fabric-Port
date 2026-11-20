@@ -1,0 +1,801 @@
+{
+  "items": {
+    "empty_critter_cage": {
+      "texture": "cageempty",
+      "name": "Empty Critter Cage"
+    },
+    "caged_spider": {
+      "texture": "cagespider",
+      "name": "Caged Spider"
+    },
+    "caged_bat": {
+      "texture": "cagebat",
+      "name": "Caged Bat"
+    },
+    "caged_cow": {
+      "texture": "cagecow",
+      "name": "Caged Cow"
+    },
+    "caged_pig": {
+      "texture": "cagepig",
+      "name": "Caged Pig"
+    },
+    "caged_squid": {
+      "texture": "cagesquid",
+      "name": "Caged Squid"
+    },
+    "caged_chicken": {
+      "texture": "cagechicken",
+      "name": "Caged Chicken"
+    },
+    "caged_creeper": {
+      "texture": "cagecreeper",
+      "name": "Caged Creeper"
+    },
+    "caged_skeleton": {
+      "texture": "cageskeleton",
+      "name": "Caged Skeleton"
+    },
+    "caged_zombie": {
+      "texture": "cagezombie",
+      "name": "Caged Zombie"
+    },
+    "caged_slime": {
+      "texture": "cageslime",
+      "name": "Caged Slime"
+    },
+    "caged_ghast": {
+      "texture": "cageghast",
+      "name": "Caged Ghast"
+    },
+    "caged_zombiepigman": {
+      "texture": "cagezombiepigman",
+      "name": "Caged ZombiePigman"
+    },
+    "caged_enderman": {
+      "texture": "cageenderman",
+      "name": "Caged Enderman"
+    },
+    "caged_cave_spider": {
+      "texture": "cagecavespider",
+      "name": "Caged Cave Spider"
+    },
+    "caged_silverfish": {
+      "texture": "cagesilverfish",
+      "name": "Caged Silverfish"
+    },
+    "caged_magma_cube": {
+      "texture": "cagemagmacube",
+      "name": "Caged Magma Cube"
+    },
+    "caged_witch": {
+      "texture": "cagewitch",
+      "name": "Caged Witch"
+    },
+    "caged_sheep": {
+      "texture": "cagesheep",
+      "name": "Caged Sheep"
+    },
+    "caged_wolf": {
+      "texture": "cagewolf",
+      "name": "Caged Wolf"
+    },
+    "caged_mooshroom": {
+      "texture": "cagemooshroom",
+      "name": "Caged Mooshroom"
+    },
+    "caged_ocelot": {
+      "texture": "cageocelot",
+      "name": "Caged Ocelot"
+    },
+    "caged_blaze": {
+      "texture": "cageblaze",
+      "name": "Caged Blaze"
+    },
+    "caged_wither_skeleton": {
+      "texture": "cagewitherskeleton",
+      "name": "Caged Wither Skeleton"
+    },
+    "caged_ender_dragon": {
+      "texture": "cageenderdragon",
+      "name": "Caged Ender Dragon"
+    },
+    "caged_snow_golem": {
+      "texture": "cagesnowgolem",
+      "name": "Caged Snow Golem"
+    },
+    "caged_iron_golem": {
+      "texture": "cageirongolem",
+      "name": "Caged Iron Golem"
+    },
+    "caged_wither_boss": {
+      "texture": "cagewitherboss",
+      "name": "Caged Wither Boss"
+    },
+    "caged_apple_cow": {
+      "texture": "cageredcow",
+      "name": "Caged Apple Cow"
+    },
+    "caged_golden_apple_cow": {
+      "texture": "cagegoldcow",
+      "name": "Caged Golden Apple Cow"
+    },
+    "caged_enchanted_golden_apple_cow": {
+      "texture": "cageenchantedcow",
+      "name": "Caged Enchanted Golden Apple Cow"
+    },
+    "caged_mothra": {
+      "texture": "cageMOTHRA",
+      "name": "Caged MOTHRA"
+    },
+    "caged_alosaurus": {
+      "texture": "cagealosaurus",
+      "name": "Caged Alosaurus"
+    },
+    "caged_cryosaurus": {
+      "texture": "cagecryolophosaurus",
+      "name": "Caged Cryosaurus"
+    },
+    "caged_camarasaurus": {
+      "texture": "cagecamarasaurus",
+      "name": "Caged Camarasaurus"
+    },
+    "caged_velocity_raptor": {
+      "texture": "cagevelocityraptor",
+      "name": "Caged Velocity Raptor"
+    },
+    "caged_hydrolisc": {
+      "texture": "cagehydrolisc",
+      "name": "Caged Hydrolisc"
+    },
+    "caged_basilisk": {
+      "texture": "cagebasilisc",
+      "name": "Caged Basilisk"
+    },
+    "caged_dragonfly": {
+      "texture": "cagedragonfly",
+      "name": "Caged Dragonfly"
+    },
+    "caged_emperor_scorpion": {
+      "texture": "cageemperorscorpion",
+      "name": "Caged Emperor Scorpion"
+    },
+    "caged_scorpion": {
+      "texture": "cagescorpion",
+      "name": "Caged Scorpion"
+    },
+    "caged_cave_fisher": {
+      "texture": "cagecavefisher",
+      "name": "Caged Cave Fisher"
+    },
+    "caged_baby_dragon": {
+      "texture": "cagespyro",
+      "name": "Caged Baby Dragon"
+    },
+    "caged_baryonyx": {
+      "texture": "cagebaryonyx",
+      "name": "Caged Baryonyx"
+    },
+    "caged_wtf": {
+      "texture": "cagegammametroid",
+      "name": "Caged WTF?"
+    },
+    "caged_bird": {
+      "texture": "cagecockateil",
+      "name": "Caged Bird"
+    },
+    "caged_kyuubi": {
+      "texture": "cagekyuubi",
+      "name": "Caged Kyuubi"
+    },
+    "caged_alien": {
+      "texture": "cagealien",
+      "name": "Caged Alien"
+    },
+    "caged_attack_squid": {
+      "texture": "cageattacksquid",
+      "name": "Caged Attack Squid"
+    },
+    "caged_water_dragon": {
+      "texture": "cagewaterdragon",
+      "name": "Caged Water Dragon"
+    },
+    "caged_cephadrome": {
+      "texture": "cagecephadrome",
+      "name": "Caged Cephadrome"
+    },
+    "caged_kraken": {
+      "texture": "cagekraken",
+      "name": "Caged Kraken"
+    },
+    "caged_lizard": {
+      "texture": "cagelizard",
+      "name": "Caged Lizard"
+    },
+    "caged_dragon": {
+      "texture": "cagedragon",
+      "name": "Caged Dragon"
+    },
+    "caged_bee": {
+      "texture": "cagebee",
+      "name": "Caged Bee"
+    },
+    "caged_horse": {
+      "texture": "cagehorse",
+      "name": "Caged Horse"
+    },
+    "caged_firefly": {
+      "texture": "cagefirefly",
+      "name": "Caged Firefly"
+    },
+    "caged_chipmunk": {
+      "texture": "cagechipmunk",
+      "name": "Caged Chipmunk"
+    },
+    "caged_gazelle": {
+      "texture": "cagegazelle",
+      "name": "Caged Gazelle"
+    },
+    "caged_ostrich": {
+      "texture": "cageostrich",
+      "name": "Caged Ostrich"
+    },
+    "caged_jumpy_bug": {
+      "texture": "cagetrooper",
+      "name": "Caged Jumpy Bug"
+    },
+    "caged_spit_bug": {
+      "texture": "cagespit",
+      "name": "Caged Spit Bug"
+    },
+    "caged_stink_bug": {
+      "texture": "cagestink",
+      "name": "Caged Stink Bug"
+    },
+    "caged_creeping_horror": {
+      "texture": "cagecreepinghorror",
+      "name": "Caged Creeping Horror"
+    },
+    "caged_terrible_terror": {
+      "texture": "cageterribleterror",
+      "name": "Caged Terrible Terror"
+    },
+    "caged_cliff_racer": {
+      "texture": "cagecliffracer",
+      "name": "Caged Cliff Racer"
+    },
+    "caged_triffid": {
+      "texture": "cagetriffid",
+      "name": "Caged Triffid"
+    },
+    "caged_nightmare": {
+      "texture": "cagenightmare",
+      "name": "Caged Nightmare"
+    },
+    "caged_lurking_terror": {
+      "texture": "cagelurkingterror",
+      "name": "Caged Lurking Terror"
+    },
+    "caged_small_worm": {
+      "texture": "cagesmallworm",
+      "name": "Caged Small Worm"
+    },
+    "caged_medium_worm": {
+      "texture": "cagemediumworm",
+      "name": "Caged Medium Worm"
+    },
+    "caged_large_worm": {
+      "texture": "cagelargeworm",
+      "name": "Caged Large Worm"
+    },
+    "caged_cassowary": {
+      "texture": "cagecassowary",
+      "name": "Caged Cassowary"
+    },
+    "caged_cloud_shark": {
+      "texture": "cagecloudshark",
+      "name": "Caged Cloud Shark"
+    },
+    "caged_gold_fish": {
+      "texture": "cagegoldfish",
+      "name": "Caged Gold Fish"
+    },
+    "caged_leaf_monster": {
+      "texture": "cageleafmonster",
+      "name": "Caged Leaf Monster"
+    },
+    "caged_ender_knight": {
+      "texture": "cageenderknight",
+      "name": "Caged Ender Knight"
+    },
+    "caged_ender_reaper": {
+      "texture": "cageenderreaper",
+      "name": "Caged Ender Reaper"
+    },
+    "caged_beaver": {
+      "texture": "cagebeaver",
+      "name": "Caged Beaver"
+    },
+    "caged_crystal_urchin": {
+      "texture": "cageurchin",
+      "name": "Caged Crystal Urchin"
+    },
+    "caged_flounder": {
+      "texture": "cageflounder",
+      "name": "Caged Flounder"
+    },
+    "caged_skate": {
+      "texture": "cageskate",
+      "name": "Caged Skate"
+    },
+    "caged_rotator": {
+      "texture": "cagerotator",
+      "name": "Caged Rotator"
+    },
+    "caged_peacock": {
+      "texture": "cagepeacock",
+      "name": "Caged Peacock"
+    },
+    "caged_fairy": {
+      "texture": "cagefairy",
+      "name": "Caged Fairy"
+    },
+    "caged_dungeon_beast": {
+      "texture": "cagedungeonbeast",
+      "name": "Caged Dungeon Beast"
+    },
+    "caged_vortex": {
+      "texture": "cagevortex",
+      "name": "Caged Vortex"
+    },
+    "caged_rat": {
+      "texture": "cagerat",
+      "name": "Caged Rat"
+    },
+    "caged_whale": {
+      "texture": "cagewhale",
+      "name": "Caged Whale"
+    },
+    "caged_irukandji": {
+      "texture": "cageirukandji",
+      "name": "Caged Irukandji"
+    },
+    "caged_t_rex": {
+      "texture": "cagetrex",
+      "name": "Caged T. Rex"
+    },
+    "caged_hercules_beetle": {
+      "texture": "cagehercules",
+      "name": "Caged Hercules Beetle"
+    },
+    "caged_mantis": {
+      "texture": "cagemantis",
+      "name": "Caged Mantis"
+    },
+    "caged_stinky": {
+      "texture": "cagestinky",
+      "name": "Caged Stinky"
+    },
+    "caged_easter_bunny": {
+      "texture": "cageeasterbunny",
+      "name": "Caged Easter Bunny"
+    },
+    "caged_caterkiller": {
+      "texture": "cagecaterkiller",
+      "name": "Caged CaterKiller"
+    },
+    "caged_molenoid": {
+      "texture": "cagemolenoid",
+      "name": "Caged Molenoid"
+    },
+    "caged_sea_monster": {
+      "texture": "cageseamonster",
+      "name": "Caged Sea Monster"
+    },
+    "caged_sea_viper": {
+      "texture": "cageseaviper",
+      "name": "Caged Sea Viper"
+    },
+    "caged_leonopteryx": {
+      "texture": "cageleon",
+      "name": "Caged Leonopteryx"
+    },
+    "caged_hammerhead": {
+      "texture": "cagehammerhead",
+      "name": "Caged Hammerhead"
+    },
+    "caged_rubber_ducky": {
+      "texture": "cagerubberducky",
+      "name": "Caged Rubber Ducky"
+    },
+    "caged_crystal_cow": {
+      "texture": "cagecrystalcow",
+      "name": "Caged Crystal Cow"
+    },
+    "caged_villager": {
+      "texture": "cagevillager",
+      "name": "Caged Villager"
+    },
+    "caged_criminal": {
+      "texture": "cagecriminal",
+      "name": "Caged Criminal"
+    },
+    "caged_brutalfly": {
+      "texture": "cagebrutalfly",
+      "name": "Caged Brutalfly"
+    },
+    "caged_nastysaurus": {
+      "texture": "cagenastysaurus",
+      "name": "Caged Nastysaurus"
+    },
+    "caged_pointysaurus": {
+      "texture": "cagepointysaurus",
+      "name": "Caged Pointysaurus"
+    },
+    "caged_cricket": {
+      "texture": "cagecricket",
+      "name": "Caged Cricket"
+    },
+    "caged_frog": {
+      "texture": "cagefrog",
+      "name": "Caged Frog"
+    },
+    "caged_spider_driver": {
+      "texture": "cagespiderdriver",
+      "name": "Caged Spider Driver"
+    },
+    "caged_crab": {
+      "texture": "cagecrab",
+      "name": "Caged Crab"
+    },
+    "zookeeper_shard": {
+      "texture": "zookeeper",
+      "name": "ZooKeeper Shard"
+    },
+    "extra_small_zoo_cage": {
+      "texture": "zoo2",
+      "name": "Extra Small Zoo Cage"
+    },
+    "small_zoo_cage": {
+      "texture": "zoo4",
+      "name": "Small Zoo Cage"
+    },
+    "medium_zoo_cage": {
+      "texture": "zoo6",
+      "name": "Medium Zoo Cage"
+    },
+    "large_zoo_cage": {
+      "texture": "zoo8",
+      "name": "Large Zoo Cage"
+    },
+    "extra_large_zoo_cage": {
+      "texture": "zoo10",
+      "name": "Extra Large Zoo Cage"
+    },
+    "instant_survival_shelter": {
+      "texture": "instantshelter",
+      "name": "Instant Survival Shelter"
+    },
+    "instant_survival_garden": {
+      "texture": "instantgarden",
+      "name": "Instant Survival Garden"
+    },
+    "miners_dream": {
+      "texture": "minersdream",
+      "name": "Miner's Dream"
+    },
+    "experience_orb_catcher": {
+      "texture": "experiencecatcher",
+      "name": "Experience Orb Catcher"
+    },
+    "wrench": {
+      "texture": "wrench",
+      "name": "Wrench"
+    },
+    "sifter": {
+      "texture": "sifter",
+      "name": "Sifter"
+    },
+    "hoverboard": {
+      "texture": "elevator",
+      "name": "Hoverboard"
+    },
+    "red_heels": {
+      "texture": "redheels",
+      "name": "Red Heels"
+    },
+    "black_heels": {
+      "texture": "blackheels",
+      "name": "Black Heels"
+    },
+    "slippers": {
+      "texture": "slippers",
+      "name": "Slippers"
+    },
+    "boots": {
+      "texture": "boots",
+      "name": "Boots"
+    },
+    "game_controller": {
+      "texture": "gamecontroller",
+      "name": "Game Controller"
+    },
+    "small_rock": {
+      "texture": "rocksmall",
+      "name": "Small Rock"
+    },
+    "big_rock": {
+      "texture": "rock",
+      "name": "Big Rock"
+    },
+    "flame_rock": {
+      "texture": "rockred",
+      "name": "Flame Rock"
+    },
+    "poison_rock": {
+      "texture": "rockgreen",
+      "name": "Poison Rock"
+    },
+    "slowness_rock": {
+      "texture": "rockblue",
+      "name": "Slowness Rock"
+    },
+    "weakness_rock": {
+      "texture": "rockpurple",
+      "name": "Weakness Rock"
+    },
+    "painful_rock": {
+      "texture": "rockspikey",
+      "name": "Painful Rock"
+    },
+    "explosive_rock": {
+      "texture": "rocktnt",
+      "name": "Explosive Rock"
+    },
+    "flame_crystal": {
+      "texture": "rockcrystalred",
+      "name": "Flame Crystal"
+    },
+    "poison_crystal": {
+      "texture": "rockcrystalgreen",
+      "name": "Poison Crystal"
+    },
+    "slowness_crystal": {
+      "texture": "rockcrystalblue",
+      "name": "Slowness Crystal"
+    },
+    "explosive_crystal": {
+      "texture": "rockcrystaltnt",
+      "name": "Explosive Crystal"
+    }
+  },
+  "sounds": [
+    "hover",
+    "glassdead"
+  ],
+  "entity_textures": {
+    "Rocktexture.png": "rock.png",
+    "RockRedtexture.png": "rock_red.png",
+    "RockGreentexture.png": "rock_green.png",
+    "RockBluetexture.png": "rock_blue.png",
+    "RockPurpletexture.png": "rock_purple.png",
+    "RockTNTtexture.png": "rock_tnt.png",
+    "rockcrystaltexture.png": "rock_crystal.png",
+    "rockcrystalgreentexture.png": "rock_crystal_green.png",
+    "rockcrystalbluetexture.png": "rock_crystal_blue.png",
+    "rockcrystaltnttexture.png": "rock_crystal_tnt.png",
+    "Elevator1.png": "hoverboard1.png",
+    "Elevator2.png": "hoverboard2.png",
+    "Elevator3.png": "hoverboard3.png",
+    "Elevator4.png": "hoverboard4.png",
+    "Elevator5.png": "hoverboard5.png",
+    "Elevator6.png": "hoverboard6.png",
+    "Elevator7.png": "hoverboard7.png",
+    "Elevator8.png": "hoverboard8.png",
+    "Elevator9.png": "hoverboard9.png",
+    "Elevator10.png": "hoverboard10.png"
+  },
+  "recipes": {
+    "empty_critter_cage": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "W": "minecraft:stick",
+        "I": "minecraft:iron_ingot"
+      },
+      "pattern": [
+        "IWI",
+        "W W",
+        "IWI"
+      ],
+      "result": {
+        "id": "orespawn:empty_critter_cage",
+        "count": 2
+      }
+    },
+    "extra_small_zoo_cage": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:iron_block",
+        "minecraft:glass",
+        "minecraft:quartz_block"
+      ],
+      "result": {
+        "id": "orespawn:extra_small_zoo_cage"
+      }
+    },
+    "small_zoo_cage": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:extra_small_zoo_cage",
+        "minecraft:iron_block",
+        "minecraft:glass",
+        "minecraft:quartz_block"
+      ],
+      "result": {
+        "id": "orespawn:small_zoo_cage"
+      }
+    },
+    "medium_zoo_cage": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:small_zoo_cage",
+        "minecraft:iron_block",
+        "minecraft:glass",
+        "minecraft:quartz_block"
+      ],
+      "result": {
+        "id": "orespawn:medium_zoo_cage"
+      }
+    },
+    "large_zoo_cage": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:medium_zoo_cage",
+        "minecraft:iron_block",
+        "minecraft:glass",
+        "minecraft:quartz_block"
+      ],
+      "result": {
+        "id": "orespawn:large_zoo_cage"
+      }
+    },
+    "extra_large_zoo_cage": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:large_zoo_cage",
+        "minecraft:iron_block",
+        "minecraft:glass",
+        "minecraft:quartz_block"
+      ],
+      "result": {
+        "id": "orespawn:extra_large_zoo_cage"
+      }
+    },
+    "instant_survival_shelter": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:redstone_block",
+        "minecraft:stick",
+        "minecraft:cobblestone"
+      ],
+      "result": {
+        "id": "orespawn:instant_survival_shelter"
+      }
+    },
+    "instant_survival_garden": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:redstone_block",
+        "minecraft:wheat",
+        "minecraft:gunpowder"
+      ],
+      "result": {
+        "id": "orespawn:instant_survival_garden"
+      }
+    },
+    "miners_dream": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": "minecraft:cactus",
+        "R": "minecraft:redstone_block",
+        "G": "minecraft:gunpowder"
+      },
+      "pattern": [
+        "CCC",
+        "RRR",
+        "GGG"
+      ],
+      "result": {
+        "id": "orespawn:miners_dream"
+      }
+    },
+    "experience_orb_catcher": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:glass_bottle",
+        "minecraft:stick",
+        "minecraft:string"
+      ],
+      "result": {
+        "id": "orespawn:experience_orb_catcher"
+      }
+    },
+    "wrench": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "D": "minecraft:iron_ingot"
+      },
+      "pattern": [
+        "D D",
+        " D ",
+        " D "
+      ],
+      "result": {
+        "id": "orespawn:wrench"
+      }
+    },
+    "sifter": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "R": "minecraft:stick",
+        "A": "minecraft:string"
+      },
+      "pattern": [
+        "RRR",
+        "RAR",
+        "RRR"
+      ],
+      "result": {
+        "id": "orespawn:sifter"
+      }
+    },
+    "hoverboard": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "W": "minecraft:oak_planks",
+        "R": "minecraft:redstone",
+        "D": "minecraft:diamond"
+      },
+      "pattern": [
+        "WWW",
+        "DRD"
+      ],
+      "result": {
+        "id": "orespawn:hoverboard"
+      }
+    }
+  },
+  "lang": {
+    "entity.orespawn.entity_cage": "Critter Cage",
+    "entity.orespawn.shoes": "Shoes",
+    "entity.orespawn.entity_thrown_rock": "Rock",
+    "entity.orespawn.rock": "Rock",
+    "entity.orespawn.hoverboard": "Hoverboard"
+  },
+  "worldgen": {
+    "feature/rocks": {
+      "type": "orespawn:rocks"
+    },
+    "placed_feature/rocks": {
+      "feature": "orespawn:rocks",
+      "placement": [
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    }
+  }
+}

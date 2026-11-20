@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "orespawn:crystal_planks",
+    "I": "orespawn:crystal_shards"
+  },
+  "pattern": [
+    "E",
+    "I",
+    "I"
+  ],
+  "result": {
+    "id": "orespawn:crystal_wood_shovel"
+  }
+}

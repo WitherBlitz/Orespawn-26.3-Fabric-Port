@@ -1,0 +1,275 @@
+{
+  "worldgen": {
+    "biome/villages": {
+      "attributes": {
+        "minecraft:gameplay/natural_mob_spawns": {
+          "argument": {
+            "spawn_costs": {},
+            "spawns_by_category": {
+              "ambient": [
+                {
+                  "type": "minecraft:bat",
+                  "count": 8,
+                  "weight": 10
+                }
+              ],
+              "creature": [
+                {
+                  "type": "minecraft:sheep",
+                  "count": 4,
+                  "weight": 12
+                },
+                {
+                  "type": "minecraft:pig",
+                  "count": 4,
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:chicken",
+                  "count": 4,
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:cow",
+                  "count": 4,
+                  "weight": 8
+                }
+              ],
+              "monster": [
+                {
+                  "type": "minecraft:spider",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:zombie",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:skeleton",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:creeper",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:slime",
+                  "count": 4,
+                  "weight": 100
+                },
+                {
+                  "type": "minecraft:enderman",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 1,
+                    "max_inclusive": 4
+                  },
+                  "weight": 10
+                },
+                {
+                  "type": "minecraft:witch",
+                  "count": 1,
+                  "weight": 5
+                }
+              ],
+              "water_creature": [
+                {
+                  "type": "minecraft:squid",
+                  "count": 4,
+                  "weight": 10
+                }
+              ]
+            }
+          },
+          "modifier": "overlay"
+        },
+        "minecraft:visual/sky_color": "#7aa6ff"
+      },
+      "carvers": [],
+      "downfall": 0.5,
+      "effects": {
+        "water_color": "#3f76e4"
+      },
+      "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          {
+            "feature": {
+              "type": "orespawn:ant_nests",
+              "red_freq": 4
+            },
+            "placement": [
+              {
+                "type": "minecraft:rarity_filter",
+                "chance": 30
+              },
+              {
+                "type": "minecraft:count",
+                "count": 4
+              },
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "type": "minecraft:heightmap",
+                "heightmap": "WORLD_SURFACE_WG"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        ]
+      ],
+      "has_precipitation": true,
+      "temperature": 0.7
+    },
+    "structure/village_mania_plains": {
+      "type": "minecraft:jigsaw",
+      "biomes": [
+        "orespawn:villages"
+      ],
+      "max_distance_from_center": 80,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 6,
+      "spawn_overrides": {},
+      "start_height": {
+        "absolute": 0
+      },
+      "start_pool": "minecraft:village/plains/town_centers",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    },
+    "structure/village_mania_mineshaft": {
+      "type": "minecraft:mineshaft",
+      "biomes": [
+        "orespawn:villages"
+      ],
+      "mineshaft_type": "normal",
+      "spawn_overrides": {},
+      "step": "underground_structures"
+    },
+    "structure_set/village_mania_villages": {
+      "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 10387312,
+        "separation": 7,
+        "spacing": 9
+      },
+      "structures": [
+        {
+          "structure": "orespawn:village_mania_plains",
+          "weight": 1
+        }
+      ]
+    },
+    "structure_set/village_mania_mineshafts": {
+      "placement": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.004,
+        "frequency_reduction_method": "legacy_type_3",
+        "salt": 0,
+        "separation": 0,
+        "spacing": 1
+      },
+      "structures": [
+        {
+          "structure": "orespawn:village_mania_mineshaft",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "data": {
+    "dimension/village_mania.json": {
+      "type": "orespawn:village_mania",
+      "generator": {
+        "type": "orespawn:village_mania",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "orespawn:villages"
+        }
+      }
+    },
+    "dimension_type/village_mania.json": {
+      "ambient_light": 0.0,
+      "attributes": {
+        "minecraft:audio/ambient_sounds": {
+          "mood": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+          }
+        },
+        "minecraft:audio/background_music": {
+          "creative": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.creative"
+          },
+          "default": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.game"
+          }
+        },
+        "minecraft:gameplay/bed_rule": {
+          "can_set_spawn": "always",
+          "can_sleep": "when_dark",
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:gameplay/nether_portal_spawns_piglin": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:gameplay/straw_bed_rule": {
+          "can_set_spawn": "never",
+          "can_sleep": "when_dark",
+          "destroy_on_leave": true,
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:visual/ambient_light_color": "#0a0a0a",
+        "minecraft:visual/cloud_color": "#ccffffff",
+        "minecraft:visual/cloud_height": 128.33,
+        "minecraft:visual/fog_color": "#c0d8ff",
+        "minecraft:visual/sky_color": "#7aa6ff"
+      },
+      "coordinate_scale": 1.0,
+      "default_clock": "minecraft:overworld",
+      "has_ceiling": false,
+      "has_ender_dragon_fight": false,
+      "has_skylight": true,
+      "height": 256,
+      "infiniburn": "#minecraft:infiniburn_overworld",
+      "logical_height": 256,
+      "min_y": 0,
+      "monster_spawn_block_light_limit": 0,
+      "monster_spawn_light_level": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 7,
+        "min_inclusive": 0
+      },
+      "timelines": "#minecraft:in_overworld"
+    }
+  },
+  "lang": {
+    "biome.orespawn.villages": "Villages"
+  }
+}

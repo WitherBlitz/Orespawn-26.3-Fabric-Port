@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "orespawn:crystal_tree_wood"
+  ],
+  "result": {
+    "id": "orespawn:crystal_planks",
+    "count": 4
+  }
+}

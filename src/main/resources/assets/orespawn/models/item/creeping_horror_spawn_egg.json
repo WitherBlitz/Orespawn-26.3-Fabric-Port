@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "orespawn:item/creeping_horror_spawn_egg"
+  }
+}

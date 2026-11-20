@@ -1,0 +1,573 @@
+{
+  "creatures": {
+    "ant": {
+      "name": "Ant",
+      "egg": "eggbrownant",
+      "textures": {
+        "ant.png": "ant.png"
+      },
+      "ragdoll": null
+    },
+    "red_ant": {
+      "name": "Red Ant",
+      "egg": "eggredant",
+      "textures": {
+        "red_ant.png": "red_ant.png"
+      },
+      "ragdoll": null
+    },
+    "rainbow_ant": {
+      "name": "Rainbow Ant",
+      "egg": "eggrainbowant",
+      "textures": {
+        "rainbow_ant.png": "rainbow_ant.png"
+      },
+      "ragdoll": null
+    },
+    "unstable_ant": {
+      "name": "Unstable Ant",
+      "egg": "eggunstableant",
+      "textures": {
+        "unstableant.png": "unstable_ant.png"
+      },
+      "ragdoll": null
+    },
+    "termite": {
+      "name": "Termite",
+      "egg": "eggtermite",
+      "textures": {
+        "termite.png": "termite.png"
+      },
+      "ragdoll": null
+    }
+  },
+  "sounds": [],
+  "tags": {
+    "block/minecraft/mineable/pickaxe": [
+      "orespawn:red_ant_troll_block",
+      "orespawn:termite_troll_block",
+      "orespawn:random_teleport_block"
+    ]
+  },
+  "lang": {
+    "block.orespawn.ant_nest": "Ant Nest",
+    "block.orespawn.red_ant_nest": "Red Ant Nest",
+    "block.orespawn.rainbow_ant_nest": "Rainbow Ant Nest",
+    "block.orespawn.unstable_ant_nest": "Unstable Ant Nest",
+    "block.orespawn.termite_nest": "Termite Nest",
+    "block.orespawn.red_ant_troll_block": "Red Ant Troll Block",
+    "block.orespawn.termite_troll_block": "Termite Troll Block",
+    "block.orespawn.random_teleport_block": "Random Teleport Block",
+    "item.orespawn.ant_spawn_egg": "Spawn Brown Ant",
+    "message.orespawn.dimension_missing": "That dimension isn't in the game yet."
+  },
+  "block_textures": {
+    "antnest_top": "ant_nest_top",
+    "antnest_bottom": "ant_nest_bottom",
+    "antnest_side": "ant_nest_side",
+    "redanttroll": "red_ant_troll_block",
+    "termitetroll": "termite_troll_block",
+    "blockteleport": "random_teleport_block"
+  },
+  "assets": {
+    "models/block/ant_nest.json": {
+      "parent": "minecraft:block/block",
+      "textures": {
+        "particle": "orespawn:block/ant_nest_side",
+        "top": "orespawn:block/ant_nest_top",
+        "bottom": "orespawn:block/ant_nest_bottom",
+        "side": "orespawn:block/ant_nest_side"
+      },
+      "elements": [
+        {
+          "from": [
+            0,
+            0,
+            0
+          ],
+          "to": [
+            16,
+            16,
+            16
+          ],
+          "faces": {
+            "down": {
+              "texture": "#bottom",
+              "cullface": "down",
+              "tintindex": 0
+            },
+            "up": {
+              "texture": "#top",
+              "cullface": "up",
+              "tintindex": 0
+            },
+            "north": {
+              "texture": "#side",
+              "cullface": "north",
+              "tintindex": 0
+            },
+            "south": {
+              "texture": "#side",
+              "cullface": "south",
+              "tintindex": 0
+            },
+            "west": {
+              "texture": "#side",
+              "cullface": "west",
+              "tintindex": 0
+            },
+            "east": {
+              "texture": "#side",
+              "cullface": "east",
+              "tintindex": 0
+            }
+          }
+        }
+      ]
+    },
+    "blockstates/ant_nest.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/ant_nest"
+        }
+      }
+    },
+    "items/ant_nest.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/ant_nest",
+        "tints": [
+          {
+            "type": "minecraft:grass",
+            "temperature": 0.5,
+            "downfall": 1.0
+          }
+        ]
+      }
+    },
+    "blockstates/red_ant_nest.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/ant_nest"
+        }
+      }
+    },
+    "items/red_ant_nest.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/ant_nest",
+        "tints": [
+          {
+            "type": "minecraft:grass",
+            "temperature": 0.5,
+            "downfall": 1.0
+          }
+        ]
+      }
+    },
+    "blockstates/rainbow_ant_nest.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/ant_nest"
+        }
+      }
+    },
+    "items/rainbow_ant_nest.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/ant_nest",
+        "tints": [
+          {
+            "type": "minecraft:grass",
+            "temperature": 0.5,
+            "downfall": 1.0
+          }
+        ]
+      }
+    },
+    "blockstates/unstable_ant_nest.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/ant_nest"
+        }
+      }
+    },
+    "items/unstable_ant_nest.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/ant_nest",
+        "tints": [
+          {
+            "type": "minecraft:grass",
+            "temperature": 0.5,
+            "downfall": 1.0
+          }
+        ]
+      }
+    },
+    "blockstates/termite_nest.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/ant_nest"
+        }
+      }
+    },
+    "items/termite_nest.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/ant_nest",
+        "tints": [
+          {
+            "type": "minecraft:grass",
+            "temperature": 0.5,
+            "downfall": 1.0
+          }
+        ]
+      }
+    },
+    "blockstates/red_ant_troll_block.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/red_ant_troll_block"
+        }
+      }
+    },
+    "models/block/red_ant_troll_block.json": {
+      "parent": "minecraft:block/cube_all",
+      "textures": {
+        "all": "orespawn:block/red_ant_troll_block"
+      }
+    },
+    "items/red_ant_troll_block.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/red_ant_troll_block"
+      }
+    },
+    "blockstates/termite_troll_block.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/termite_troll_block"
+        }
+      }
+    },
+    "models/block/termite_troll_block.json": {
+      "parent": "minecraft:block/cube_all",
+      "textures": {
+        "all": "orespawn:block/termite_troll_block"
+      }
+    },
+    "items/termite_troll_block.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/termite_troll_block"
+      }
+    },
+    "blockstates/random_teleport_block.json": {
+      "variants": {
+        "": {
+          "model": "orespawn:block/random_teleport_block"
+        }
+      }
+    },
+    "models/block/random_teleport_block.json": {
+      "parent": "minecraft:block/cube_all",
+      "textures": {
+        "all": "orespawn:block/random_teleport_block"
+      }
+    },
+    "items/random_teleport_block.json": {
+      "model": {
+        "type": "minecraft:model",
+        "model": "orespawn:block/random_teleport_block"
+      }
+    }
+  },
+  "data": {
+    "loot_table/blocks/ant_nest.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:ant_nest"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/ant_nest"
+    },
+    "loot_table/blocks/red_ant_nest.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:red_ant_nest"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/red_ant_nest"
+    },
+    "loot_table/blocks/rainbow_ant_nest.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:rainbow_ant_nest"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/rainbow_ant_nest"
+    },
+    "loot_table/blocks/unstable_ant_nest.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:unstable_ant_nest"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/unstable_ant_nest"
+    },
+    "loot_table/blocks/termite_nest.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:termite_nest"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/termite_nest"
+    },
+    "loot_table/blocks/red_ant_troll_block.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:red_ant_troll_block"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/red_ant_troll_block"
+    },
+    "loot_table/blocks/termite_troll_block.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:termite_troll_block"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/termite_troll_block"
+    },
+    "loot_table/blocks/random_teleport_block.json": {
+      "type": "minecraft:block",
+      "pools": [
+        {
+          "rolls": 1,
+          "condition": {
+            "type": "minecraft:survives_explosion"
+          },
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:random_teleport_block"
+            }
+          ]
+        }
+      ],
+      "random_sequence": "orespawn:blocks/random_teleport_block"
+    }
+  },
+  "worldgen": {
+    "feature/ant_nests": {
+      "type": "orespawn:ant_nests",
+      "red_freq": 4
+    },
+    "placed_feature/ant_nests": {
+      "feature": "orespawn:ant_nests",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 30
+        },
+        {
+          "type": "minecraft:count",
+          "count": 4
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/nether_ant_nests": {
+      "type": "orespawn:nether_ant_nests"
+    },
+    "placed_feature/nether_ant_nests": {
+      "feature": "orespawn:nether_ant_nests",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 25
+        },
+        {
+          "type": "minecraft:count",
+          "count": 3
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/red_ant_troll_block": {
+      "type": "minecraft:ore",
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 4,
+      "targets": [
+        {
+          "state": "orespawn:red_ant_troll_block",
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:stone"
+          }
+        }
+      ]
+    },
+    "placed_feature/red_ant_troll_block": {
+      "feature": "orespawn:red_ant_troll_block",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 5
+            },
+            "max_inclusive": {
+              "absolute": 50
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/termite_troll_block": {
+      "type": "minecraft:ore",
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 4,
+      "targets": [
+        {
+          "state": "orespawn:termite_troll_block",
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:stone"
+          }
+        }
+      ]
+    },
+    "placed_feature/termite_troll_block": {
+      "feature": "orespawn:termite_troll_block",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 5
+            },
+            "max_inclusive": {
+              "absolute": 50
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    }
+  }
+}

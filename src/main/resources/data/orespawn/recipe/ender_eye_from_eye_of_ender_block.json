@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:eye_of_ender_block"
+  ],
+  "result": {
+    "id": "minecraft:ender_eye",
+    "count": 9
+  }
+}

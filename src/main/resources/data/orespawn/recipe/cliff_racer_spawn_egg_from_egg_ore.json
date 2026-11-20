@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:cliff_racer_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:cliff_racer_spawn_egg"
+  }
+}

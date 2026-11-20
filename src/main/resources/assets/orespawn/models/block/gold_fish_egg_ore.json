@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "orespawn:block/gold_fish_egg_ore"
+  }
+}

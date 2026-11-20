@@ -1,0 +1,1290 @@
+{
+  "_comment": [
+    "Weapons group (orespawn.content.Weapons). Two keys gen_assets.py doesn't read yet:",
+    "entity_textures: OreSpawn file under assets/orespawn/ -> textures/entity/<our file> (the held 3D weapons' textures);",
+    "armor_sets: equipment asset -> OreSpawn's worn layers, for equipment/<asset>.json and the humanoid, humanoid_leggings and humanoid_baby textures, made as ARMOR_SETS makes them."
+  ],
+  "items": {
+    "big_bertha": {
+      "texture": "berthasmall",
+      "name": "Big Bertha",
+      "handheld": true
+    },
+    "slice": {
+      "texture": "slicesmall",
+      "name": "Slice",
+      "handheld": true
+    },
+    "royal_guardian_sword": {
+      "texture": "royalsmall",
+      "name": "Royal Guardian Sword",
+      "handheld": true
+    },
+    "attitude_adjuster": {
+      "texture": "hammysmall",
+      "name": "Attitude Adjuster",
+      "handheld": true
+    },
+    "battle_axe": {
+      "texture": "battleaxesmall",
+      "name": "Battle Axe",
+      "handheld": true
+    },
+    "chainsaw": {
+      "texture": "chainsawsmall",
+      "name": "Chainsaw",
+      "handheld": true
+    },
+    "queen_scale_battle_axe": {
+      "texture": "queenbattleaxesmall",
+      "name": "Queen Scale Battle Axe",
+      "handheld": true
+    },
+    "nightmare_sword": {
+      "texture": "nightmaresword",
+      "name": "Nightmare Sword",
+      "handheld": true
+    },
+    "experience_sword": {
+      "texture": "experiencesword",
+      "name": "Experience Sword",
+      "handheld": true
+    },
+    "poison_sword": {
+      "texture": "poisonsword",
+      "name": "Poison Sword",
+      "handheld": true
+    },
+    "rat_sword": {
+      "texture": "ratsword",
+      "name": "Rat Sword",
+      "handheld": true
+    },
+    "fairy_sword": {
+      "texture": "fairysword",
+      "name": "Fairy Sword",
+      "handheld": true
+    },
+    "mantis_claw": {
+      "texture": "mantisclaw",
+      "name": "Mantis Claw",
+      "handheld": true
+    },
+    "big_hammer": {
+      "texture": "bighammer",
+      "name": "Big Hammer",
+      "handheld": true
+    },
+    "big_bertha_handle": {
+      "texture": "bbhandle",
+      "name": "Big Bertha Handle",
+      "handheld": false
+    },
+    "big_bertha_guard": {
+      "texture": "bbguard",
+      "name": "Big Bertha Guard",
+      "handheld": false
+    },
+    "big_bertha_blade": {
+      "texture": "bbblade",
+      "name": "Big Bertha Blade",
+      "handheld": false
+    },
+    "a_freakin_ray_gun": {
+      "texture": "RayGun",
+      "name": "A Freakin' Ray Gun!",
+      "handheld": false
+    },
+    "squidzooka": {
+      "texture": "squidzookasmall",
+      "name": "SquidZooka!",
+      "handheld": false
+    },
+    "thunder_staff": {
+      "texture": "thunderstaff",
+      "name": "Thunder Staff",
+      "handheld": false
+    },
+    "creeper_launcher": {
+      "texture": "creeperlauncher",
+      "name": "Creeper Launcher",
+      "handheld": false
+    },
+    "robot_laser_charge": {
+      "texture": "laserball",
+      "name": "Robot Laser Charge",
+      "handheld": false
+    },
+    "ice_ball": {
+      "texture": "iceball",
+      "name": "Ice Ball",
+      "handheld": false
+    },
+    "acid": {
+      "texture": "acid",
+      "name": "Acid",
+      "handheld": false
+    },
+    "irukandji_arrow": {
+      "texture": "irukandjiarrow",
+      "name": "Irukandji Arrow",
+      "handheld": false
+    },
+    "skate_string_bow": {
+      "texture": "skatebow",
+      "name": "Skate String Bow",
+      "handheld": false
+    },
+    "the_ultimate_bow": {
+      "texture": "ultimatebow",
+      "name": "The Ultimate Bow",
+      "handheld": false
+    },
+    "the_ultimate_fishing_rod": {
+      "texture": "ultimatefishingrod",
+      "name": "The Ultimate Fishing Rod",
+      "handheld": true
+    },
+    "experience_helmet": {
+      "texture": "experience_helmet",
+      "name": "Experience Helmet",
+      "handheld": false
+    },
+    "experience_chestplate": {
+      "texture": "experience_chest",
+      "name": "Experience Chestplate",
+      "handheld": false
+    },
+    "experience_leggings": {
+      "texture": "experience_leggings",
+      "name": "Experience Leggings",
+      "handheld": false
+    },
+    "experience_boots": {
+      "texture": "experience_boots",
+      "name": "Experience Boots",
+      "handheld": false
+    },
+    "lava_eel_helmet": {
+      "texture": "lavaeel_helmet",
+      "name": "Lava Eel Helmet",
+      "handheld": false
+    },
+    "lava_eel_chestplate": {
+      "texture": "lavaeel_chest",
+      "name": "Lava Eel Chestplate",
+      "handheld": false
+    },
+    "lava_eel_leggings": {
+      "texture": "lavaeel_leggings",
+      "name": "Lava Eel Leggings",
+      "handheld": false
+    },
+    "lava_eel_boots": {
+      "texture": "lavaeel_boots",
+      "name": "Lava Eel Boots",
+      "handheld": false
+    },
+    "moth_scale_helmet": {
+      "texture": "mothscale_helmet",
+      "name": "Moth Scale Helmet",
+      "handheld": false
+    },
+    "moth_scale_chestplate": {
+      "texture": "mothscale_chest",
+      "name": "Moth Scale Chestplate",
+      "handheld": false
+    },
+    "moth_scale_leggings": {
+      "texture": "mothscale_leggings",
+      "name": "Moth Scale Leggings",
+      "handheld": false
+    },
+    "moth_scale_boots": {
+      "texture": "mothscale_boots",
+      "name": "Moth Scale Boots",
+      "handheld": false
+    },
+    "peacock_feather_helmet": {
+      "texture": "peacock_helmet",
+      "name": "Peacock Feather Helmet",
+      "handheld": false
+    },
+    "peacock_feather_chestplate": {
+      "texture": "peacock_chest",
+      "name": "Peacock Feather Chestplate",
+      "handheld": false
+    },
+    "peacock_feather_leggings": {
+      "texture": "peacock_leggings",
+      "name": "Peacock Feather Leggings",
+      "handheld": false
+    },
+    "peacock_feather_boots": {
+      "texture": "peacock_boots",
+      "name": "Peacock Feather Boots",
+      "handheld": false
+    },
+    "mobzilla_scale_helmet": {
+      "texture": "mobzilla_helmet",
+      "name": "Mobzilla Scale Helmet",
+      "handheld": false
+    },
+    "mobzilla_scale_chestplate": {
+      "texture": "mobzilla_chest",
+      "name": "Mobzilla Scale Chestplate",
+      "handheld": false
+    },
+    "mobzilla_scale_leggings": {
+      "texture": "mobzilla_leggings",
+      "name": "Mobzilla Scale Leggings",
+      "handheld": false
+    },
+    "mobzilla_scale_boots": {
+      "texture": "mobzilla_boots",
+      "name": "Mobzilla Scale Boots",
+      "handheld": false
+    },
+    "royal_guardian_helmet": {
+      "texture": "royal_helmet",
+      "name": "Royal Guardian Helmet",
+      "handheld": false
+    },
+    "royal_guardian_chestplate": {
+      "texture": "royal_chest",
+      "name": "Royal Guardian Chestplate",
+      "handheld": false
+    },
+    "royal_guardian_leggings": {
+      "texture": "royal_leggings",
+      "name": "Royal Guardian Leggings",
+      "handheld": false
+    },
+    "royal_guardian_boots": {
+      "texture": "royal_boots",
+      "name": "Royal Guardian Boots",
+      "handheld": false
+    },
+    "queen_scale_helmet": {
+      "texture": "queen_helmet",
+      "name": "Queen Scale Helmet",
+      "handheld": false
+    },
+    "queen_scale_chestplate": {
+      "texture": "queen_chest",
+      "name": "Queen Scale Chestplate",
+      "handheld": false
+    },
+    "queen_scale_leggings": {
+      "texture": "queen_leggings",
+      "name": "Queen Scale Leggings",
+      "handheld": false
+    },
+    "queen_scale_boots": {
+      "texture": "queen_boots",
+      "name": "Queen Scale Boots",
+      "handheld": false
+    },
+    "pink_tourmailine_helmet": {
+      "texture": "pink_helmet",
+      "name": "Pink Tourmailine Helmet",
+      "handheld": false
+    },
+    "pink_tourmailine_chestplate": {
+      "texture": "pink_chest",
+      "name": "Pink Tourmailine Chestplate",
+      "handheld": false
+    },
+    "pink_tourmailine_leggings": {
+      "texture": "pink_leggings",
+      "name": "Pink Tourmailine Leggings",
+      "handheld": false
+    },
+    "pink_tourmailine_boots": {
+      "texture": "pink_boots",
+      "name": "Pink Tourmailine Boots",
+      "handheld": false
+    },
+    "tigers_eye_helmet": {
+      "texture": "tigerseye_helmet",
+      "name": "Tiger's Eye Helmet",
+      "handheld": false
+    },
+    "tigers_eye_chestplate": {
+      "texture": "tigerseye_chest",
+      "name": "Tiger's Eye Chestplate",
+      "handheld": false
+    },
+    "tigers_eye_leggings": {
+      "texture": "tigerseye_leggings",
+      "name": "Tiger's Eye Leggings",
+      "handheld": false
+    },
+    "tigers_eye_boots": {
+      "texture": "tigerseye_boots",
+      "name": "Tiger's Eye Boots",
+      "handheld": false
+    }
+  },
+  "sounds": [
+    "chainsawshort"
+  ],
+  "recipes": {
+    "lava_eel_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:lava_eel"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:lava_eel_helmet"
+      }
+    },
+    "lava_eel_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:lava_eel"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:lava_eel_chestplate"
+      }
+    },
+    "lava_eel_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:lava_eel"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:lava_eel_leggings"
+      }
+    },
+    "lava_eel_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:lava_eel"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:lava_eel_boots"
+      }
+    },
+    "moth_scale_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:moth_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:moth_scale_helmet"
+      }
+    },
+    "moth_scale_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:moth_scale"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:moth_scale_chestplate"
+      }
+    },
+    "moth_scale_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:moth_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:moth_scale_leggings"
+      }
+    },
+    "moth_scale_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:moth_scale"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:moth_scale_boots"
+      }
+    },
+    "peacock_feather_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:peacock_feather"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:peacock_feather_helmet"
+      }
+    },
+    "peacock_feather_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:peacock_feather"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:peacock_feather_chestplate"
+      }
+    },
+    "peacock_feather_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:peacock_feather"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:peacock_feather_leggings"
+      }
+    },
+    "peacock_feather_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:peacock_feather"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:peacock_feather_boots"
+      }
+    },
+    "mobzilla_scale_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:mobzilla_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_scale_helmet"
+      }
+    },
+    "mobzilla_scale_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:mobzilla_scale"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_scale_chestplate"
+      }
+    },
+    "mobzilla_scale_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:mobzilla_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_scale_leggings"
+      }
+    },
+    "mobzilla_scale_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:mobzilla_scale"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:mobzilla_scale_boots"
+      }
+    },
+    "queen_scale_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:the_queen_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:queen_scale_helmet"
+      }
+    },
+    "queen_scale_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:the_queen_scale"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:queen_scale_chestplate"
+      }
+    },
+    "queen_scale_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:the_queen_scale"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:queen_scale_leggings"
+      }
+    },
+    "queen_scale_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:the_queen_scale"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:queen_scale_boots"
+      }
+    },
+    "pink_tourmailine_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmailine_helmet"
+      }
+    },
+    "pink_tourmailine_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmailine_chestplate"
+      }
+    },
+    "pink_tourmailine_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmailine_leggings"
+      }
+    },
+    "pink_tourmailine_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmailine_boots"
+      }
+    },
+    "tigers_eye_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:tigers_eye_ingot"
+      },
+      "pattern": [
+        "XXX",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_helmet"
+      }
+    },
+    "tigers_eye_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:tigers_eye_ingot"
+      },
+      "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_chestplate"
+      }
+    },
+    "tigers_eye_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:tigers_eye_ingot"
+      },
+      "pattern": [
+        "XXX",
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_leggings"
+      }
+    },
+    "tigers_eye_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "X": "orespawn:tigers_eye_ingot"
+      },
+      "pattern": [
+        "X X",
+        "X X"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_boots"
+      }
+    },
+    "experience_helmet": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "A": "orespawn:emerald_helmet"
+      },
+      "pattern": [
+        "EEE",
+        "EAE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_helmet"
+      }
+    },
+    "experience_chestplate": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "A": "orespawn:emerald_chestplate"
+      },
+      "pattern": [
+        "EEE",
+        "EAE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_chestplate"
+      }
+    },
+    "experience_leggings": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "A": "orespawn:emerald_leggings"
+      },
+      "pattern": [
+        "EEE",
+        "EAE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_leggings"
+      }
+    },
+    "experience_boots": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "A": "orespawn:emerald_boots"
+      },
+      "pattern": [
+        "EEE",
+        "EAE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_boots"
+      }
+    },
+    "experience_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "I": "orespawn:emerald_sword"
+      },
+      "pattern": [
+        "EEE",
+        "EIE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_sword"
+      }
+    },
+    "poison_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:dead_stink_bug",
+        "I": "orespawn:emerald_sword"
+      },
+      "pattern": [
+        "EEE",
+        "EIE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:poison_sword"
+      }
+    },
+    "rat_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystalized_rats",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:rat_sword"
+      }
+    },
+    "fairy_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystalized_fairies",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:fairy_sword"
+      }
+    },
+    "attitude_adjuster": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:ultimate_sword",
+        "orespawn:ultimate_sword",
+        "orespawn:big_hammer",
+        "orespawn:green_goo"
+      ],
+      "result": {
+        "id": "orespawn:attitude_adjuster"
+      }
+    },
+    "battle_axe": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:ultimate_sword",
+        "orespawn:ultimate_axe",
+        "orespawn:green_goo"
+      ],
+      "result": {
+        "id": "orespawn:battle_axe"
+      }
+    },
+    "chainsaw": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "minecraft:redstone_block",
+        "I": "orespawn:ultimate_axe"
+      },
+      "pattern": [
+        "EEE",
+        "EIE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:chainsaw"
+      }
+    },
+    "queen_scale_battle_axe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:the_queen_scale",
+        "I": "minecraft:iron_ingot"
+      },
+      "pattern": [
+        "EIE",
+        "EIE",
+        " I "
+      ],
+      "result": {
+        "id": "orespawn:queen_scale_battle_axe"
+      }
+    },
+    "big_bertha": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:big_bertha_handle",
+        "orespawn:big_bertha_guard",
+        "orespawn:big_bertha_blade"
+      ],
+      "result": {
+        "id": "orespawn:big_bertha"
+      }
+    },
+    "big_bertha_handle": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:a_freakin_ray_gun",
+        "orespawn:big_hammer",
+        "orespawn:mantis_claw",
+        "orespawn:water_dragon_scale",
+        "orespawn:green_goo"
+      ],
+      "result": {
+        "id": "orespawn:big_bertha_handle"
+      }
+    },
+    "big_bertha_guard": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:molenoid_nose",
+        "orespawn:sea_monster_scale",
+        "orespawn:moth_scale",
+        "orespawn:basilisk_scale",
+        "orespawn:nightmare_scale",
+        "orespawn:emperor_scorpion_scale",
+        "orespawn:jumpy_bug_scale"
+      ],
+      "result": {
+        "id": "orespawn:big_bertha_guard"
+      }
+    },
+    "big_bertha_blade": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:kraken_tooth",
+        "orespawn:worm_tooth",
+        "orespawn:trex_tooth",
+        "orespawn:ultimate_sword",
+        "orespawn:caterkiller_jaws",
+        "orespawn:sea_viper_tongue",
+        "orespawn:vortex_eye"
+      ],
+      "result": {
+        "id": "orespawn:big_bertha_blade"
+      }
+    },
+    "slice": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:big_bertha",
+        "minecraft:iron_ingot"
+      ],
+      "result": {
+        "id": "orespawn:slice"
+      }
+    },
+    "irukandji_arrow": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "orespawn:peacock_feather",
+        "orespawn:dead_irukandji",
+        "orespawn:crystal_shards"
+      ],
+      "result": {
+        "id": "orespawn:irukandji_arrow"
+      }
+    },
+    "thunder_staff": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "D": "minecraft:diamond",
+        "R": "orespawn:ruby"
+      },
+      "pattern": [
+        "DR ",
+        "RR ",
+        "  R"
+      ],
+      "result": {
+        "id": "orespawn:thunder_staff"
+      }
+    },
+    "creeper_launcher": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "minecraft:paper",
+        "minecraft:redstone",
+        "minecraft:stick"
+      ],
+      "result": {
+        "id": "orespawn:creeper_launcher",
+        "count": 4
+      }
+    },
+    "a_freakin_ray_gun_recharge": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "minecraft:redstone_block",
+        "orespawn:a_freakin_ray_gun"
+      ],
+      "result": {
+        "id": "orespawn:a_freakin_ray_gun"
+      }
+    },
+    "squidzooka_recharge": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "equipment",
+      "ingredients": [
+        "minecraft:ink_sac",
+        "orespawn:squidzooka"
+      ],
+      "result": {
+        "id": "orespawn:squidzooka"
+      }
+    },
+    "the_ultimate_bow": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "S": "minecraft:string",
+        "I": "minecraft:iron_ingot",
+        "U": "orespawn:uranium_ingot",
+        "T": "orespawn:titanium_ingot"
+      },
+      "pattern": [
+        " TS",
+        "I S",
+        " US"
+      ],
+      "result": {
+        "id": "orespawn:the_ultimate_bow"
+      }
+    },
+    "skate_string_bow": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "S": "minecraft:string",
+        "T": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        " TS",
+        "T S",
+        " TS"
+      ],
+      "result": {
+        "id": "orespawn:skate_string_bow"
+      }
+    },
+    "the_ultimate_fishing_rod": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "S": "minecraft:string",
+        "I": "minecraft:iron_ingot",
+        "U": "orespawn:uranium_ingot",
+        "T": "orespawn:titanium_ingot"
+      },
+      "pattern": [
+        "  T",
+        " US",
+        "I S"
+      ],
+      "result": {
+        "id": "orespawn:the_ultimate_fishing_rod"
+      }
+    },
+    "nightmare_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "O": "orespawn:nightmare_scale",
+        "D": "minecraft:diamond",
+        "R": "minecraft:redstone",
+        "T": "orespawn:titanium_ingot",
+        "I": "minecraft:iron_ingot"
+      },
+      "pattern": [
+        "ODO",
+        "RTR",
+        "OIO"
+      ],
+      "result": {
+        "id": "orespawn:nightmare_sword"
+      }
+    }
+  },
+  "tags": {
+    "item/minecraft/swords": [
+      "orespawn:big_bertha",
+      "orespawn:slice",
+      "orespawn:royal_guardian_sword",
+      "orespawn:attitude_adjuster",
+      "orespawn:battle_axe",
+      "orespawn:chainsaw",
+      "orespawn:queen_scale_battle_axe",
+      "orespawn:nightmare_sword",
+      "orespawn:experience_sword",
+      "orespawn:poison_sword",
+      "orespawn:rat_sword",
+      "orespawn:fairy_sword",
+      "orespawn:mantis_claw",
+      "orespawn:big_hammer"
+    ],
+    "item/minecraft/enchantable/bow": [
+      "orespawn:the_ultimate_bow",
+      "orespawn:skate_string_bow"
+    ],
+    "item/minecraft/enchantable/durability": [
+      "orespawn:the_ultimate_bow",
+      "orespawn:skate_string_bow"
+    ],
+    "item/orespawn/weapons_repair_materials": [],
+    "entity_type/witherscombatmod/ragdoll_from_model": [
+      "orespawn:pet_rat"
+    ],
+    "item/minecraft/head_armor": [
+      "orespawn:experience_helmet",
+      "orespawn:lava_eel_helmet",
+      "orespawn:moth_scale_helmet",
+      "orespawn:peacock_feather_helmet",
+      "orespawn:mobzilla_scale_helmet",
+      "orespawn:royal_guardian_helmet",
+      "orespawn:queen_scale_helmet",
+      "orespawn:pink_tourmailine_helmet",
+      "orespawn:tigers_eye_helmet"
+    ],
+    "item/minecraft/chest_armor": [
+      "orespawn:experience_chestplate",
+      "orespawn:lava_eel_chestplate",
+      "orespawn:moth_scale_chestplate",
+      "orespawn:peacock_feather_chestplate",
+      "orespawn:mobzilla_scale_chestplate",
+      "orespawn:royal_guardian_chestplate",
+      "orespawn:queen_scale_chestplate",
+      "orespawn:pink_tourmailine_chestplate",
+      "orespawn:tigers_eye_chestplate"
+    ],
+    "item/minecraft/leg_armor": [
+      "orespawn:experience_leggings",
+      "orespawn:lava_eel_leggings",
+      "orespawn:moth_scale_leggings",
+      "orespawn:peacock_feather_leggings",
+      "orespawn:mobzilla_scale_leggings",
+      "orespawn:royal_guardian_leggings",
+      "orespawn:queen_scale_leggings",
+      "orespawn:pink_tourmailine_leggings",
+      "orespawn:tigers_eye_leggings"
+    ],
+    "item/minecraft/foot_armor": [
+      "orespawn:experience_boots",
+      "orespawn:lava_eel_boots",
+      "orespawn:moth_scale_boots",
+      "orespawn:peacock_feather_boots",
+      "orespawn:mobzilla_scale_boots",
+      "orespawn:royal_guardian_boots",
+      "orespawn:queen_scale_boots",
+      "orespawn:pink_tourmailine_boots",
+      "orespawn:tigers_eye_boots"
+    ],
+    "item/orespawn/experience_repair_materials": [],
+    "item/orespawn/lavaeel_repair_materials": [
+      "orespawn:lava_eel"
+    ],
+    "item/orespawn/mothscale_repair_materials": [
+      "orespawn:moth_scale"
+    ],
+    "item/orespawn/peacock_repair_materials": [
+      "orespawn:peacock_feather"
+    ],
+    "item/orespawn/mobzilla_repair_materials": [
+      "orespawn:mobzilla_scale"
+    ],
+    "item/orespawn/royal_repair_materials": [],
+    "item/orespawn/queen_repair_materials": [
+      "orespawn:the_queen_scale"
+    ],
+    "item/orespawn/pink_repair_materials": [
+      {
+        "id": "orespawn:pink_tourmaline_ingot",
+        "required": false
+      }
+    ],
+    "item/orespawn/tigerseye_repair_materials": [
+      {
+        "id": "orespawn:tigers_eye_ingot",
+        "required": false
+      }
+    ]
+  },
+  "lang": {
+    "entity.orespawn.bertha_hit": "Bertha Hit",
+    "entity.orespawn.laser_ball": "Laser Ball",
+    "entity.orespawn.ice_ball": "Ice Ball",
+    "entity.orespawn.acid": "Acid",
+    "entity.orespawn.thunder_bolt": "Thunder Bolt",
+    "entity.orespawn.ultimate_arrow": "Ultimate Arrow",
+    "entity.orespawn.irukandji_arrow": "Irukandji Arrow",
+    "entity.orespawn.ultimate_fish_hook": "Ultimate Fish Hook",
+    "entity.orespawn.pet_rat": "Rat"
+  },
+  "entity_textures": {
+    "Berthatexture.png": "weapons/big_bertha.png",
+    "Slicetexture.png": "weapons/slice.png",
+    "Royaltexture.png": "weapons/royal_guardian_sword.png",
+    "AttitudeAdjustertexture.png": "weapons/attitude_adjuster.png",
+    "BattleAxetexture.png": "weapons/battle_axe.png",
+    "QueenBattleAxetexture.png": "weapons/queen_scale_battle_axe.png",
+    "Chainsawtexture.png": "weapons/chainsaw.png",
+    "SquidZookatexture.png": "weapons/squidzooka.png"
+  },
+  "armor_sets": {
+    "experience": {
+      "layer1": "experience_1.png",
+      "layer2": "experience_2.png"
+    },
+    "lavaeel": {
+      "layer1": "lavaeel_1.png",
+      "layer2": "lavaeel_2.png"
+    },
+    "mothscale": {
+      "layer1": "mothscale_1.png",
+      "layer2": "mothscale_2.png"
+    },
+    "peacock": {
+      "layer1": "peacock_1.png",
+      "layer2": "peacock_2.png"
+    },
+    "mobzilla": {
+      "layer1": "mobzilla_1.png",
+      "layer2": "mobzilla_2.png"
+    },
+    "royal": {
+      "layer1": "royal_1.png",
+      "layer2": "royal_2.png"
+    },
+    "queen": {
+      "layer1": "queen_1.png",
+      "layer2": "queen_2.png"
+    },
+    "pink": {
+      "layer1": "pink_1.png",
+      "layer2": "pink_2.png"
+    },
+    "tigerseye": {
+      "layer1": "tigerseye_1.png",
+      "layer2": "tigerseye_2.png"
+    }
+  }
+}

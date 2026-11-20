@@ -1,0 +1,16 @@
+{
+  "feature": "orespawn:leaf_monster_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 275
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

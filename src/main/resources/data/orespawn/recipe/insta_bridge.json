@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:cobblestone",
+    "G": "minecraft:gunpowder"
+  },
+  "pattern": [
+    " C",
+    "GC",
+    " C"
+  ],
+  "result": {
+    "id": "orespawn:insta_bridge",
+    "count": 8
+  }
+}

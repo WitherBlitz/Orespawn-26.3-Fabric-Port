@@ -1,0 +1,703 @@
+{
+  "items": {
+    "corn": {
+      "texture": "corn_seed",
+      "name": "Corn"
+    },
+    "tomato": {
+      "texture": "tomato_seed",
+      "name": "Tomato"
+    },
+    "lettuce": {
+      "texture": "lettuce_seed",
+      "name": "Lettuce"
+    },
+    "quinoa": {
+      "texture": "quinoa",
+      "name": "Quinoa"
+    },
+    "radish": {
+      "texture": "radish",
+      "name": "Radish"
+    },
+    "rice": {
+      "texture": "rice",
+      "name": "Rice"
+    },
+    "strawberry_plant": {
+      "texture": "strawberry_seed",
+      "name": "Strawberry Plant"
+    },
+    "butterfly_plant": {
+      "texture": "butterfly_seed",
+      "name": "Butterfly Plant"
+    },
+    "moth_plant": {
+      "texture": "moth_seed",
+      "name": "Moth Plant"
+    },
+    "firefly_plant": {
+      "texture": "firefly_seed",
+      "name": "Firefly Plant"
+    },
+    "mosquito_plant": {
+      "texture": "mosquito_seed",
+      "name": "Mosquito Plant"
+    },
+    "strawberry": {
+      "texture": "strawberry",
+      "name": "Strawberry"
+    },
+    "cherries": {
+      "texture": "cherries",
+      "name": "Cherries"
+    },
+    "peach": {
+      "texture": "peach",
+      "name": "Peach"
+    },
+    "apple_tree_seed": {
+      "texture": "appletree_seed",
+      "name": "Apple Tree Seed"
+    },
+    "cherry_pit": {
+      "texture": "cherrytree_seed",
+      "name": "Cherry Pit"
+    },
+    "peach_pit": {
+      "texture": "peachtree_seed",
+      "name": "Peach Pit"
+    },
+    "experience_tree_seed": {
+      "texture": "experiencetree_seed",
+      "name": "Experience Tree Seed"
+    },
+    "omg_no_dont_do_it": {
+      "texture": "magicapple",
+      "name": "OMG! No! Don't do it!!!"
+    },
+    "popcorn": {
+      "texture": "popcorn",
+      "name": "Popcorn"
+    },
+    "buttered_popcorn": {
+      "texture": "popcorn_buttered",
+      "name": "Buttered Popcorn"
+    },
+    "buttered_and_salted_popcorn": {
+      "texture": "popcorn_buttered_salted",
+      "name": "Buttered and Salted Popcorn"
+    },
+    "bag_of_popcorn": {
+      "texture": "popcorn_bag",
+      "name": "Bag of Popcorn"
+    },
+    "butter": {
+      "texture": "butter",
+      "name": "Butter"
+    },
+    "cheese": {
+      "texture": "cheese",
+      "name": "Cheese"
+    },
+    "raw_corn_dog": {
+      "texture": "corndog_raw",
+      "name": "Raw Corn Dog"
+    },
+    "corn_dog": {
+      "texture": "corndog_cooked",
+      "name": "Corn Dog"
+    },
+    "raw_bacon": {
+      "texture": "bacon",
+      "name": "Raw Bacon"
+    },
+    "bacon": {
+      "texture": "cookedbacon",
+      "name": "Bacon!"
+    },
+    "garden_salad": {
+      "texture": "salad",
+      "name": "Garden Salad"
+    },
+    "blt_sandwich": {
+      "texture": "blt_sandwich",
+      "name": "BLT Sandwich!"
+    },
+    "a_crabby_patty": {
+      "texture": "crabbypatty",
+      "name": "A Crabby Patty!"
+    },
+    "butter_candy": {
+      "texture": "buttercandy",
+      "name": "Butter Candy!"
+    },
+    "sun_fish": {
+      "texture": "sunfish",
+      "name": "Sun Fish"
+    },
+    "fire_fish": {
+      "texture": "firefish",
+      "name": "Fire Fish"
+    },
+    "spark_fish": {
+      "texture": "sparkfish",
+      "name": "Spark Fish"
+    },
+    "lava_eel": {
+      "texture": "lavaeel",
+      "name": "Lava Eel"
+    },
+    "green_fish": {
+      "texture": "greenfish",
+      "name": "Green Fish"
+    },
+    "blue_fish": {
+      "texture": "bluefish",
+      "name": "Blue Fish"
+    },
+    "pink_fish": {
+      "texture": "pinkfish",
+      "name": "Pink Fish"
+    },
+    "rock_fish": {
+      "texture": "rockfish",
+      "name": "Rock Fish"
+    },
+    "wood_fish": {
+      "texture": "woodfish",
+      "name": "Wood Fish"
+    },
+    "grey_fish": {
+      "texture": "greyfish",
+      "name": "Grey Fish"
+    },
+    "pizza": {
+      "texture": "pizza",
+      "name": "Pizza!"
+    },
+    "duct_tape": {
+      "texture": "ducttape",
+      "name": "Duct Tape!"
+    }
+  },
+  "recipes": {
+    "popcorn": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.1,
+      "ingredient": "orespawn:corn",
+      "result": {
+        "id": "orespawn:popcorn"
+      }
+    },
+    "corn_dog": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.4,
+      "ingredient": "orespawn:raw_corn_dog",
+      "result": {
+        "id": "orespawn:corn_dog"
+      }
+    },
+    "bacon": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:raw_bacon",
+      "result": {
+        "id": "orespawn:bacon"
+      }
+    },
+    "cooked_cod_from_green_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:green_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_blue_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:blue_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_pink_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:pink_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_rock_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:rock_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_wood_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:wood_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_grey_fish": {
+      "type": "minecraft:smelting",
+      "category": "food",
+      "cookingtime": 200,
+      "experience": 0.2,
+      "ingredient": "orespawn:grey_fish",
+      "result": {
+        "id": "minecraft:cooked_cod"
+      }
+    },
+    "butter": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      "result": {
+        "id": "orespawn:butter",
+        "count": 4
+      }
+    },
+    "cheese": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      "result": {
+        "id": "orespawn:cheese",
+        "count": 2
+      }
+    },
+    "buttered_popcorn": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:popcorn",
+        "orespawn:butter"
+      ],
+      "result": {
+        "id": "orespawn:buttered_popcorn"
+      }
+    },
+    "buttered_and_salted_popcorn": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:buttered_popcorn",
+        "orespawn:salt"
+      ],
+      "result": {
+        "id": "orespawn:buttered_and_salted_popcorn"
+      }
+    },
+    "buttered_and_salted_popcorn_from_popcorn": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:popcorn",
+        "orespawn:salt",
+        "orespawn:butter"
+      ],
+      "result": {
+        "id": "orespawn:buttered_and_salted_popcorn"
+      }
+    },
+    "bag_of_popcorn": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:buttered_and_salted_popcorn",
+        "orespawn:buttered_and_salted_popcorn",
+        "orespawn:buttered_and_salted_popcorn",
+        "orespawn:buttered_and_salted_popcorn",
+        "orespawn:buttered_and_salted_popcorn",
+        "orespawn:buttered_and_salted_popcorn",
+        "minecraft:paper",
+        "minecraft:paper",
+        "minecraft:paper"
+      ],
+      "result": {
+        "id": "orespawn:bag_of_popcorn"
+      }
+    },
+    "raw_corn_dog": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:corn",
+        "minecraft:chicken",
+        "minecraft:porkchop",
+        "minecraft:stick"
+      ],
+      "result": {
+        "id": "orespawn:raw_corn_dog",
+        "count": 4
+      }
+    },
+    "raw_bacon": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:salt",
+        "minecraft:porkchop"
+      ],
+      "result": {
+        "id": "orespawn:raw_bacon",
+        "count": 2
+      }
+    },
+    "butter_candy": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:butter",
+        "minecraft:sugar"
+      ],
+      "result": {
+        "id": "orespawn:butter_candy",
+        "count": 4
+      }
+    },
+    "garden_salad": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:lettuce",
+        "orespawn:tomato",
+        "orespawn:radish",
+        "minecraft:carrot",
+        "minecraft:bowl"
+      ],
+      "result": {
+        "id": "orespawn:garden_salad"
+      }
+    },
+    "blt_sandwich": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:bacon",
+        "orespawn:lettuce",
+        "orespawn:tomato",
+        "orespawn:butter",
+        "minecraft:bread"
+      ],
+      "result": {
+        "id": "orespawn:blt_sandwich"
+      }
+    },
+    "pizza": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:tomato",
+        "orespawn:cheese",
+        "orespawn:bacon",
+        "minecraft:bread"
+      ],
+      "result": {
+        "id": "orespawn:pizza"
+      }
+    },
+    "a_crabby_patty": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:crab_meat",
+        "orespawn:lettuce",
+        "orespawn:tomato",
+        "minecraft:bread"
+      ],
+      "result": {
+        "id": "orespawn:a_crabby_patty"
+      }
+    },
+    "duct_tape": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": "minecraft:slime_ball",
+        "R": "minecraft:string"
+      },
+      "pattern": [
+        "AAA",
+        "RRR"
+      ],
+      "result": {
+        "id": "orespawn:duct_tape"
+      }
+    },
+    "omg_no_dont_do_it": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "R": "minecraft:redstone_block",
+        "A": "minecraft:apple"
+      },
+      "pattern": [
+        "RRR",
+        "RAR",
+        "RRR"
+      ],
+      "result": {
+        "id": "orespawn:omg_no_dont_do_it"
+      }
+    },
+    "extreme_torch": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:redstone",
+        "minecraft:stick",
+        "minecraft:coal"
+      ],
+      "result": {
+        "id": "orespawn:extreme_torch",
+        "count": 4
+      }
+    },
+    "extreme_torch_from_torch": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:redstone",
+        "minecraft:torch"
+      ],
+      "result": {
+        "id": "orespawn:extreme_torch"
+      }
+    },
+    "kraken_repellent": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "D": "orespawn:dead_stink_bug",
+        "T": "orespawn:extreme_torch",
+        "S": "minecraft:string"
+      },
+      "pattern": [
+        "D D",
+        "STS",
+        "D D"
+      ],
+      "result": {
+        "id": "orespawn:kraken_repellent"
+      }
+    },
+    "apple_tree_seed": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "minecraft:apple"
+      ],
+      "result": {
+        "id": "orespawn:apple_tree_seed",
+        "count": 6
+      }
+    },
+    "cherry_pit": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:cherries"
+      ],
+      "result": {
+        "id": "orespawn:cherry_pit"
+      }
+    },
+    "peach_pit": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:peach"
+      ],
+      "result": {
+        "id": "orespawn:peach_pit"
+      }
+    },
+    "experience_tree_seed": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "E": "minecraft:experience_bottle",
+        "A": "orespawn:apple_tree_seed"
+      },
+      "pattern": [
+        "EEE",
+        "EAE",
+        "EEE"
+      ],
+      "result": {
+        "id": "orespawn:experience_tree_seed"
+      }
+    },
+    "creeper_repellent": {
+      "fabric:load_conditions": [
+        {
+          "condition": "fabric:registry_contains",
+          "registry": "minecraft:item",
+          "values": [
+            "orespawn:green_goo"
+          ]
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "D": "orespawn:green_goo",
+        "T": "orespawn:extreme_torch",
+        "S": "minecraft:string"
+      },
+      "pattern": [
+        "D D",
+        "STS",
+        "D D"
+      ],
+      "result": {
+        "id": "orespawn:creeper_repellent"
+      }
+    },
+    "oak_planks_from_duplicator_tree_wood": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "building",
+      "ingredients": [
+        "orespawn:duplicator_tree_wood"
+      ],
+      "result": {
+        "id": "minecraft:oak_planks",
+        "count": 4
+      }
+    },
+    "oak_planks_from_sky_tree_wood": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "building",
+      "ingredients": [
+        "orespawn:sky_tree_wood"
+      ],
+      "result": {
+        "id": "minecraft:oak_planks",
+        "count": 4
+      }
+    }
+  },
+  "tags": {
+    "block/minecraft/leaves": [
+      "orespawn:apple_leaves",
+      "orespawn:cherry_leaves",
+      "orespawn:peach_leaves",
+      "orespawn:scary_leaves",
+      "orespawn:experience_leaves"
+    ],
+    "block/minecraft/mineable/hoe": [
+      "orespawn:apple_leaves",
+      "orespawn:cherry_leaves",
+      "orespawn:peach_leaves",
+      "orespawn:scary_leaves",
+      "orespawn:experience_leaves"
+    ],
+    "item/minecraft/leaves": [
+      "orespawn:apple_leaves",
+      "orespawn:cherry_leaves",
+      "orespawn:peach_leaves",
+      "orespawn:scary_leaves",
+      "orespawn:experience_leaves"
+    ],
+    "block/minecraft/maintains_farmland": [
+      "orespawn:corn_plant",
+      "orespawn:tomato_plant",
+      "orespawn:lettuce_plant",
+      "orespawn:quinoa_plant",
+      "orespawn:radish_plant",
+      "orespawn:rice_plant",
+      "orespawn:strawberry_plant",
+      "orespawn:butterfly_plant",
+      "orespawn:moth_plant",
+      "orespawn:firefly_plant",
+      "orespawn:mosquito_plant"
+    ],
+    "block/minecraft/wall_post_override": [
+      "orespawn:extreme_torch",
+      "orespawn:extreme_torch_wall",
+      "orespawn:creeper_repellent",
+      "orespawn:creeper_repellent_wall",
+      "orespawn:kraken_repellent",
+      "orespawn:kraken_repellent_wall"
+    ],
+    "block/minecraft/logs": [
+      "orespawn:duplicator_tree_wood",
+      "orespawn:sky_tree_wood"
+    ],
+    "item/minecraft/logs": [
+      "orespawn:duplicator_tree_wood",
+      "orespawn:sky_tree_wood"
+    ],
+    "block/minecraft/mineable/axe": [
+      "orespawn:duplicator_tree_wood",
+      "orespawn:sky_tree_wood"
+    ]
+  },
+  "lang": {
+    "block.orespawn.corn_plant": "Corn Plant",
+    "block.orespawn.tomato_plant": "Tomato Plant",
+    "block.orespawn.lettuce_plant": "Lettuce Plant",
+    "block.orespawn.quinoa_plant": "Quinoa Plant",
+    "block.orespawn.radish_plant": "Radish Plant",
+    "block.orespawn.rice_plant": "Rice Plant",
+    "block.orespawn.strawberry_plant": "Strawberry Plant",
+    "block.orespawn.butterfly_plant": "Butterfly Plant",
+    "block.orespawn.moth_plant": "Moth Plant",
+    "block.orespawn.firefly_plant": "Firefly Plant",
+    "block.orespawn.mosquito_plant": "Mosquito Plant",
+    "block.orespawn.apple_leaves": "Apple Leaves",
+    "block.orespawn.cherry_leaves": "Cherry Leaves",
+    "block.orespawn.peach_leaves": "Peach Leaves",
+    "block.orespawn.scary_leaves": "Scary Leaves",
+    "block.orespawn.experience_leaves": "Experience Leaves",
+    "block.orespawn.experience_tree_sapling": "Experience Tree Sapling",
+    "block.orespawn.extreme_torch": "Extreme Torch",
+    "block.orespawn.creeper_repellent": "Creeper Repellent",
+    "block.orespawn.kraken_repellent": "Kraken Repellent",
+    "block.orespawn.pizza": "Pizza!",
+    "block.orespawn.duct_tape": "Duct Tape!"
+  },
+  "blocks": {
+    "duplicator_tree_wood": {
+      "texture": "duplicatortreelog",
+      "name": "Duplicator Tree Wood"
+    },
+    "sky_tree_wood": {
+      "texture": "skytreelog",
+      "name": "Sky Tree Wood"
+    }
+  }
+}

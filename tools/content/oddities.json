@@ -1,0 +1,249 @@
+{
+  "creatures": {
+    "leonopteryx": {
+      "name": "Leonopteryx",
+      "egg": "eggleon",
+      "egg_ore": {
+        "texture": "oreleon",
+        "name": "Leonopteryx"
+      },
+      "textures": {
+        "Leon.png": "leonopteryx.png"
+      },
+      "ragdoll": null
+    },
+    "baby_dragon": {
+      "name": "Baby Dragon",
+      "egg": "eggspyro",
+      "egg_ore": {
+        "texture": "orespyro",
+        "name": "Baby Dragon"
+      },
+      "textures": {
+        "spyrotexture.png": "baby_dragon.png"
+      },
+      "ragdoll": null
+    },
+    "dragon": {
+      "name": "Dragon",
+      "egg": "eggdragon",
+      "egg_ore": {
+        "texture": "oredragon",
+        "name": "Dragon"
+      },
+      "textures": {
+        "Dragon.png": "dragon.png",
+        "WhiteDragon.png": "white_dragon.png"
+      },
+      "ragdoll": null
+    },
+    "stinky": {
+      "name": "Stinky",
+      "egg": "eggstinky",
+      "egg_ore": {
+        "texture": "orestinky",
+        "name": "Stinky"
+      },
+      "textures": {
+        "Stinkytexture1.png": "stinky1.png",
+        "Stinkytexture2.png": "stinky2.png",
+        "Stinkytexture3.png": "stinky3.png",
+        "Stinkytexture4.png": "stinky4.png",
+        "Stinkytexture5.png": "stinky5.png",
+        "Stinkytexture6.png": "stinky6.png",
+        "Stinkytexture7.png": "stinky7.png",
+        "Stinkytexture8.png": "stinky8.png",
+        "Stinkytexture9.png": "stinky9.png",
+        "Stinkytexture10.png": "stinky10.png",
+        "Stinkytexture11.png": "stinky11.png",
+        "Stinkytexture12.png": "stinky12.png",
+        "Stinkytexture13.png": "stinky13.png",
+        "Stinkytexture14.png": "stinky14.png",
+        "Stinkytexture15.png": "stinky15.png",
+        "Stinkytexture16.png": "stinky16.png",
+        "Stinkytexture17.png": "stinky17.png",
+        "Stinkytexture18.png": "stinky18.png",
+        "Stinkytexture19.png": "stinky19.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "mothra": {
+      "name": "Mothra",
+      "egg": "eggMOTHRA",
+      "egg_ore": {
+        "texture": "oreMOTHRA",
+        "name": "MOTHRA"
+      },
+      "textures": {
+        "eyemoth.png": "eyemoth.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "ruby_bird": {
+      "name": "Ruby Bird",
+      "egg": "eggcockateil",
+      "textures": {
+        "Bird6.png": "bird6.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "rotator": {
+      "name": "Rotator",
+      "egg": "eggrotator",
+      "egg_ore": {
+        "texture": "orerotator",
+        "name": "Rotator"
+      },
+      "textures": {
+        "Rotatortexture.png": "rotator.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "vortex": {
+      "name": "Vortex",
+      "egg": "eggvortex",
+      "egg_ore": {
+        "texture": "orevortex",
+        "name": "Vortex"
+      },
+      "textures": {
+        "Vortextexture.png": "vortex.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "criminal": {
+      "name": "Criminal",
+      "egg": "eggcriminal",
+      "egg_ore": {
+        "texture": "orecriminal",
+        "name": "Criminal"
+      },
+      "textures": {
+        "BandPtexture.png": "criminal.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "t_shirt": {
+      "name": "T-Shirt!",
+      "egg": "eggtshirt",
+      "egg_ore": {
+        "texture": "oretshirt",
+        "name": "T-Shirt"
+      },
+      "textures": {
+        "Tshirttexture.png": "t_shirt.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:emerald",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ],
+      "ragdoll": "from_model"
+    },
+    "coin": {
+      "name": "Coin!",
+      "egg": "eggcoin",
+      "textures": {
+        "Cointexture.png": "coin.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "easter_bunny": {
+      "name": "Easter Bunny",
+      "egg": "eggeasterbunny",
+      "egg_ore": {
+        "texture": "oreeasterbunny",
+        "name": "Easter Bunny"
+      },
+      "textures": {
+        "EasterBunnytexture.png": "easter_bunny.png"
+      },
+      "loot": [
+        {
+          "item": "minecraft:chicken",
+          "min": 2,
+          "max": 4,
+          "looting": false
+        }
+      ],
+      "ragdoll": "from_model"
+    },
+    "rubber_ducky": {
+      "name": "Rubber Ducky",
+      "egg": "eggrubberducky",
+      "egg_ore": {
+        "texture": "orerubberducky",
+        "name": "Rubber Ducky"
+      },
+      "textures": {
+        "RubberDuckytexture.png": "rubber_ducky.png",
+        "EvilRubberDuckytexture.png": "evil_rubber_ducky.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "spit_bug": {
+      "name": "Spit Bug",
+      "egg": "eggspit",
+      "egg_ore": {
+        "texture": "orespit",
+        "name": "Spit Bug"
+      },
+      "textures": {
+        "BlisterBug.png": "spit_bug.png"
+      },
+      "ragdoll": null
+    },
+    "jumpy_bug": {
+      "name": "Jumpy Bug",
+      "egg": "eggtrooper",
+      "egg_ore": {
+        "texture": "oretrooper",
+        "name": "Jumpy Bug"
+      },
+      "textures": {
+        "TrooperBug.png": "jumpy_bug.png"
+      },
+      "ragdoll": null
+    }
+  },
+  "items": {
+    "moth_scale": {
+      "texture": "mothscale",
+      "name": "Moth Scale"
+    },
+    "vortex_eye": {
+      "texture": "vortexeye",
+      "name": "Vortex Eye"
+    },
+    "jumpy_bug_scale": {
+      "texture": "jumpybugscale",
+      "name": "Jumpy Bug Scale"
+    }
+  },
+  "sounds": [
+    "duck_hurt",
+    "cryo_death",
+    "glasshit",
+    "glassdead",
+    "vortexlive",
+    "roar",
+    "fart",
+    "rubybird",
+    "alo_hurt",
+    "alo_death",
+    "leon_living",
+    "leon_hit",
+    "leon_death",
+    "clatter",
+    "crunch",
+    "emperorscorpion_death",
+    "scorpion_attack"
+  ],
+  "lang": {
+    "item.orespawn.mothra_spawn_egg": "Spawn MOTHRA!",
+    "item.orespawn.coin_spawn_egg": "Spawn Coin"
+  }
+}

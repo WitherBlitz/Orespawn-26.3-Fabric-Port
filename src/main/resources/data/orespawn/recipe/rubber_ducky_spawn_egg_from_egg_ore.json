@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:rubber_ducky_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:rubber_ducky_spawn_egg"
+  }
+}

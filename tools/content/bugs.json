@@ -1,0 +1,151 @@
+{
+  "creatures": {
+    "mantis": {
+      "name": "Mantis",
+      "egg": "eggmantis",
+      "egg_ore": {
+        "texture": "oremantis",
+        "name": "Mantis"
+      },
+      "textures": {
+        "Mantistexture.png": "mantis.png"
+      },
+      "ragdoll": null
+    },
+    "hercules_beetle": {
+      "name": "Hercules Beetle",
+      "egg": "egghercules",
+      "egg_ore": {
+        "texture": "orehercules",
+        "name": "Hercules Beetle"
+      },
+      "textures": {
+        "Beetletexture.png": "hercules_beetle.png"
+      },
+      "ragdoll": null
+    },
+    "bee": {
+      "name": "Bee",
+      "egg": "eggbee",
+      "egg_ore": {
+        "texture": "orebee",
+        "name": "Bee"
+      },
+      "textures": {
+        "Beetexture.png": "bee.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "brutalfly": {
+      "name": "Brutalfly",
+      "egg": "eggbrutalfly",
+      "egg_ore": {
+        "texture": "orebrutalfly",
+        "name": "Brutalfly"
+      },
+      "textures": {
+        "Brutalflytexture.png": "brutalfly.png",
+        "Brutalfly_overlay2.png": "brutalfly_overlay.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "caterkiller": {
+      "name": "CaterKiller",
+      "egg": "eggcaterkiller",
+      "egg_ore": {
+        "texture": "orecaterkiller",
+        "name": "CaterKiller"
+      },
+      "textures": {
+        "CaterKillertexture.png": "caterkiller.png"
+      },
+      "ragdoll": null
+    },
+    "emperor_scorpion": {
+      "name": "Emperor Scorpion",
+      "egg": "eggemperorscorpion",
+      "egg_ore": {
+        "texture": "oreemperorscorpion",
+        "name": "Emperor Scorpion"
+      },
+      "textures": {
+        "emperorscorpion.png": "emperor_scorpion.png"
+      },
+      "ragdoll": null
+    },
+    "cave_fisher": {
+      "name": "CaveFisher",
+      "egg": "eggcavefisher",
+      "egg_ore": {
+        "texture": "orecavefisher",
+        "name": "Cave Fisher"
+      },
+      "textures": {
+        "CaveFisher.png": "cave_fisher.png"
+      },
+      "ragdoll": null
+    },
+    "molenoid": {
+      "name": "Molenoid",
+      "egg": "eggmolenoid",
+      "egg_ore": {
+        "texture": "oremolenoid",
+        "name": "Molenoid"
+      },
+      "textures": {
+        "Molenoidtexture.png": "molenoid.png"
+      },
+      "ragdoll": null
+    }
+  },
+  "items": {
+    "caterkiller_jaws": {
+      "texture": "caterkillerjaw",
+      "name": "CaterKiller Jaws"
+    },
+    "emperor_scorpion_scale": {
+      "texture": "emperorscorpionscale",
+      "name": "Emperor Scorpion Scale"
+    },
+    "molenoid_nose": {
+      "texture": "molenoidnose",
+      "name": "Molenoid Nose"
+    }
+  },
+  "sounds": [
+    "dragonfly_hurt",
+    "alo_death",
+    "alo_hurt",
+    "hercules_death",
+    "scorpion_attack",
+    "scorpion_living",
+    "caterkiller_living",
+    "caterkiller_hit",
+    "caterkiller_death",
+    "emperorscorpion_death",
+    "cryo_hurt",
+    "cryo_death",
+    "molenoid_living",
+    "molenoid_hit",
+    "molenoid_death",
+    "beebuzz",
+    "mothrawings"
+  ],
+  "tags": {
+    "block/minecraft/mineable/shovel": [
+      "orespawn:molenoid_dirt"
+    ]
+  },
+  "lang": {
+    "item.orespawn.emperor_scorpion_spawn_egg": "Spawn Emperor Scorpion!",
+    "item.orespawn.cave_fisher_spawn_egg": "Spawn Cave Fisher",
+    "block.orespawn.molenoid_dirt": "Molenoid Dirt",
+    "entity.orespawn.brutalfly_fireball": "Brutalfly Fireball"
+  },
+  "blocks": {
+    "molenoid_dirt": {
+      "texture": "moledirt",
+      "name": "Molenoid Dirt"
+    }
+  }
+}

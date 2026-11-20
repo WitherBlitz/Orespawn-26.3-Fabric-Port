@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "orespawn:tigers_eye_ingot",
+      "required": false
+    }
+  ]
+}

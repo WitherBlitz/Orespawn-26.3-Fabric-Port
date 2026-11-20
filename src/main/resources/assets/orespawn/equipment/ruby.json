@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:ruby"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:ruby"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:ruby"
+      }
+    ]
+  }
+}

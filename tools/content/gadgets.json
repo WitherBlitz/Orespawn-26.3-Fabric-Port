@@ -1,0 +1,55 @@
+{
+  "_comment": "Gadgets group: OreSpawn's instant builders (StepAccross, StepUp, StepDown), Nether Tracker (ItemNetherLost), Rose Sword (EmeraldSword) and Worm Tooth (ItemSalt). The Rose Sword's flower is any of 1.7.10's red_flower variants (a Block in a shaped recipe matched every metadata).",
+  "items": {
+    "insta_bridge": {"texture": "step_accross", "name": "Insta-Bridge"},
+    "stairs_going_up": {"texture": "step_up", "name": "Stairs going Up"},
+    "stairs_going_down": {"texture": "step_down", "name": "Stairs going Down"},
+    "nether_tracker": {"texture": "netherlost", "name": "Nether Tracker"},
+    "rose_sword": {"texture": "rosesword", "name": "Rose Sword", "handheld": true},
+    "worm_tooth": {"texture": "wormtooth", "name": "Worm Tooth"}
+  },
+  "sounds": [],
+  "recipes": {
+    "stairs_going_up": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {"C": "minecraft:cobblestone", "G": "minecraft:gunpowder"},
+      "pattern": ["GC", " C", " C"],
+      "result": {"id": "orespawn:stairs_going_up", "count": 8}
+    },
+    "stairs_going_down": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {"C": "minecraft:cobblestone", "G": "minecraft:gunpowder"},
+      "pattern": [" C", " C", "GC"],
+      "result": {"id": "orespawn:stairs_going_down", "count": 8}
+    },
+    "insta_bridge": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {"C": "minecraft:cobblestone", "G": "minecraft:gunpowder"},
+      "pattern": [" C", "GC", " C"],
+      "result": {"id": "orespawn:insta_bridge", "count": 8}
+    },
+    "nether_tracker": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": ["minecraft:nether_star", "minecraft:netherrack"],
+      "result": {"id": "orespawn:nether_tracker"}
+    },
+    "rose_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": ["minecraft:poppy", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:red_tulip",
+              "minecraft:orange_tulip", "minecraft:white_tulip", "minecraft:pink_tulip", "minecraft:oxeye_daisy"],
+        "I": "minecraft:stick"
+      },
+      "pattern": ["E", "E", "I"],
+      "result": {"id": "orespawn:rose_sword"}
+    }
+  },
+  "tags": {
+    "item/minecraft/swords": ["orespawn:rose_sword"]
+  }
+}

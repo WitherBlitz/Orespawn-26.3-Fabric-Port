@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "orespawn",
+	"version": "${version}",
+	"name": "OreSpawn (Destiny port)",
+	"description": "OreSpawn 1.7.10-20.3 by TheyCallMeDanger, ported to Minecraft 26.3 Fabric. Needs the original OreSpawn 1.7.10-20.3 file (orespawn-1.7.10-20.3.zip) in the mods folder: this port contains none of OreSpawn's files and reads its textures, sounds, models and dungeons from that file.",
+	"authors": [
+		"You"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"orespawn.OreSpawn"
+		],
+		"client": [
+			"orespawn.client.OreSpawnClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"orespawn.mixins.json"
+	]
+}

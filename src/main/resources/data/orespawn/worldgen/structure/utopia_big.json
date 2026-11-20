@@ -1,0 +1,9 @@
+{
+  "type": "orespawn:utopia_big",
+  "biomes": [
+    "orespawn:utopia"
+  ],
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

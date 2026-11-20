@@ -1,0 +1,232 @@
+{
+  "worldgen": {
+    "feature/play_pool": {
+      "type": "orespawn:play_pool"
+    },
+    "placed_feature/play_pool": {
+      "feature": "orespawn:play_pool",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2100
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/water_dragon_lair": {
+      "type": "orespawn:water_dragon_lair"
+    },
+    "placed_feature/water_dragon_lair": {
+      "feature": "orespawn:water_dragon_lair",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2100
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/gold_fish_bowl": {
+      "type": "orespawn:gold_fish_bowl"
+    },
+    "placed_feature/gold_fish_bowl": {
+      "feature": "orespawn:gold_fish_bowl",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2100
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/monster_island": {
+      "type": "orespawn:monster_island"
+    },
+    "placed_feature/monster_island": {
+      "feature": "orespawn:monster_island",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 1800
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/frog_pond": {
+      "type": "orespawn:frog_pond"
+    },
+    "placed_feature/frog_pond": {
+      "feature": "orespawn:frog_pond",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2100
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/nest": {
+      "type": "orespawn:nest"
+    },
+    "placed_feature/nest": {
+      "feature": "orespawn:nest",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 230
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/haunted_house": {
+      "type": "orespawn:haunted_house"
+    },
+    "placed_feature/haunted_house": {
+      "feature": "orespawn:haunted_house",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 285
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/leaf_monster_tree": {
+      "type": "orespawn:leaf_monster_tree"
+    },
+    "placed_feature/leaf_monster_tree": {
+      "feature": "orespawn:leaf_monster_tree",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 275
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/spit_bug_lair": {
+      "type": "orespawn:spit_bug_lair"
+    },
+    "placed_feature/spit_bug_lair": {
+      "feature": "orespawn:spit_bug_lair",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 190
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/igloo": {
+      "type": "orespawn:igloo"
+    },
+    "placed_feature/igloo": {
+      "feature": "orespawn:igloo",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 220
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/bouncy_castle": {
+      "type": "orespawn:bouncy_castle"
+    },
+    "placed_feature/bouncy_castle": {
+      "feature": "orespawn:bouncy_castle",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 230
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "feature/rubber_ducky_pond": {
+      "type": "orespawn:rubber_ducky_pond"
+    },
+    "placed_feature/rubber_ducky_pond": {
+      "feature": "orespawn:rubber_ducky_pond",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 275
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    }
+  }
+}

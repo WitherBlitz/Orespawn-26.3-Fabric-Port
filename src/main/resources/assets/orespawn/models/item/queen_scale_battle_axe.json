@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "orespawn:item/queen_scale_battle_axe"
+  }
+}

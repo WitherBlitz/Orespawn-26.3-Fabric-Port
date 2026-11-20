@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "orespawn:block/ender_reaper_egg_ore"
+  }
+}

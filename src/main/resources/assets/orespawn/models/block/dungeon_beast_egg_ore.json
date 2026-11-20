@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "orespawn:block/dungeon_beast_egg_ore"
+  }
+}

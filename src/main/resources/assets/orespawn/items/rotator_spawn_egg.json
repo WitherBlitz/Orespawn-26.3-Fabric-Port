@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "orespawn:item/rotator_spawn_egg"
+  }
+}

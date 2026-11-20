@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:redstone_block",
+    "minecraft:wheat",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "orespawn:instant_survival_garden"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "orespawn:pink_tourmaline_ingot",
+      "required": false
+    }
+  ]
+}

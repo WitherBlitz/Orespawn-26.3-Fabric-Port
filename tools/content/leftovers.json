@@ -1,0 +1,54 @@
+{
+  "blocks": {
+    "pink_flower": {"texture": "flower_pink", "name": "Pink Flower", "model": "cross"},
+    "blue_flower": {"texture": "flower_blue", "name": "Blue Flower", "model": "cross"},
+    "black_flower": {"texture": "flower_black", "name": "Black Flower", "model": "cross"},
+    "dead_flower": {"texture": "flower_scary", "name": "Dead Flower", "model": "cross"},
+    "ender_pearl_block": {"texture": "blockenderpearl", "name": "Ender-Pearl Block"},
+    "eye_of_ender_block": {"texture": "blockeyeofender", "name": "Eye-of-Ender Block"},
+    "lava_foam": {"texture": "lavafoam", "name": "Lava Foam"}
+  },
+  "recipes": {
+    "ender_pearl_block": {
+      "type": "minecraft:crafting_shaped", "category": "building",
+      "key": {"T": "minecraft:ender_pearl"}, "pattern": ["TTT", "TTT", "TTT"],
+      "result": {"id": "orespawn:ender_pearl_block"}
+    },
+    "ender_pearl_from_ender_pearl_block": {
+      "type": "minecraft:crafting_shapeless", "category": "misc",
+      "ingredients": ["orespawn:ender_pearl_block"],
+      "result": {"id": "minecraft:ender_pearl", "count": 9}
+    },
+    "eye_of_ender_block": {
+      "type": "minecraft:crafting_shaped", "category": "building",
+      "key": {"T": "minecraft:ender_eye"}, "pattern": ["TTT", "TTT", "TTT"],
+      "result": {"id": "orespawn:eye_of_ender_block"}
+    },
+    "ender_eye_from_eye_of_ender_block": {
+      "type": "minecraft:crafting_shapeless", "category": "misc",
+      "ingredients": ["orespawn:eye_of_ender_block"],
+      "result": {"id": "minecraft:ender_eye", "count": 9}
+    }
+  },
+  "tags": {
+    "block/minecraft/mineable/pickaxe": ["orespawn:lava_foam"],
+    "block/minecraft/mineable/shovel": ["orespawn:ender_pearl_block", "orespawn:eye_of_ender_block"]
+  },
+  "worldgen": {
+    "feature/lava_foam": {
+      "type": "minecraft:ore",
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 6,
+      "targets": [{"state": "orespawn:lava_foam", "target": {"predicate_type": "minecraft:block_match", "block": "minecraft:netherrack"}}]
+    },
+    "placed_feature/lava_foam": {
+      "feature": "orespawn:lava_foam",
+      "placement": [
+        {"type": "minecraft:count", "count": {"type": "minecraft:uniform", "min_inclusive": 15, "max_inclusive": 24}},
+        {"type": "minecraft:in_square"},
+        {"type": "minecraft:height_range", "height": {"type": "minecraft:uniform", "min_inclusive": {"absolute": 10}, "max_inclusive": {"absolute": 117}}},
+        {"type": "minecraft:biome"}
+      ]
+    }
+  }
+}

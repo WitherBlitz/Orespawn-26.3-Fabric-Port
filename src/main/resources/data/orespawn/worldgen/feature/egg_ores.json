@@ -1,0 +1,1960 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:spider_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:bat_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cow_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:pig_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:squid_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:chicken_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:creeper_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:skeleton_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:zombie_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:slime_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ghast_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:zombified_piglin_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:enderman_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cave_spider_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:silverfish_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:magma_cube_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:witch_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:sheep_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:wolf_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:mooshroom_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ocelot_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:blaze_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:wither_skeleton_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ender_dragon_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:snow_golem_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:iron_golem_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:wither_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:villager_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:horse_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:apple_cow_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:golden_apple_cow_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:enchanted_golden_apple_cow_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:bird_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:chipmunk_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cricket_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:frog_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:beaver_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cassowary_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:rat_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:peacock_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:stink_bug_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:dragonfly_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:gazelle_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ostrich_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:lizard_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:crab_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:scorpion_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:small_worm_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:medium_worm_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:large_worm_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:gold_fish_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:flounder_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:skate_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:whale_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:mobzilla_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:the_kraken_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:mantis_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:hercules_beetle_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:bee_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:brutalfly_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:caterkiller_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:emperor_scorpion_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cave_fisher_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:molenoid_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:crystal_apple_cow_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:alosaurus_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:t_rex_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:nastysaurus_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:pointysaurus_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cryolophosaurus_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:baryonyx_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:camarasaurus_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:velocity_raptor_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:leonopteryx_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:baby_dragon_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:dragon_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:stinky_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:mothra_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:rotator_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:vortex_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:criminal_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:t_shirt_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:easter_bunny_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:rubber_ducky_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:spit_bug_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:jumpy_bug_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:spider_driver_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:attack_squid_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:hammerhead_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:irukandji_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:sea_monster_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:sea_viper_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cloud_shark_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:hydrolisc_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:water_dragon_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:crystal_urchin_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ender_knight_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:ender_reaper_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:fairy_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:dungeon_beast_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:leaf_monster_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:triffid_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:creeping_horror_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:terrible_terror_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:lurking_terror_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:nightmare_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:kyuubi_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:wtf_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:alien_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:basilisk_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cephadrome_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:cliff_racer_egg_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:mobzilla_egg_part_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:the_king_egg_part_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:ore",
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 4,
+        "targets": [
+          {
+            "state": "orespawn:the_queen_egg_part_ore",
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            }
+          }
+        ]
+      },
+      "placement": []
+    }
+  ]
+}

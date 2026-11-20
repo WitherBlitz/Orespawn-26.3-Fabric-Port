@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "orespawn:amethyst",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "EE",
+    "EI",
+    " I"
+  ],
+  "result": {
+    "id": "orespawn:amethyst_axe"
+  }
+}

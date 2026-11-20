@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:lavaeel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:lavaeel"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:lavaeel"
+      }
+    ]
+  }
+}

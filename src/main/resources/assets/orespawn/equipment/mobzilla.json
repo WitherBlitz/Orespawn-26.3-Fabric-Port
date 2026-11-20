@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:mobzilla"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:mobzilla"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:mobzilla"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": "orespawn:pink_tourmaline",
+  "result": {
+    "id": "orespawn:pink_tourmaline_ingot"
+  }
+}

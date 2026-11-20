@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:buttered_and_salted_popcorn",
+    "orespawn:buttered_and_salted_popcorn",
+    "orespawn:buttered_and_salted_popcorn",
+    "orespawn:buttered_and_salted_popcorn",
+    "orespawn:buttered_and_salted_popcorn",
+    "orespawn:buttered_and_salted_popcorn",
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "orespawn:bag_of_popcorn"
+  }
+}

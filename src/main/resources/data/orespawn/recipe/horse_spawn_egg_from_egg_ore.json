@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:horse_egg_ore"
+  ],
+  "result": {
+    "id": "minecraft:horse_spawn_egg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore",
+    "orespawn:mobzilla_egg_part_ore"
+  ],
+  "result": {
+    "id": "orespawn:mobzilla_egg_ore"
+  }
+}

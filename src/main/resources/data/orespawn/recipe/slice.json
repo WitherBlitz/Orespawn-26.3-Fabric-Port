@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "orespawn:big_bertha",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "orespawn:slice"
+  }
+}

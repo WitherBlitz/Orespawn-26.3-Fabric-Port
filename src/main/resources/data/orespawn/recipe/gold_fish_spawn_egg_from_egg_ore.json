@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:gold_fish_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:gold_fish_spawn_egg"
+  }
+}

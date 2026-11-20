@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:gazelle_egg_ore"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/gazelle_egg_ore"
+}

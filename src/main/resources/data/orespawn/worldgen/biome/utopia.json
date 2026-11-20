@@ -1,0 +1,59 @@
+{
+  "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/sky_color": "#7aa6ff"
+  },
+  "carvers": [
+    "orespawn:utopia_cave",
+    "orespawn:utopia_canyon"
+  ],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "orespawn:utopia_ore_dirt",
+      "orespawn:utopia_ore_gravel",
+      "orespawn:utopia_ore_coal",
+      "orespawn:utopia_ore_iron",
+      "orespawn:utopia_ore_gold",
+      "orespawn:utopia_ore_redstone",
+      "orespawn:utopia_ore_diamond",
+      "orespawn:utopia_ore_lapis",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "orespawn:utopia_spring_water",
+      "orespawn:utopia_spring_lava"
+    ],
+    [
+      "orespawn:utopia_flowers",
+      "orespawn:utopia_grass",
+      "orespawn:utopia_brown_mushroom",
+      "orespawn:utopia_red_mushroom",
+      "orespawn:utopia_sugar_cane",
+      "orespawn:utopia_pumpkin",
+      "orespawn:utopia",
+      "orespawn:ant_nests"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "temperature": 0.7
+}

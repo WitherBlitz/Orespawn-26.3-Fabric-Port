@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "orespawn:block/crystal_urchin_egg_ore"
+  }
+}

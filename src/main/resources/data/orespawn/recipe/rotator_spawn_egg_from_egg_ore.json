@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:rotator_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:rotator_spawn_egg"
+  }
+}

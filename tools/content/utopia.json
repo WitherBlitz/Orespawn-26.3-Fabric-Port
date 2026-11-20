@@ -1,0 +1,946 @@
+{
+  "worldgen": {
+    "carver/utopia_cave": {
+      "type": "minecraft:cave",
+      "probability": 0.14285714285714285,
+      "count": {
+        "type": "minecraft:very_biased_to_bottom",
+        "min_inclusive": 0,
+        "max_inclusive": 14
+      },
+      "y": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 127
+        },
+        "inner": 8
+      },
+      "thickness": {
+        "type": "minecraft:trapezoid",
+        "min": 0.0,
+        "max": 3.0,
+        "plateau": 1.0
+      },
+      "weird_thickness_bias": true,
+      "room_vertical_radius_multiplier": 0.5,
+      "horizontal_radius_multiplier": 1.0,
+      "vertical_radius_multiplier": 1.0,
+      "floor_level": -0.7
+    },
+    "carver/utopia_canyon": {
+      "type": "minecraft:canyon",
+      "probability": 0.02,
+      "y": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 20
+        },
+        "max_inclusive": {
+          "absolute": 67
+        },
+        "inner": 8
+      },
+      "vertical_rotation": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -0.125,
+        "max_exclusive": 0.125
+      },
+      "shape": {
+        "distance_factor": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 0.75,
+          "max_exclusive": 1.0
+        },
+        "thickness": {
+          "type": "minecraft:trapezoid",
+          "min": 0.0,
+          "max": 6.0,
+          "plateau": 2.0
+        },
+        "width_smoothness": 3,
+        "horizontal_radius_factor": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 0.75,
+          "max_exclusive": 1.0
+        },
+        "vertical_radius_default_factor": 1.0,
+        "vertical_radius_center_factor": 0.0,
+        "y_scale": 3.0
+      }
+    },
+    "feature/utopia": {
+      "type": "orespawn:utopia"
+    },
+    "placed_feature/utopia": {
+      "feature": "orespawn:utopia",
+      "placement": []
+    },
+    "feature/utopia_flower": {
+      "type": "minecraft:simple_block",
+      "to_place": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": "minecraft:dandelion",
+            "weight": 2
+          },
+          {
+            "data": "minecraft:poppy",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "feature/utopia_ore_diamond": {
+      "type": "minecraft:ore",
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 8,
+      "targets": [
+        {
+          "state": "minecraft:diamond_ore",
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:stone"
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_dirt": {
+      "feature": "minecraft:ore_dirt",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 255
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_gravel": {
+      "feature": "minecraft:ore_gravel",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 10
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 255
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_coal": {
+      "feature": "minecraft:ore_coal",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 127
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_iron": {
+      "feature": "minecraft:ore_iron",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 63
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_gold": {
+      "feature": "minecraft:ore_gold",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 2
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 31
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_redstone": {
+      "feature": "minecraft:ore_redstone",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 8
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 15
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_diamond": {
+      "feature": "orespawn:utopia_ore_diamond",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 1
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 15
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_ore_lapis": {
+      "feature": "minecraft:ore_lapis",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 1
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 30
+            },
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_flowers": {
+      "feature": "orespawn:utopia_flower",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 4
+        },
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 25
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "MOTION_BLOCKING"
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 64
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_grass": {
+      "feature": "minecraft:grass",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 6
+        },
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 96
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_brown_mushroom": {
+      "feature": "minecraft:brown_mushroom",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 4
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 130
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 64
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_red_mushroom": {
+      "feature": "minecraft:red_mushroom",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 8
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 130
+            }
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 64
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_sugar_cane": {
+      "feature": "minecraft:sugar_cane",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 13
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "MOTION_BLOCKING"
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "y": 0,
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:air"
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": "minecraft:sugar_cane"
+              },
+              {
+                "type": "minecraft:any_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_fluids",
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      1,
+                      -1,
+                      0
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_fluids",
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      -1,
+                      -1,
+                      0
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_fluids",
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      1
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_fluids",
+                    "fluids": [
+                      "minecraft:water",
+                      "minecraft:flowing_water"
+                    ],
+                    "offset": [
+                      0,
+                      -1,
+                      -1
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_pumpkin": {
+      "feature": "minecraft:pumpkin",
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 550
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "MOTION_BLOCKING"
+        },
+        {
+          "type": "minecraft:biome"
+        },
+        {
+          "type": "minecraft:count",
+          "count": 64
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          },
+          "y": {
+            "type": "minecraft:trapezoid",
+            "min": -3,
+            "max": 3,
+            "plateau": 0
+          },
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -7,
+            "max": 7,
+            "plateau": 0
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:grass_block",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "placed_feature/utopia_spring_water": {
+      "feature": "minecraft:spring_water",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 50
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:biased_to_bottom",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 255
+            },
+            "inner": 8
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "placed_feature/utopia_spring_lava": {
+      "feature": "minecraft:spring_lava_overworld",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:very_biased_to_bottom",
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 247
+            },
+            "inner": 8
+          }
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ]
+    },
+    "biome/utopia": {
+      "attributes": {
+        "minecraft:gameplay/natural_mob_spawns": {
+          "argument": {
+            "spawn_costs": {},
+            "spawns_by_category": {}
+          },
+          "modifier": "overlay"
+        },
+        "minecraft:visual/sky_color": "#7aa6ff"
+      },
+      "carvers": [
+        "orespawn:utopia_cave",
+        "orespawn:utopia_canyon"
+      ],
+      "downfall": 0.5,
+      "effects": {
+        "water_color": "#3f76e4"
+      },
+      "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "orespawn:utopia_ore_dirt",
+          "orespawn:utopia_ore_gravel",
+          "orespawn:utopia_ore_coal",
+          "orespawn:utopia_ore_iron",
+          "orespawn:utopia_ore_gold",
+          "orespawn:utopia_ore_redstone",
+          "orespawn:utopia_ore_diamond",
+          "orespawn:utopia_ore_lapis",
+          "minecraft:disk_sand",
+          "minecraft:disk_clay",
+          "minecraft:disk_gravel"
+        ],
+        [],
+        [
+          "orespawn:utopia_spring_water",
+          "orespawn:utopia_spring_lava"
+        ],
+        [
+          "orespawn:utopia_flowers",
+          "orespawn:utopia_grass",
+          "orespawn:utopia_brown_mushroom",
+          "orespawn:utopia_red_mushroom",
+          "orespawn:utopia_sugar_cane",
+          "orespawn:utopia_pumpkin",
+          "orespawn:utopia",
+          "orespawn:ant_nests"
+        ],
+        []
+      ],
+      "has_precipitation": true,
+      "temperature": 0.7
+    },
+    "structure/utopia_big": {
+      "type": "orespawn:utopia_big",
+      "biomes": [
+        "orespawn:utopia"
+      ],
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    "structure_set/utopia_big": {
+      "structures": [
+        {
+          "structure": "orespawn:utopia_big",
+          "weight": 1
+        }
+      ],
+      "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1307710,
+        "spacing": 1,
+        "separation": 0
+      }
+    }
+  },
+  "data": {
+    "dimension_type/utopia.json": {
+      "ambient_light": 0.0,
+      "attributes": {
+        "minecraft:audio/ambient_sounds": {
+          "mood": {
+            "block_search_extent": 8,
+            "offset": 2.0,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+          }
+        },
+        "minecraft:audio/background_music": {
+          "creative": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.creative"
+          },
+          "default": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "sound": "minecraft:music.game"
+          }
+        },
+        "minecraft:gameplay/bed_rule": {
+          "can_set_spawn": "always",
+          "can_sleep": "when_dark",
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:gameplay/nether_portal_spawns_piglin": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:gameplay/straw_bed_rule": {
+          "can_set_spawn": "never",
+          "can_sleep": "when_dark",
+          "destroy_on_leave": true,
+          "error_message": {
+            "translate": "block.minecraft.bed.no_sleep"
+          }
+        },
+        "minecraft:visual/ambient_light_color": "#0a0a0a",
+        "minecraft:visual/cloud_color": "#ccffffff",
+        "minecraft:visual/cloud_height": 128.33,
+        "minecraft:visual/fog_color": "#c0d8ff",
+        "minecraft:visual/sky_color": "#7aa6ff"
+      },
+      "coordinate_scale": 1.0,
+      "default_clock": "minecraft:overworld",
+      "has_ceiling": false,
+      "has_ender_dragon_fight": false,
+      "has_skylight": true,
+      "height": 256,
+      "infiniburn": "#minecraft:infiniburn_overworld",
+      "logical_height": 256,
+      "min_y": 0,
+      "monster_spawn_block_light_limit": 0,
+      "monster_spawn_light_level": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 7,
+        "min_inclusive": 0
+      },
+      "timelines": "#minecraft:in_overworld"
+    },
+    "dimension/utopia.json": {
+      "type": "orespawn:utopia",
+      "generator": {
+        "type": "orespawn:utopia",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "orespawn:utopia"
+        }
+      }
+    }
+  },
+  "lang": {
+    "biome.orespawn.utopia": "Utopia"
+  }
+}

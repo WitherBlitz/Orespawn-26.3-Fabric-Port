@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:red_crystal_tree_leaves",
+    "orespawn:yellow_crystal_tree_leaves",
+    "orespawn:blue_crystal_tree_leaves",
+    "orespawn:apple_leaves",
+    "orespawn:cherry_leaves",
+    "orespawn:peach_leaves",
+    "orespawn:scary_leaves",
+    "orespawn:experience_leaves"
+  ]
+}

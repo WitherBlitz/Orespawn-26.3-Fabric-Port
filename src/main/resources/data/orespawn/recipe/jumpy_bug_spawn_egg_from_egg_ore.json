@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "orespawn:jumpy_bug_egg_ore"
+  ],
+  "result": {
+    "id": "orespawn:jumpy_bug_spawn_egg"
+  }
+}

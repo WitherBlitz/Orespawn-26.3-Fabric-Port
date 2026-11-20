@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "state": {
+          "stage": "3"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:quinoa",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": 5
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/quinoa_plant",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  }
+}

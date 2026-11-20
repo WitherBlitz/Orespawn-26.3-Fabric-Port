@@ -1,0 +1,139 @@
+{
+  "creatures": {
+    "gold_fish": {
+      "name": "Goldfish",
+      "egg": "egggoldfish",
+      "textures": {
+        "GoldFish.png": "gold_fish.png"
+      },
+      "ragdoll": "from_model",
+      "loot_table": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_block",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:uranium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:titanium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "flounder": {
+      "name": "Flounder",
+      "egg": "eggflounder",
+      "textures": {
+        "Floundertexture.png": "flounder.png"
+      },
+      "ragdoll": "from_model",
+      "loot": [
+        {
+          "item": "minecraft:cod",
+          "min": 1,
+          "max": 2,
+          "looting": false
+        }
+      ]
+    },
+    "skate": {
+      "name": "Skate",
+      "egg": "eggskate",
+      "textures": {
+        "Skatetexture.png": "skate.png"
+      },
+      "ragdoll": "from_model",
+      "loot": [
+        {
+          "item": "minecraft:string",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ]
+    },
+    "whale": {
+      "name": "Whale",
+      "egg": "eggwhale",
+      "textures": {
+        "Whaletexture.png": "whale.png"
+      },
+      "ragdoll": "from_model"
+    }
+  },
+  "sounds": [
+    "little_splat",
+    "big_splat",
+    "ratdead"
+  ]
+}

@@ -1,0 +1,84 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+// OreSpawn 1.7.10-20.3 ported to 26.3 Fabric. The port contains none of OreSpawn's files: at runtime it reads OreSpawn's
+// textures, sounds, model shapes and dungeon code from the original mod's file, which players put in their mods folder.
+// Dev runs and tests take that file from original/ (not in git), or from -PorespawnOriginal=<path>. See README.md.
+def originalFile = {
+	if (project.hasProperty('orespawnOriginal')) return file(project.property('orespawnOriginal'))
+	def found = file('original').listFiles()?.find { it.name.endsWith('.zip') || it.name.endsWith('.jar') }
+	return found
+}
+base {
+	archivesName = "OreSpawn-fabric"
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+// -PallMods: every mod of the AllMods-26.3 Prism instance, from a copy in build/allmods made by copyAllMods. Besides
+// its mods folder, the instance loads (through -Dfabric.addMods) its performance-mods folder (Lithium, Entity Culling,
+// FerriteCore) and the renderer folder named in config/renderer-mods.txt: renderer-iris (Sodium, Iris, ImmediatelyFast)
+// or renderer-rtx. copyAllMods takes the one the instance uses, or -Prenderer=iris / -Prenderer=rtx. The instance itself
+// is only read.
+def instanceDir = "${System.getenv('APPDATA')}/PrismLauncher/instances/AllMods-26.3/minecraft"
+def rendererDir = {
+	if (project.hasProperty('renderer')) return file("${instanceDir}/renderer-${project.property('renderer')}")
+	def list = file("${instanceDir}/config/renderer-mods.txt")
+	return list.exists() ? file(list.readLines().find { it.trim() }.trim()) : null
+}
+tasks.register('copyAllMods', Copy) {
+	from(file("${instanceDir}/mods")) { include '*.jar'; exclude 'fabric-api-*.jar'; exclude 'OreSpawn-*.jar' }
+	from(file("${instanceDir}/performance-mods")) { include '*.jar' }
+	def renderer = rendererDir()
+	if (renderer != null) from(renderer) { include '*.jar' }
+	into layout.buildDirectory.dir('allmods')
+	doFirst { delete layout.buildDirectory.dir('allmods') }
+}
+if (project.hasProperty('allMods')) {
+	dependencies {
+		localRuntime fileTree(layout.buildDirectory.dir('allmods')) { include '*.jar' }
+	}
+}
+
+tasks.withType(JavaExec).configureEach {
+	def original = originalFile()
+	if (original != null) systemProperty 'orespawn.original', original.absolutePath
+}
+tasks.matching { it.name == 'runClientGameTest' }.configureEach {
+	jvmArgs '-Xmx6g'
+	// Test runs are muted: OpenAL Soft opens no output device.
+	environment 'ALSOFT_DRIVERS', 'null'
+	if (project.hasProperty('allMods')) environment 'ORESPAWN_ALLMODS', '1'
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+fabricApi {
+	configureTests {
+		createSourceSet = true
+		modId = "orespawn-gametest"
+		enableGameTests = false
+		enableClientGameTests = true
+		eula = false
+	}
+}

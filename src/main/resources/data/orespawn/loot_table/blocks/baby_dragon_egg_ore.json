@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:baby_dragon_egg_ore"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/baby_dragon_egg_ore"
+}

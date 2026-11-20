@@ -1,0 +1,137 @@
+{
+  "creatures": {
+    "peacock": {
+      "name": "Peacock",
+      "egg": "eggpeacock",
+      "textures": {
+        "peacocktexture.png": "peacock.png"
+      },
+      "ragdoll": "from_model"
+    },
+    "stink_bug": {
+      "name": "Stink Bug",
+      "egg": "eggstink",
+      "textures": {
+        "StinkBug.png": "stink_bug.png"
+      },
+      "loot": [
+        {
+          "item": "orespawn:dead_stink_bug",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        }
+      ]
+    },
+    "mosquito": {
+      "name": "Mosquito",
+      "egg": "eggmosquito",
+      "textures": {
+        "mosquito.png": "mosquito.png"
+      }
+    },
+    "dragonfly": {
+      "name": "Dragonfly",
+      "egg": "eggdragonfly",
+      "textures": {
+        "dragonfly.png": "dragonfly.png"
+      },
+      "loot_table": {
+        "type": "minecraft:entity",
+        "pools": [
+          {
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:uranium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "orespawn:titanium_nugget",
+                "weight": 1,
+                "modifier": [
+                  {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  {
+                    "type": "minecraft:enchanted_count_increase",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 0.0,
+                      "max": 1.0
+                    },
+                    "enchantment": "minecraft:looting"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:empty",
+                "weight": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sounds": [
+    "peacocklive",
+    "peacockhit",
+    "peacockdead",
+    "fart",
+    "mosquito",
+    "dragonfly_living",
+    "dragonfly_hurt",
+    "dragonfly_death"
+  ]
+}

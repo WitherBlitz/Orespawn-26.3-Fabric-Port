@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "orespawn:tigerseye"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "orespawn:tigerseye"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "orespawn:tigerseye"
+      }
+    ]
+  }
+}

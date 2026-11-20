@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:ruby_ore",
+    "orespawn:amethyst_ore",
+    "orespawn:uranium_ore",
+    "orespawn:titanium_ore",
+    "orespawn:salt_ore",
+    "orespawn:ruby_block",
+    "orespawn:amethyst_block",
+    "orespawn:uranium_block",
+    "orespawn:titanium_block",
+    "orespawn:mobzilla_scale_block",
+    "orespawn:kyanite",
+    "orespawn:crystal_energy",
+    "orespawn:pink_tourmaline",
+    "orespawn:tigers_eye",
+    "orespawn:crystalized_rats",
+    "orespawn:crystalized_fairies",
+    "orespawn:pink_tourmaline_block",
+    "orespawn:tigers_eye_block",
+    "orespawn:crystal_furnace",
+    "orespawn:lava_foam",
+    "orespawn:red_ant_troll_block",
+    "orespawn:termite_troll_block",
+    "orespawn:random_teleport_block"
+  ]
+}

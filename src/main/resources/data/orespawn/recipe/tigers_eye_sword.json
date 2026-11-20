@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "orespawn:tigers_eye_ingot",
+    "I": "orespawn:crystal_shards"
+  },
+  "pattern": [
+    "E",
+    "E",
+    "I"
+  ],
+  "result": {
+    "id": "orespawn:tigers_eye_sword"
+  }
+}

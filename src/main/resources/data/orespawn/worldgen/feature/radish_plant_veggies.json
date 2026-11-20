@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "minecraft:carrots",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "minecraft:potatoes",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "orespawn:radish_plant",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "orespawn:lettuce_plant",
+              "properties": {
+                "stage": "0",
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "minecraft:melon_stem",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "feature": {
+        "type": "minecraft:no_op"
+      },
+      "placement": []
+    }
+  ]
+}

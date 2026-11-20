@@ -1,0 +1,941 @@
+package orespawn.client.model;
+
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.minecraft.client.model.EntityModel;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+import net.minecraft.util.Mth;
+import orespawn.client.OreSpawnRenderState;
+import orespawn.client.original.OriginalModels;
+
+/**
+ * Ported from OreSpawn's ModelTheQueen (geometry converted by tools/convert_model.py; the three head helpers as in
+ * TheKingModel, which OreSpawn's were identical to): beating wings, three swaying heads with snapping jaws, claws, legs
+ * and a long tail, all livelier while attacking ({@code state.attacking}), and her spinning power cubes
+ * ({@code state.value}: her power).
+ */
+@SuppressWarnings("unused")
+@Environment(EnvType.CLIENT)
+public class TheQueenModel extends EntityModel<OreSpawnRenderState> {
+	private final ModelPart LCClaw1;
+	private final ModelPart LThigh;
+	private final ModelPart LUpperLeg;
+	private final ModelPart TailTip;
+	private final ModelPart Tail1;
+	private final ModelPart Tail2;
+	private final ModelPart Tail3;
+	private final ModelPart Tail4;
+	private final ModelPart Tail5;
+	private final ModelPart Tail6;
+	private final ModelPart Tail7;
+	private final ModelPart Body1;
+	private final ModelPart NeckC1;
+	private final ModelPart LLowerLeg;
+	private final ModelPart LFoot;
+	private final ModelPart LLClaw1;
+	private final ModelPart LRClaw1;
+	private final ModelPart LCClaw2;
+	private final ModelPart LLClaw2;
+	private final ModelPart TailSpike;
+	private final ModelPart LRClaw2;
+	private final ModelPart LClawRear;
+	private final ModelPart NeckL1;
+	private final ModelPart NeckR1;
+	private final ModelPart RThigh;
+	private final ModelPart RUpperLeg;
+	private final ModelPart RLowerLeg;
+	private final ModelPart RFoot;
+	private final ModelPart RClawRear;
+	private final ModelPart RLClaw1;
+	private final ModelPart RCClaw1;
+	private final ModelPart RRClaw1;
+	private final ModelPart RLClaw2;
+	private final ModelPart RCClaw2;
+	private final ModelPart RRClaw2;
+	private final ModelPart NeckL2;
+	private final ModelPart NeckC2;
+	private final ModelPart NeckR2;
+	private final ModelPart NeckL3;
+	private final ModelPart NeckC3;
+	private final ModelPart NeckR3;
+	private final ModelPart NeckL4;
+	private final ModelPart LHead1;
+	private final ModelPart LHead2;
+	private final ModelPart LHead3;
+	private final ModelPart LJaw1;
+	private final ModelPart LJaw2;
+	private final ModelPart LJaw3;
+	private final ModelPart LTooth1;
+	private final ModelPart LTooth2;
+	private final ModelPart LTooth3;
+	private final ModelPart LTooth4;
+	private final ModelPart NeckC4;
+	private final ModelPart NeckR4;
+	private final ModelPart CHead1;
+	private final ModelPart RHead1;
+	private final ModelPart CHead2;
+	private final ModelPart RHead2;
+	private final ModelPart CHead3;
+	private final ModelPart RHead3;
+	private final ModelPart CJaw1;
+	private final ModelPart CJaw2;
+	private final ModelPart CJaw3;
+	private final ModelPart RJaw1;
+	private final ModelPart RJaw2;
+	private final ModelPart RJaw3;
+	private final ModelPart CTooth3;
+	private final ModelPart CTooth4;
+	private final ModelPart CTooth1;
+	private final ModelPart CTooth2;
+	private final ModelPart RTooth3;
+	private final ModelPart RTooth4;
+	private final ModelPart RTooth1;
+	private final ModelPart RTooth2;
+	private final ModelPart LLEye;
+	private final ModelPart LREye;
+	private final ModelPart CLEye;
+	private final ModelPart CREye;
+	private final ModelPart RLEye;
+	private final ModelPart RREye;
+	private final ModelPart LHeadMane;
+	private final ModelPart CHeadMane;
+	private final ModelPart RHeadMane;
+	private final ModelPart LLNoseSpike;
+	private final ModelPart LRNoseSpike;
+	private final ModelPart CLNoseSpike;
+	private final ModelPart CRNoseSpike;
+	private final ModelPart RLNoseSpike;
+	private final ModelPart RRNoseSpike;
+	private final ModelPart Back1;
+	private final ModelPart Back2;
+	private final ModelPart Lwing1;
+	private final ModelPart Lwing2;
+	private final ModelPart Lwing3;
+	private final ModelPart Lwing4;
+	private final ModelPart Lwing5;
+	private final ModelPart Lwing6;
+	private final ModelPart Lwing7;
+	private final ModelPart Lwing9;
+	private final ModelPart Lwing8;
+	private final ModelPart Lwing10;
+	private final ModelPart Rwing1;
+	private final ModelPart Rwing2;
+	private final ModelPart Rwing3;
+	private final ModelPart Rwing4;
+	private final ModelPart Rwing5;
+	private final ModelPart Rwing6;
+	private final ModelPart Rwing7;
+	private final ModelPart Rwing8;
+	private final ModelPart Rwing9;
+	private final ModelPart Rwing10;
+	private final ModelPart TailTip2;
+	private final ModelPart Ridge1;
+	private final ModelPart Ridge2;
+	private final ModelPart Ridge3;
+	private final ModelPart Ridge4;
+	private final ModelPart Ridge5;
+	private final ModelPart Ridge6;
+	private final ModelPart NeckBone1;
+	private final ModelPart NeckBone2;
+	private final ModelPart NeckBone3;
+	private final ModelPart PowerCube1;
+	private final ModelPart Rib1;
+	private final ModelPart Rib2;
+	private final ModelPart Rib3;
+	private final ModelPart Rib4;
+	private final ModelPart Rib5;
+	private final ModelPart Rib6;
+	private final ModelPart PowerCube2;
+	private final ModelPart PowerCube3;
+	private final float wingspeed;
+	public static final int BODY = 0;
+	public static final int MEMBRANES = 1;
+	public static final int CUBES = 2;
+	public static final int EYES = 3;
+	private final int pass;
+
+	public TheQueenModel(ModelPart root, float wingspeed) {
+		this(root, wingspeed, BODY);
+	}
+
+	/**
+	 * @param pass which of OreSpawn's render() passes this copy draws: {@link #BODY} (everything but the wing membranes,
+	 *             power cubes and eyes), {@link #MEMBRANES} (blended at colour 0.75, alpha 0.55), {@link #CUBES} (blended
+	 *             and full bright; the second cube once her power is over 350, the third over 650) or {@link #EYES}
+	 *             (full bright). The renderer (orespawn.client.content.TheQueenRenderer) draws each copy so.
+	 */
+	public TheQueenModel(ModelPart root, float wingspeed, int pass) {
+		super(root);
+		this.wingspeed = wingspeed;
+		this.pass = pass;
+		this.LCClaw1 = root.getChild("lcclaw1");
+		this.LThigh = root.getChild("lthigh");
+		this.LUpperLeg = root.getChild("lupperleg");
+		this.TailTip = root.getChild("tailtip");
+		this.Tail1 = root.getChild("tail1");
+		this.Tail2 = root.getChild("tail2");
+		this.Tail3 = root.getChild("tail3");
+		this.Tail4 = root.getChild("tail4");
+		this.Tail5 = root.getChild("tail5");
+		this.Tail6 = root.getChild("tail6");
+		this.Tail7 = root.getChild("tail7");
+		this.Body1 = root.getChild("body1");
+		this.NeckC1 = root.getChild("neckc1");
+		this.LLowerLeg = root.getChild("llowerleg");
+		this.LFoot = root.getChild("lfoot");
+		this.LLClaw1 = root.getChild("llclaw1");
+		this.LRClaw1 = root.getChild("lrclaw1");
+		this.LCClaw2 = root.getChild("lcclaw2");
+		this.LLClaw2 = root.getChild("llclaw2");
+		this.TailSpike = root.getChild("tailspike");
+		this.LRClaw2 = root.getChild("lrclaw2");
+		this.LClawRear = root.getChild("lclawrear");
+		this.NeckL1 = root.getChild("neckl1");
+		this.NeckR1 = root.getChild("neckr1");
+		this.RThigh = root.getChild("rthigh");
+		this.RUpperLeg = root.getChild("rupperleg");
+		this.RLowerLeg = root.getChild("rlowerleg");
+		this.RFoot = root.getChild("rfoot");
+		this.RClawRear = root.getChild("rclawrear");
+		this.RLClaw1 = root.getChild("rlclaw1");
+		this.RCClaw1 = root.getChild("rcclaw1");
+		this.RRClaw1 = root.getChild("rrclaw1");
+		this.RLClaw2 = root.getChild("rlclaw2");
+		this.RCClaw2 = root.getChild("rcclaw2");
+		this.RRClaw2 = root.getChild("rrclaw2");
+		this.NeckL2 = root.getChild("neckl2");
+		this.NeckC2 = root.getChild("neckc2");
+		this.NeckR2 = root.getChild("neckr2");
+		this.NeckL3 = root.getChild("neckl3");
+		this.NeckC3 = root.getChild("neckc3");
+		this.NeckR3 = root.getChild("neckr3");
+		this.NeckL4 = root.getChild("neckl4");
+		this.LHead1 = root.getChild("lhead1");
+		this.LHead2 = root.getChild("lhead2");
+		this.LHead3 = root.getChild("lhead3");
+		this.LJaw1 = root.getChild("ljaw1");
+		this.LJaw2 = root.getChild("ljaw2");
+		this.LJaw3 = root.getChild("ljaw3");
+		this.LTooth1 = root.getChild("ltooth1");
+		this.LTooth2 = root.getChild("ltooth2");
+		this.LTooth3 = root.getChild("ltooth3");
+		this.LTooth4 = root.getChild("ltooth4");
+		this.NeckC4 = root.getChild("neckc4");
+		this.NeckR4 = root.getChild("neckr4");
+		this.CHead1 = root.getChild("chead1");
+		this.RHead1 = root.getChild("rhead1");
+		this.CHead2 = root.getChild("chead2");
+		this.RHead2 = root.getChild("rhead2");
+		this.CHead3 = root.getChild("chead3");
+		this.RHead3 = root.getChild("rhead3");
+		this.CJaw1 = root.getChild("cjaw1");
+		this.CJaw2 = root.getChild("cjaw2");
+		this.CJaw3 = root.getChild("cjaw3");
+		this.RJaw1 = root.getChild("rjaw1");
+		this.RJaw2 = root.getChild("rjaw2");
+		this.RJaw3 = root.getChild("rjaw3");
+		this.CTooth3 = root.getChild("ctooth3");
+		this.CTooth4 = root.getChild("ctooth4");
+		this.CTooth1 = root.getChild("ctooth1");
+		this.CTooth2 = root.getChild("ctooth2");
+		this.RTooth3 = root.getChild("rtooth3");
+		this.RTooth4 = root.getChild("rtooth4");
+		this.RTooth1 = root.getChild("rtooth1");
+		this.RTooth2 = root.getChild("rtooth2");
+		this.LLEye = root.getChild("lleye");
+		this.LREye = root.getChild("lreye");
+		this.CLEye = root.getChild("cleye");
+		this.CREye = root.getChild("creye");
+		this.RLEye = root.getChild("rleye");
+		this.RREye = root.getChild("rreye");
+		this.LHeadMane = root.getChild("lheadmane");
+		this.CHeadMane = root.getChild("cheadmane");
+		this.RHeadMane = root.getChild("rheadmane");
+		this.LLNoseSpike = root.getChild("llnosespike");
+		this.LRNoseSpike = root.getChild("lrnosespike");
+		this.CLNoseSpike = root.getChild("clnosespike");
+		this.CRNoseSpike = root.getChild("crnosespike");
+		this.RLNoseSpike = root.getChild("rlnosespike");
+		this.RRNoseSpike = root.getChild("rrnosespike");
+		this.Back1 = root.getChild("back1");
+		this.Back2 = root.getChild("back2");
+		this.Lwing1 = root.getChild("lwing1");
+		this.Lwing2 = root.getChild("lwing2");
+		this.Lwing3 = root.getChild("lwing3");
+		this.Lwing4 = root.getChild("lwing4");
+		this.Lwing5 = root.getChild("lwing5");
+		this.Lwing6 = root.getChild("lwing6");
+		this.Lwing7 = root.getChild("lwing7");
+		this.Lwing9 = root.getChild("lwing9");
+		this.Lwing8 = root.getChild("lwing8");
+		this.Lwing10 = root.getChild("lwing10");
+		this.Rwing1 = root.getChild("rwing1");
+		this.Rwing2 = root.getChild("rwing2");
+		this.Rwing3 = root.getChild("rwing3");
+		this.Rwing4 = root.getChild("rwing4");
+		this.Rwing5 = root.getChild("rwing5");
+		this.Rwing6 = root.getChild("rwing6");
+		this.Rwing7 = root.getChild("rwing7");
+		this.Rwing8 = root.getChild("rwing8");
+		this.Rwing9 = root.getChild("rwing9");
+		this.Rwing10 = root.getChild("rwing10");
+		this.TailTip2 = root.getChild("tailtip2");
+		this.Ridge1 = root.getChild("ridge1");
+		this.Ridge2 = root.getChild("ridge2");
+		this.Ridge3 = root.getChild("ridge3");
+		this.Ridge4 = root.getChild("ridge4");
+		this.Ridge5 = root.getChild("ridge5");
+		this.Ridge6 = root.getChild("ridge6");
+		this.NeckBone1 = root.getChild("neckbone1");
+		this.NeckBone2 = root.getChild("neckbone2");
+		this.NeckBone3 = root.getChild("neckbone3");
+		this.PowerCube1 = root.getChild("powercube1");
+		this.Rib1 = root.getChild("rib1");
+		this.Rib2 = root.getChild("rib2");
+		this.Rib3 = root.getChild("rib3");
+		this.Rib4 = root.getChild("rib4");
+		this.Rib5 = root.getChild("rib5");
+		this.Rib6 = root.getChild("rib6");
+		this.PowerCube2 = root.getChild("powercube2");
+		this.PowerCube3 = root.getChild("powercube3");
+	}
+
+	public static LayerDefinition createBodyLayer() {
+		return OriginalModels.layer("ModelTheQueen");
+	}
+
+	@Override
+	public void setupAnim(OreSpawnRenderState state) {
+		super.setupAnim(state);
+		float f = state.walkAnimationPos, f1 = state.walkAnimationSpeed, f2 = state.ageInTicks, f3 = state.yRot, f4 = state.xRot;
+		float newangle = 0.0F;
+		boolean attacking = state.attacking;
+		float tailspeed = 0.26F;
+		float tailamp = 0.08F;
+		float pi4 = (float) (Math.PI / 4);
+		float Lheadlr = 0.0F;
+		float Lheadud = 0.0F;
+		float Ljawangle = 0.0F;
+		float Cheadlr = 0.0F;
+		float Cheadud = 0.0F;
+		float Cjawangle = 0.0F;
+		float Rheadlr = 0.0F;
+		float Rheadud = 0.0F;
+		float Rjawangle = 0.0F;
+		if (attacking) {
+		newangle = Mth.cos(f2 * 0.85F * this.wingspeed) * (float) Math.PI * 0.26F;
+		} else {
+		newangle = Mth.cos(f2 * 0.35F * this.wingspeed) * (float) Math.PI * 0.15F;
+		}
+		this.Lwing1.zRot = newangle;
+		this.Lwing2.zRot = newangle;
+		this.Lwing3.zRot = newangle * 5.0F / 3.0F;
+		this.Lwing3.y = this.Lwing1.y + (float)Math.sin(this.Lwing1.zRot) * 84.0F;
+		this.Lwing3.x = this.Lwing1.x + (float)Math.cos(this.Lwing1.zRot) * 84.0F;
+		this.Lwing4.zRot = this.Lwing3.zRot;
+		this.Lwing4.y = this.Lwing3.y;
+		this.Lwing4.x = this.Lwing3.x;
+		this.Lwing5.zRot = newangle * 7.0F / 3.0F;
+		this.Lwing5.y = this.Lwing3.y + (float)Math.sin(this.Lwing3.zRot) * 184.0F;
+		this.Lwing5.x = this.Lwing3.x + (float)Math.cos(this.Lwing3.zRot) * 184.0F;
+		this.Lwing6.zRot = this.Lwing5.zRot;
+		this.Lwing6.y = this.Lwing5.y;
+		this.Lwing6.x = this.Lwing5.x;
+		this.Lwing7.y = this.Lwing9.y = this.Lwing3.y;
+		this.Lwing7.x = this.Lwing9.x = this.Lwing3.x;
+		this.Lwing8.y = this.Lwing10.y = this.Lwing3.y;
+		this.Lwing8.x = this.Lwing10.x = this.Lwing3.x;
+		this.Lwing7.zRot = this.Lwing8.zRot = 0.261F + this.Lwing3.zRot;
+		this.Lwing9.zRot = this.Lwing10.zRot = -0.261F + this.Lwing3.zRot;
+		this.Rwing1.zRot = -newangle;
+		this.Rwing2.zRot = -newangle;
+		this.Rwing3.zRot = -newangle * 5.0F / 3.0F;
+		this.Rwing3.y = this.Rwing1.y - (float)Math.sin(this.Rwing1.zRot) * 84.0F;
+		this.Rwing3.x = this.Rwing1.x - (float)Math.cos(this.Rwing1.zRot) * 84.0F;
+		this.Rwing4.zRot = this.Rwing3.zRot;
+		this.Rwing4.y = this.Rwing3.y;
+		this.Rwing4.x = this.Rwing3.x;
+		this.Rwing5.zRot = -newangle * 7.0F / 3.0F;
+		this.Rwing5.y = this.Rwing3.y - (float)Math.sin(this.Rwing3.zRot) * 184.0F;
+		this.Rwing5.x = this.Rwing3.x - (float)Math.cos(this.Rwing3.zRot) * 184.0F;
+		this.Rwing6.zRot = this.Rwing5.zRot;
+		this.Rwing6.y = this.Rwing5.y;
+		this.Rwing6.x = this.Rwing5.x;
+		this.Rwing7.y = this.Rwing9.y = this.Rwing3.y;
+		this.Rwing7.x = this.Rwing9.x = this.Rwing3.x;
+		this.Rwing8.y = this.Rwing10.y = this.Rwing3.y;
+		this.Rwing8.x = this.Rwing10.x = this.Rwing3.x;
+		this.Rwing7.zRot = this.Rwing8.zRot = -0.261F + this.Rwing3.zRot;
+		this.Rwing9.zRot = this.Rwing10.zRot = 0.261F + this.Rwing3.zRot;
+		if (attacking) {
+		newangle = Mth.cos(f2 * 0.85F * this.wingspeed) * (float) Math.PI * 0.26F;
+		} else {
+		newangle = 0.0F;
+		}
+		this.LClawRear.xRot = this.RClawRear.xRot = -0.925F + newangle;
+		this.LLClaw1.xRot = 0.384F - newangle;
+		this.LLClaw2.xRot = 0.645F - newangle;
+		this.LCClaw1.xRot = 0.384F - newangle;
+		this.LCClaw2.xRot = 0.645F - newangle;
+		this.LRClaw1.xRot = 0.384F - newangle;
+		this.LRClaw2.xRot = 0.645F - newangle;
+		this.RLClaw1.xRot = 0.384F - newangle;
+		this.RLClaw2.xRot = 0.645F - newangle;
+		this.RCClaw1.xRot = 0.384F - newangle;
+		this.RCClaw2.xRot = 0.645F - newangle;
+		this.RRClaw1.xRot = 0.384F - newangle;
+		this.RRClaw2.xRot = 0.645F - newangle;
+		if (attacking) {
+		newangle = Mth.cos(f2 * 0.7F * this.wingspeed) * (float) Math.PI * 0.45F;
+		} else {
+		newangle = 0.0F;
+		}
+		this.LThigh.xRot = this.LUpperLeg.xRot = 0.785F + newangle / 4.0F;
+		this.LLowerLeg.xRot = this.LFoot.xRot = -0.628F + newangle / 2.0F;
+		this.LLowerLeg.y = this.LFoot.y = this.LUpperLeg.y + (float)Math.cos(this.LUpperLeg.xRot) * 50.0F;
+		this.LLowerLeg.z = this.LFoot.z = this.LUpperLeg.z + (float)Math.sin(this.LUpperLeg.xRot) * 50.0F;
+		this.LLClaw1.y = this.LLClaw2.y = this.LLowerLeg.y + (float)Math.cos(this.LLowerLeg.xRot - 0.1F) * 66.0F;
+		this.LLClaw1.z = this.LLClaw2.z = this.LLowerLeg.z + (float)Math.sin(this.LLowerLeg.xRot - 0.1F) * 66.0F;
+		this.LCClaw1.y = this.LCClaw2.y = this.LLClaw1.y;
+		this.LRClaw1.y = this.LRClaw2.y = this.LLClaw1.y;
+		this.LCClaw1.z = this.LCClaw2.z = this.LLClaw1.z;
+		this.LRClaw1.z = this.LRClaw2.z = this.LLClaw1.z;
+		this.LClawRear.y = this.LLowerLeg.y + (float)Math.cos(this.LLowerLeg.xRot + 0.15F) * 66.0F;
+		this.LClawRear.z = this.LLowerLeg.z + (float)Math.sin(this.LLowerLeg.xRot + 0.15F) * 66.0F;
+		this.RThigh.xRot = this.RUpperLeg.xRot = 0.785F - newangle / 4.0F;
+		this.RLowerLeg.xRot = this.RFoot.xRot = -0.628F - newangle / 2.0F;
+		this.RLowerLeg.y = this.RFoot.y = this.RUpperLeg.y + (float)Math.cos(this.RUpperLeg.xRot) * 50.0F;
+		this.RLowerLeg.z = this.RFoot.z = this.RUpperLeg.z + (float)Math.sin(this.RUpperLeg.xRot) * 50.0F;
+		this.RLClaw1.y = this.RLClaw2.y = this.RLowerLeg.y + (float)Math.cos(this.RLowerLeg.xRot - 0.1F) * 66.0F;
+		this.RLClaw1.z = this.RLClaw2.z = this.RLowerLeg.z + (float)Math.sin(this.RLowerLeg.xRot - 0.1F) * 66.0F;
+		this.RCClaw1.y = this.RCClaw2.y = this.RLClaw1.y;
+		this.RRClaw1.y = this.RRClaw2.y = this.RLClaw1.y;
+		this.RCClaw1.z = this.RCClaw2.z = this.RLClaw1.z;
+		this.RRClaw1.z = this.RRClaw2.z = this.RLClaw1.z;
+		this.RClawRear.y = this.RLowerLeg.y + (float)Math.cos(this.RLowerLeg.xRot + 0.15F) * 66.0F;
+		this.RClawRear.z = this.RLowerLeg.z + (float)Math.sin(this.RLowerLeg.xRot + 0.15F) * 66.0F;
+		if (attacking) {
+		tailspeed = 0.6F;
+		tailamp = 0.2F;
+		}
+		this.Tail1.yRot = Mth.cos(f2 * tailspeed * this.wingspeed) * (float) Math.PI * tailamp / 2.0F;
+		this.Ridge4.yRot = this.Ridge5.yRot = this.Tail1.yRot;
+		this.Tail2.z = this.Tail1.z + (float)Math.cos(this.Tail1.yRot) * 54.0F;
+		this.Tail2.x = this.Tail1.x - 1.0F + (float)Math.sin(this.Tail1.yRot) * 54.0F;
+		this.Tail2.yRot = Mth.cos(f2 * tailspeed * this.wingspeed - pi4) * (float) Math.PI * tailamp;
+		this.Tail3.z = this.Tail2.z + (float)Math.cos(this.Tail2.yRot) * 42.0F;
+		this.Tail3.x = this.Tail2.x + (float)Math.sin(this.Tail2.yRot) * 42.0F;
+		this.Tail3.yRot = Mth.cos(f2 * tailspeed * this.wingspeed - 2.0F * pi4) * (float) Math.PI * tailamp;
+		this.Tail4.z = this.Tail3.z + (float)Math.cos(this.Tail3.yRot) * 41.0F;
+		this.Tail4.x = this.Tail3.x + (float)Math.sin(this.Tail3.yRot) * 41.0F;
+		this.Tail4.yRot = Mth.cos(f2 * tailspeed * this.wingspeed - 3.0F * pi4) * (float) Math.PI * tailamp;
+		newangle = Mth.cos(f2 * tailspeed * this.wingspeed - 3.0F * pi4) * (float) Math.PI * tailamp;
+		newangle /= 2.0F;
+		this.Tail5.z = this.Tail4.z + (float)Math.cos(this.Tail4.yRot) * 34.0F;
+		this.Tail5.x = this.Tail4.x + (float)Math.sin(this.Tail4.yRot) * 34.0F;
+		this.Tail5.yRot = this.Tail4.yRot + newangle;
+		this.Tail6.z = this.Tail5.z + (float)Math.cos(this.Tail5.yRot) * 34.0F;
+		this.Tail6.x = this.Tail5.x + (float)Math.sin(this.Tail5.yRot) * 34.0F;
+		this.Tail6.yRot = this.Tail5.yRot + newangle;
+		this.Tail7.z = this.Ridge6.z = this.Tail6.z + (float)Math.cos(this.Tail6.yRot) * 40.0F;
+		this.Tail7.x = this.Ridge6.x = this.Tail6.x + (float)Math.sin(this.Tail6.yRot) * 40.0F;
+		this.Tail7.yRot = this.Ridge6.yRot = this.Tail6.yRot + newangle;
+		this.TailTip.z = this.TailTip2.z = this.Tail7.z + (float)Math.cos(this.Tail7.yRot) * 43.0F;
+		this.TailTip.x = this.TailTip2.x = this.Tail7.x + (float)Math.sin(this.Tail7.yRot) * 43.0F;
+		this.TailTip.yRot = this.TailTip2.yRot = this.Tail7.yRot + newangle;
+		this.TailSpike.z = this.TailTip.z + (float)Math.cos(this.TailTip.yRot) * 58.0F;
+		this.TailSpike.x = this.TailTip.x + (float)Math.sin(this.TailTip.yRot) * 58.0F;
+		this.TailSpike.yRot = this.TailTip.yRot + newangle;
+		if (attacking) {
+		Lheadlr = Mth.sin(f2 * 0.3F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Lheadud = Mth.sin(f2 * 0.2F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Ljawangle = Mth.sin(f2 * 0.85F * this.wingspeed) * (float) Math.PI * 0.12F;
+		Rheadlr = Mth.sin(f2 * 0.33F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Rheadud = Mth.sin(f2 * 0.22F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Rjawangle = Mth.sin(f2 * 0.95F * this.wingspeed) * (float) Math.PI * 0.12F;
+		Cheadlr = Mth.sin(f2 * 0.27F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Cheadud = Mth.sin(f2 * 0.18F * this.wingspeed) * (float) Math.PI * 0.25F;
+		Cjawangle = Mth.sin(f2 * 0.75F * this.wingspeed) * (float) Math.PI * 0.12F;
+		Ljawangle += 0.5F;
+		Ljawangle += Lheadud;
+		Cjawangle += 0.5F;
+		Cjawangle += Cheadud;
+		Rjawangle += 0.5F;
+		Rjawangle += Rheadud;
+		} else {
+		Lheadlr = Mth.sin(f2 * 0.17F * this.wingspeed) * (float) Math.PI * 0.08F;
+		Lheadud = Mth.sin(f2 * 0.13F * this.wingspeed) * (float) Math.PI * 0.1F;
+		Ljawangle = Mth.sin(f2 * 0.45F * this.wingspeed) * (float) Math.PI * 0.04F;
+		Rheadlr = Mth.sin(f2 * 0.19F * this.wingspeed) * (float) Math.PI * 0.08F;
+		Rheadud = Mth.sin(f2 * 0.12F * this.wingspeed) * (float) Math.PI * 0.1F;
+		Rjawangle = Mth.sin(f2 * 0.55F * this.wingspeed) * (float) Math.PI * 0.04F;
+		Cheadlr = Mth.sin(f2 * 0.13F * this.wingspeed) * (float) Math.PI * 0.08F;
+		Cheadud = Mth.sin(f2 * 0.08F * this.wingspeed) * (float) Math.PI * 0.1F;
+		Cjawangle = Mth.sin(f2 * 0.65F * this.wingspeed) * (float) Math.PI * 0.04F;
+		Ljawangle += 0.25F;
+		Ljawangle += Lheadud;
+		Cjawangle += 0.25F;
+		Cjawangle += Cheadud;
+		Rjawangle += 0.25F;
+		Rjawangle += Rheadud;
+		}
+		if (Lheadlr > Cheadlr) {
+		Lheadlr = Cheadlr;
+		}
+		if (Rheadlr < Cheadlr) {
+		Rheadlr = Cheadlr;
+		}
+		this.moveLeftHead(Lheadlr, Lheadud, Ljawangle);
+		this.moveCenterHead(Cheadlr, Cheadud, Cjawangle);
+		this.moveRightHead(Rheadlr, Rheadud, Rjawangle);
+		// The power cubes spin: OreSpawn turned them a little every frame (kept between frames); here by time, at
+		// about three frames a tick.
+		float spin = f2 * 3.0F;
+		this.PowerCube1.xRot = spin * 0.03F % Mth.TWO_PI;
+		this.PowerCube2.xRot = spin * 0.04F % Mth.TWO_PI;
+		this.PowerCube3.xRot = spin * 0.05F % Mth.TWO_PI;
+		this.PowerCube1.yRot = spin * 0.035F % Mth.TWO_PI;
+		this.PowerCube2.yRot = spin * 0.046F % Mth.TWO_PI;
+		this.PowerCube3.yRot = spin * 0.065F % Mth.TWO_PI;
+		this.PowerCube1.zRot = spin * 0.05F % Mth.TWO_PI;
+		this.PowerCube2.zRot = spin * 0.13F % Mth.TWO_PI;
+		this.PowerCube3.zRot = spin * 0.03F % Mth.TWO_PI;
+		// render(): each copy shows only its own pass (state.value: TheQueen's power, getPower()).
+		this.allParts().forEach(part -> part.visible = pass == BODY);
+		this.root().visible = true;
+		for (ModelPart part : new ModelPart[] {Lwing2, Lwing4, Lwing6, Lwing8, Lwing10, Rwing2, Rwing4, Rwing6, Rwing8, Rwing10}) {
+			part.visible = pass == MEMBRANES;
+		}
+		this.PowerCube1.visible = pass == CUBES;
+		this.PowerCube2.visible = pass == CUBES && state.value > 350.0F;
+		this.PowerCube3.visible = pass == CUBES && state.value > 650.0F;
+		for (ModelPart part : new ModelPart[] {LLEye, LREye, CLEye, CREye, RLEye, RREye}) part.visible = pass == EYES;
+	}
+
+	private void moveLeftHead(float Lheadlr, float Lheadud, float Ljawangle) {
+		this.LJaw1.xRot = Ljawangle;
+		this.LJaw2.xRot = Ljawangle;
+		this.LJaw3.xRot = Ljawangle;
+		this.LTooth1.xRot = Ljawangle;
+		this.LTooth2.xRot = Ljawangle;
+		this.LTooth3.xRot = Ljawangle;
+		this.LTooth4.xRot = Ljawangle;
+		this.NeckL1.yRot = Lheadlr * 0.125F;
+		this.NeckL2.z = this.NeckL1.z - (float)Math.cos(this.NeckL1.yRot) * 20.0F;
+		this.NeckL2.x = this.NeckL1.x - (float)Math.sin(this.NeckL1.yRot) * 20.0F;
+		this.NeckL2.yRot = Lheadlr * 0.25F;
+		this.NeckL3.z = this.NeckL2.z - (float)Math.cos(this.NeckL2.yRot) * 36.0F;
+		this.NeckL3.x = this.NeckL2.x - (float)Math.sin(this.NeckL2.yRot) * 36.0F;
+		this.NeckL3.yRot = Lheadlr * 0.38F;
+		this.NeckL4.z = this.NeckL3.z - (float)Math.cos(this.NeckL3.yRot) * 36.0F;
+		this.NeckL4.x = this.NeckL3.x - (float)Math.sin(this.NeckL3.yRot) * 36.0F;
+		this.NeckL4.yRot = Lheadlr * 0.5F;
+		this.LHead1.z = this.NeckL4.z - (float)Math.cos(this.NeckL4.yRot) * 36.0F;
+		this.LHead1.x = this.NeckL4.x - (float)Math.sin(this.NeckL4.yRot) * 36.0F;
+		this.LHead1.yRot = Lheadlr;
+		this.LHead2.yRot = Lheadlr;
+		this.LHead2.z = this.LHead1.z;
+		this.LHead2.x = this.LHead1.x;
+		this.LHead3.yRot = Lheadlr;
+		this.LHead3.z = this.LHead1.z;
+		this.LHead3.x = this.LHead1.x;
+		this.LHeadMane.yRot = Lheadlr;
+		this.LHeadMane.z = this.LHead1.z;
+		this.LHeadMane.x = this.LHead1.x;
+		this.LLEye.yRot = Lheadlr;
+		this.LLEye.z = this.LHead1.z;
+		this.LLEye.x = this.LHead1.x;
+		this.LREye.yRot = Lheadlr;
+		this.LREye.z = this.LHead1.z;
+		this.LREye.x = this.LHead1.x;
+		this.LLNoseSpike.yRot = 0.244F + Lheadlr;
+		this.LLNoseSpike.z = this.LHead1.z;
+		this.LLNoseSpike.x = this.LHead1.x;
+		this.LRNoseSpike.yRot = -0.261F + Lheadlr;
+		this.LRNoseSpike.z = this.LHead1.z;
+		this.LRNoseSpike.x = this.LHead1.x;
+		this.LJaw1.yRot = Lheadlr;
+		this.LJaw1.z = this.NeckL4.z - (float)Math.cos(this.NeckL4.yRot) * 37.0F;
+		this.LJaw1.x = this.NeckL4.x - (float)Math.sin(this.NeckL4.yRot) * 37.0F;
+		this.LJaw2.yRot = Lheadlr;
+		this.LJaw2.z = this.LJaw1.z;
+		this.LJaw2.x = this.LJaw1.x;
+		this.LJaw3.yRot = Lheadlr;
+		this.LJaw3.z = this.LJaw1.z;
+		this.LJaw3.x = this.LJaw1.x;
+		this.LTooth1.yRot = Lheadlr;
+		this.LTooth1.z = this.LJaw1.z;
+		this.LTooth1.x = this.LJaw1.x;
+		this.LTooth2.yRot = Lheadlr;
+		this.LTooth2.z = this.LJaw1.z;
+		this.LTooth2.x = this.LJaw1.x;
+		this.LTooth3.yRot = Lheadlr;
+		this.LTooth3.z = this.LJaw1.z;
+		this.LTooth3.x = this.LJaw1.x;
+		this.LTooth4.yRot = Lheadlr;
+		this.LTooth4.z = this.LJaw1.z;
+		this.LTooth4.x = this.LJaw1.x;
+		this.NeckL1.xRot = Lheadud * 0.125F;
+		this.NeckL2.y = this.NeckL1.y + (float)Math.sin(this.NeckL1.xRot) * 20.0F;
+		this.NeckL2.z = this.NeckL1.z
+			+ (this.NeckL2.z - this.NeckL1.z) * (float)Math.cos(this.NeckL1.xRot);
+		this.NeckL2.x = this.NeckL1.x
+			+ (this.NeckL2.x - this.NeckL1.x) * (float)Math.cos(this.NeckL1.xRot);
+		this.NeckL2.xRot = Lheadud * 0.25F;
+		this.NeckL3.y = this.NeckL2.y + (float)Math.sin(this.NeckL2.xRot) * 36.0F;
+		this.NeckL3.z = this.NeckL2.z
+			+ (this.NeckL3.z - this.NeckL2.z) * (float)Math.cos(this.NeckL2.xRot);
+		this.NeckL3.x = this.NeckL2.x
+			+ (this.NeckL3.x - this.NeckL2.x) * (float)Math.cos(this.NeckL2.xRot);
+		this.NeckL3.xRot = Lheadud * 0.38F;
+		this.NeckL4.y = this.NeckL3.y + (float)Math.sin(this.NeckL3.xRot) * 36.0F;
+		this.NeckL4.z = this.NeckL3.z
+			+ (this.NeckL4.z - this.NeckL3.z) * (float)Math.cos(this.NeckL3.xRot);
+		this.NeckL4.x = this.NeckL3.x
+			+ (this.NeckL4.x - this.NeckL3.x) * (float)Math.cos(this.NeckL3.xRot);
+		this.NeckL4.xRot = Lheadud * 0.5F;
+		this.LHead1.y = this.NeckL4.y + (float)Math.sin(this.NeckL4.xRot) * 36.0F;
+		this.LHead1.z = this.NeckL4.z
+			+ (this.LHead1.z - this.NeckL4.z) * (float)Math.cos(this.NeckL4.xRot);
+		this.LHead1.x = this.NeckL4.x
+			+ (this.LHead1.x - this.NeckL4.x) * (float)Math.cos(this.NeckL4.xRot);
+		this.LHead1.xRot = Lheadud;
+		this.LHead2.xRot = Lheadud;
+		this.LHead2.z = this.LHead1.z;
+		this.LHead2.x = this.LHead1.x;
+		this.LHead2.y = this.LHead1.y;
+		this.LHead3.xRot = Lheadud;
+		this.LHead3.z = this.LHead1.z;
+		this.LHead3.x = this.LHead1.x;
+		this.LHead3.y = this.LHead1.y;
+		this.LHeadMane.xRot = 0.384F + Lheadud;
+		this.LHeadMane.z = this.LHead1.z;
+		this.LHeadMane.x = this.LHead1.x;
+		this.LHeadMane.y = this.LHead1.y;
+		this.LLEye.xRot = Lheadud;
+		this.LLEye.z = this.LHead1.z;
+		this.LLEye.x = this.LHead1.x;
+		this.LLEye.y = this.LHead1.y;
+		this.LREye.xRot = Lheadud;
+		this.LREye.z = this.LHead1.z;
+		this.LREye.x = this.LHead1.x;
+		this.LREye.y = this.LHead1.y;
+		this.LLNoseSpike.xRot = 0.244F + Lheadud;
+		this.LLNoseSpike.z = this.LHead1.z;
+		this.LLNoseSpike.x = this.LHead1.x;
+		this.LLNoseSpike.y = this.LHead1.y;
+		this.LRNoseSpike.xRot = 0.261F + Lheadud;
+		this.LRNoseSpike.z = this.LHead1.z;
+		this.LRNoseSpike.x = this.LHead1.x;
+		this.LRNoseSpike.y = this.LHead1.y;
+		this.LJaw1.y = this.LHead1.y + (float)Math.cos(this.LHead1.xRot) * 14.0F;
+		this.LJaw1.z = this.NeckL4.z
+			+ (this.LJaw1.z - this.NeckL4.z) * (float)Math.cos(this.NeckL4.xRot);
+		this.LJaw1.z = this.LJaw1.z + (float)Math.sin(this.LHead1.xRot) * 14.0F;
+		this.LJaw1.x = this.NeckL4.x
+			+ (this.LJaw1.x - this.NeckL4.x) * (float)Math.cos(this.NeckL4.xRot);
+		this.LJaw2.z = this.LJaw1.z;
+		this.LJaw2.x = this.LJaw1.x;
+		this.LJaw2.y = this.LJaw1.y;
+		this.LJaw3.z = this.LJaw1.z;
+		this.LJaw3.x = this.LJaw1.x;
+		this.LJaw3.y = this.LJaw1.y;
+		this.LTooth1.z = this.LJaw1.z;
+		this.LTooth1.x = this.LJaw1.x;
+		this.LTooth1.y = this.LJaw1.y;
+		this.LTooth2.z = this.LJaw1.z;
+		this.LTooth2.x = this.LJaw1.x;
+		this.LTooth2.y = this.LJaw1.y;
+		this.LTooth3.z = this.LJaw1.z;
+		this.LTooth3.x = this.LJaw1.x;
+		this.LTooth3.y = this.LJaw1.y;
+		this.LTooth4.z = this.LJaw1.z;
+		this.LTooth4.x = this.LJaw1.x;
+		this.LTooth4.y = this.LJaw1.y;
+	}
+
+	private void moveCenterHead(float Cheadlr, float Cheadud, float Cjawangle) {
+		this.CJaw1.xRot = Cjawangle;
+		this.CJaw2.xRot = Cjawangle;
+		this.CJaw3.xRot = Cjawangle;
+		this.CTooth1.xRot = Cjawangle;
+		this.CTooth2.xRot = Cjawangle;
+		this.CTooth3.xRot = Cjawangle;
+		this.CTooth4.xRot = Cjawangle;
+		this.NeckC1.yRot = Cheadlr * 0.125F;
+		this.NeckC2.z = this.NeckC1.z - (float)Math.cos(this.NeckC1.yRot) * 20.0F;
+		this.NeckC2.x = this.NeckC1.x - (float)Math.sin(this.NeckC1.yRot) * 20.0F;
+		this.NeckC2.yRot = Cheadlr * 0.25F;
+		this.NeckC3.z = this.NeckC2.z - (float)Math.cos(this.NeckC2.yRot) * 36.0F;
+		this.NeckC3.x = this.NeckC2.x - (float)Math.sin(this.NeckC2.yRot) * 36.0F;
+		this.NeckC3.yRot = Cheadlr * 0.38F;
+		this.NeckC4.z = this.NeckC3.z - (float)Math.cos(this.NeckC3.yRot) * 36.0F;
+		this.NeckC4.x = this.NeckC3.x - (float)Math.sin(this.NeckC3.yRot) * 36.0F;
+		this.NeckC4.yRot = Cheadlr * 0.5F;
+		this.CHead1.z = this.NeckC4.z - (float)Math.cos(this.NeckC4.yRot) * 36.0F;
+		this.CHead1.x = this.NeckC4.x - (float)Math.sin(this.NeckC4.yRot) * 36.0F;
+		this.CHead1.yRot = Cheadlr;
+		this.CHead2.yRot = Cheadlr;
+		this.CHead2.z = this.CHead1.z;
+		this.CHead2.x = this.CHead1.x;
+		this.CHead3.yRot = Cheadlr;
+		this.CHead3.z = this.CHead1.z;
+		this.CHead3.x = this.CHead1.x;
+		this.CHeadMane.yRot = Cheadlr;
+		this.CHeadMane.z = this.CHead1.z;
+		this.CHeadMane.x = this.CHead1.x;
+		this.CLEye.yRot = Cheadlr;
+		this.CLEye.z = this.CHead1.z;
+		this.CLEye.x = this.CHead1.x;
+		this.CREye.yRot = Cheadlr;
+		this.CREye.z = this.CHead1.z;
+		this.CREye.x = this.CHead1.x;
+		this.CLNoseSpike.yRot = 0.244F + Cheadlr;
+		this.CLNoseSpike.z = this.CHead1.z;
+		this.CLNoseSpike.x = this.CHead1.x;
+		this.CRNoseSpike.yRot = -0.261F + Cheadlr;
+		this.CRNoseSpike.z = this.CHead1.z;
+		this.CRNoseSpike.x = this.CHead1.x;
+		this.CJaw1.yRot = Cheadlr;
+		this.CJaw1.z = this.NeckC4.z - (float)Math.cos(this.NeckC4.yRot) * 37.0F;
+		this.CJaw1.x = this.NeckC4.x - (float)Math.sin(this.NeckC4.yRot) * 37.0F;
+		this.CJaw2.yRot = Cheadlr;
+		this.CJaw2.z = this.CJaw1.z;
+		this.CJaw2.x = this.CJaw1.x;
+		this.CJaw3.yRot = Cheadlr;
+		this.CJaw3.z = this.CJaw1.z;
+		this.CJaw3.x = this.CJaw1.x;
+		this.CTooth1.yRot = Cheadlr;
+		this.CTooth1.z = this.CJaw1.z;
+		this.CTooth1.x = this.CJaw1.x;
+		this.CTooth2.yRot = Cheadlr;
+		this.CTooth2.z = this.CJaw1.z;
+		this.CTooth2.x = this.CJaw1.x;
+		this.CTooth3.yRot = Cheadlr;
+		this.CTooth3.z = this.CJaw1.z;
+		this.CTooth3.x = this.CJaw1.x;
+		this.CTooth4.yRot = Cheadlr;
+		this.CTooth4.z = this.CJaw1.z;
+		this.CTooth4.x = this.CJaw1.x;
+		this.NeckC1.xRot = Cheadud * 0.125F;
+		this.NeckC2.y = this.NeckC1.y + (float)Math.sin(this.NeckC1.xRot) * 20.0F;
+		this.NeckC2.z = this.NeckC1.z
+			+ (this.NeckC2.z - this.NeckC1.z) * (float)Math.cos(this.NeckC1.xRot);
+		this.NeckC2.x = this.NeckC1.x
+			+ (this.NeckC2.x - this.NeckC1.x) * (float)Math.cos(this.NeckC1.xRot);
+		this.NeckC2.xRot = Cheadud * 0.25F;
+		this.NeckC3.y = this.NeckC2.y + (float)Math.sin(this.NeckC2.xRot) * 36.0F;
+		this.NeckC3.z = this.NeckC2.z
+			+ (this.NeckC3.z - this.NeckC2.z) * (float)Math.cos(this.NeckC2.xRot);
+		this.NeckC3.x = this.NeckC2.x
+			+ (this.NeckC3.x - this.NeckC2.x) * (float)Math.cos(this.NeckC2.xRot);
+		this.NeckC3.xRot = Cheadud * 0.38F;
+		this.NeckC4.y = this.NeckC3.y + (float)Math.sin(this.NeckC3.xRot) * 36.0F;
+		this.NeckC4.z = this.NeckC3.z
+			+ (this.NeckC4.z - this.NeckC3.z) * (float)Math.cos(this.NeckC3.xRot);
+		this.NeckC4.x = this.NeckC3.x
+			+ (this.NeckC4.x - this.NeckC3.x) * (float)Math.cos(this.NeckC3.xRot);
+		this.NeckC4.xRot = Cheadud * 0.5F;
+		this.CHead1.y = this.NeckC4.y + (float)Math.sin(this.NeckC4.xRot) * 36.0F;
+		this.CHead1.z = this.NeckC4.z
+			+ (this.CHead1.z - this.NeckC4.z) * (float)Math.cos(this.NeckC4.xRot);
+		this.CHead1.x = this.NeckC4.x
+			+ (this.CHead1.x - this.NeckC4.x) * (float)Math.cos(this.NeckC4.xRot);
+		this.CHead1.xRot = Cheadud;
+		this.CHead2.xRot = Cheadud;
+		this.CHead2.z = this.CHead1.z;
+		this.CHead2.x = this.CHead1.x;
+		this.CHead2.y = this.CHead1.y;
+		this.CHead3.xRot = Cheadud;
+		this.CHead3.z = this.CHead1.z;
+		this.CHead3.x = this.CHead1.x;
+		this.CHead3.y = this.CHead1.y;
+		this.CHeadMane.xRot = 0.384F + Cheadud;
+		this.CHeadMane.z = this.CHead1.z;
+		this.CHeadMane.x = this.CHead1.x;
+		this.CHeadMane.y = this.CHead1.y;
+		this.CLEye.xRot = Cheadud;
+		this.CLEye.z = this.CHead1.z;
+		this.CLEye.x = this.CHead1.x;
+		this.CLEye.y = this.CHead1.y;
+		this.CREye.xRot = Cheadud;
+		this.CREye.z = this.CHead1.z;
+		this.CREye.x = this.CHead1.x;
+		this.CREye.y = this.CHead1.y;
+		this.CLNoseSpike.xRot = 0.244F + Cheadud;
+		this.CLNoseSpike.z = this.CHead1.z;
+		this.CLNoseSpike.x = this.CHead1.x;
+		this.CLNoseSpike.y = this.CHead1.y;
+		this.CRNoseSpike.xRot = 0.261F + Cheadud;
+		this.CRNoseSpike.z = this.CHead1.z;
+		this.CRNoseSpike.x = this.CHead1.x;
+		this.CRNoseSpike.y = this.CHead1.y;
+		this.CJaw1.y = this.CHead1.y + (float)Math.cos(this.CHead1.xRot) * 14.0F;
+		this.CJaw1.z = this.NeckC4.z
+			+ (this.CJaw1.z - this.NeckC4.z) * (float)Math.cos(this.NeckC4.xRot);
+		this.CJaw1.z = this.CJaw1.z + (float)Math.sin(this.CHead1.xRot) * 14.0F;
+		this.CJaw1.x = this.NeckC4.x
+			+ (this.CJaw1.x - this.NeckC4.x) * (float)Math.cos(this.NeckC4.xRot);
+		this.CJaw2.z = this.CJaw1.z;
+		this.CJaw2.x = this.CJaw1.x;
+		this.CJaw2.y = this.CJaw1.y;
+		this.CJaw3.z = this.CJaw1.z;
+		this.CJaw3.x = this.CJaw1.x;
+		this.CJaw3.y = this.CJaw1.y;
+		this.CTooth1.z = this.CJaw1.z;
+		this.CTooth1.x = this.CJaw1.x;
+		this.CTooth1.y = this.CJaw1.y;
+		this.CTooth2.z = this.CJaw1.z;
+		this.CTooth2.x = this.CJaw1.x;
+		this.CTooth2.y = this.CJaw1.y;
+		this.CTooth3.z = this.CJaw1.z;
+		this.CTooth3.x = this.CJaw1.x;
+		this.CTooth3.y = this.CJaw1.y;
+		this.CTooth4.z = this.CJaw1.z;
+		this.CTooth4.x = this.CJaw1.x;
+		this.CTooth4.y = this.CJaw1.y;
+	}
+
+	private void moveRightHead(float Rheadlr, float Rheadud, float Rjawangle) {
+		this.RJaw1.xRot = Rjawangle;
+		this.RJaw2.xRot = Rjawangle;
+		this.RJaw3.xRot = Rjawangle;
+		this.RTooth1.xRot = Rjawangle;
+		this.RTooth2.xRot = Rjawangle;
+		this.RTooth3.xRot = Rjawangle;
+		this.RTooth4.xRot = Rjawangle;
+		this.NeckR1.yRot = Rheadlr * 0.125F;
+		this.NeckR2.z = this.NeckR1.z - (float)Math.cos(this.NeckR1.yRot) * 20.0F;
+		this.NeckR2.x = this.NeckR1.x - (float)Math.sin(this.NeckR1.yRot) * 20.0F;
+		this.NeckR2.yRot = Rheadlr * 0.25F;
+		this.NeckR3.z = this.NeckR2.z - (float)Math.cos(this.NeckR2.yRot) * 36.0F;
+		this.NeckR3.x = this.NeckR2.x - (float)Math.sin(this.NeckR2.yRot) * 36.0F;
+		this.NeckR3.yRot = Rheadlr * 0.38F;
+		this.NeckR4.z = this.NeckR3.z - (float)Math.cos(this.NeckR3.yRot) * 36.0F;
+		this.NeckR4.x = this.NeckR3.x - (float)Math.sin(this.NeckR3.yRot) * 36.0F;
+		this.NeckR4.yRot = Rheadlr * 0.5F;
+		this.RHead1.z = this.NeckR4.z - (float)Math.cos(this.NeckR4.yRot) * 36.0F;
+		this.RHead1.x = this.NeckR4.x - (float)Math.sin(this.NeckR4.yRot) * 36.0F;
+		this.RHead1.yRot = Rheadlr;
+		this.RHead2.yRot = Rheadlr;
+		this.RHead2.z = this.RHead1.z;
+		this.RHead2.x = this.RHead1.x;
+		this.RHead3.yRot = Rheadlr;
+		this.RHead3.z = this.RHead1.z;
+		this.RHead3.x = this.RHead1.x;
+		this.RHeadMane.yRot = Rheadlr;
+		this.RHeadMane.z = this.RHead1.z;
+		this.RHeadMane.x = this.RHead1.x;
+		this.RLEye.yRot = Rheadlr;
+		this.RLEye.z = this.RHead1.z;
+		this.RLEye.x = this.RHead1.x;
+		this.RREye.yRot = Rheadlr;
+		this.RREye.z = this.RHead1.z;
+		this.RREye.x = this.RHead1.x;
+		this.RLNoseSpike.yRot = 0.244F + Rheadlr;
+		this.RLNoseSpike.z = this.RHead1.z;
+		this.RLNoseSpike.x = this.RHead1.x;
+		this.RRNoseSpike.yRot = -0.261F + Rheadlr;
+		this.RRNoseSpike.z = this.RHead1.z;
+		this.RRNoseSpike.x = this.RHead1.x;
+		this.RJaw1.yRot = Rheadlr;
+		this.RJaw1.z = this.NeckR4.z - (float)Math.cos(this.NeckR4.yRot) * 37.0F;
+		this.RJaw1.x = this.NeckR4.x - (float)Math.sin(this.NeckR4.yRot) * 37.0F;
+		this.RJaw2.yRot = Rheadlr;
+		this.RJaw2.z = this.RJaw1.z;
+		this.RJaw2.x = this.RJaw1.x;
+		this.RJaw3.yRot = Rheadlr;
+		this.RJaw3.z = this.RJaw1.z;
+		this.RJaw3.x = this.RJaw1.x;
+		this.RTooth1.yRot = Rheadlr;
+		this.RTooth1.z = this.RJaw1.z;
+		this.RTooth1.x = this.RJaw1.x;
+		this.RTooth2.yRot = Rheadlr;
+		this.RTooth2.z = this.RJaw1.z;
+		this.RTooth2.x = this.RJaw1.x;
+		this.RTooth3.yRot = Rheadlr;
+		this.RTooth3.z = this.RJaw1.z;
+		this.RTooth3.x = this.RJaw1.x;
+		this.RTooth4.yRot = Rheadlr;
+		this.RTooth4.z = this.RJaw1.z;
+		this.RTooth4.x = this.RJaw1.x;
+		this.NeckR1.xRot = Rheadud * 0.125F;
+		this.NeckR2.y = this.NeckR1.y + (float)Math.sin(this.NeckR1.xRot) * 20.0F;
+		this.NeckR2.z = this.NeckR1.z
+			+ (this.NeckR2.z - this.NeckR1.z) * (float)Math.cos(this.NeckR1.xRot);
+		this.NeckR2.x = this.NeckR1.x
+			+ (this.NeckR2.x - this.NeckR1.x) * (float)Math.cos(this.NeckR1.xRot);
+		this.NeckR2.xRot = Rheadud * 0.25F;
+		this.NeckR3.y = this.NeckR2.y + (float)Math.sin(this.NeckR2.xRot) * 36.0F;
+		this.NeckR3.z = this.NeckR2.z
+			+ (this.NeckR3.z - this.NeckR2.z) * (float)Math.cos(this.NeckR2.xRot);
+		this.NeckR3.x = this.NeckR2.x
+			+ (this.NeckR3.x - this.NeckR2.x) * (float)Math.cos(this.NeckR2.xRot);
+		this.NeckR3.xRot = Rheadud * 0.38F;
+		this.NeckR4.y = this.NeckR3.y + (float)Math.sin(this.NeckR3.xRot) * 36.0F;
+		this.NeckR4.z = this.NeckR3.z
+			+ (this.NeckR4.z - this.NeckR3.z) * (float)Math.cos(this.NeckR3.xRot);
+		this.NeckR4.x = this.NeckR3.x
+			+ (this.NeckR4.x - this.NeckR3.x) * (float)Math.cos(this.NeckR3.xRot);
+		this.NeckR4.xRot = Rheadud * 0.5F;
+		this.RHead1.y = this.NeckR4.y + (float)Math.sin(this.NeckR4.xRot) * 36.0F;
+		this.RHead1.z = this.NeckR4.z
+			+ (this.RHead1.z - this.NeckR4.z) * (float)Math.cos(this.NeckR4.xRot);
+		this.RHead1.x = this.NeckR4.x
+			+ (this.RHead1.x - this.NeckR4.x) * (float)Math.cos(this.NeckR4.xRot);
+		this.RHead1.xRot = Rheadud;
+		this.RHead2.xRot = Rheadud;
+		this.RHead2.z = this.RHead1.z;
+		this.RHead2.x = this.RHead1.x;
+		this.RHead2.y = this.RHead1.y;
+		this.RHead3.xRot = Rheadud;
+		this.RHead3.z = this.RHead1.z;
+		this.RHead3.x = this.RHead1.x;
+		this.RHead3.y = this.RHead1.y;
+		this.RHeadMane.xRot = 0.384F + Rheadud;
+		this.RHeadMane.z = this.RHead1.z;
+		this.RHeadMane.x = this.RHead1.x;
+		this.RHeadMane.y = this.RHead1.y;
+		this.RLEye.xRot = Rheadud;
+		this.RLEye.z = this.RHead1.z;
+		this.RLEye.x = this.RHead1.x;
+		this.RLEye.y = this.RHead1.y;
+		this.RREye.xRot = Rheadud;
+		this.RREye.z = this.RHead1.z;
+		this.RREye.x = this.RHead1.x;
+		this.RREye.y = this.RHead1.y;
+		this.RLNoseSpike.xRot = 0.244F + Rheadud;
+		this.RLNoseSpike.z = this.RHead1.z;
+		this.RLNoseSpike.x = this.RHead1.x;
+		this.RLNoseSpike.y = this.RHead1.y;
+		this.RRNoseSpike.xRot = 0.261F + Rheadud;
+		this.RRNoseSpike.z = this.RHead1.z;
+		this.RRNoseSpike.x = this.RHead1.x;
+		this.RRNoseSpike.y = this.RHead1.y;
+		this.RJaw1.y = this.RHead1.y + (float)Math.cos(this.RHead1.xRot) * 14.0F;
+		this.RJaw1.z = this.NeckR4.z
+			+ (this.RJaw1.z - this.NeckR4.z) * (float)Math.cos(this.NeckR4.xRot);
+		this.RJaw1.z = this.RJaw1.z + (float)Math.sin(this.RHead1.xRot) * 14.0F;
+		this.RJaw1.x = this.NeckR4.x
+			+ (this.RJaw1.x - this.NeckR4.x) * (float)Math.cos(this.NeckR4.xRot);
+		this.RJaw2.z = this.RJaw1.z;
+		this.RJaw2.x = this.RJaw1.x;
+		this.RJaw2.y = this.RJaw1.y;
+		this.RJaw3.z = this.RJaw1.z;
+		this.RJaw3.x = this.RJaw1.x;
+		this.RJaw3.y = this.RJaw1.y;
+		this.RTooth1.z = this.RJaw1.z;
+		this.RTooth1.x = this.RJaw1.x;
+		this.RTooth1.y = this.RJaw1.y;
+		this.RTooth2.z = this.RJaw1.z;
+		this.RTooth2.x = this.RJaw1.x;
+		this.RTooth2.y = this.RJaw1.y;
+		this.RTooth3.z = this.RJaw1.z;
+		this.RTooth3.x = this.RJaw1.x;
+		this.RTooth3.y = this.RJaw1.y;
+		this.RTooth4.z = this.RJaw1.z;
+		this.RTooth4.x = this.RJaw1.x;
+		this.RTooth4.y = this.RJaw1.y;
+	}
+}

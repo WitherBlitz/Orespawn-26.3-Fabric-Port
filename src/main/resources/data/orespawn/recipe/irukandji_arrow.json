@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "orespawn:peacock_feather",
+    "orespawn:dead_irukandji",
+    "orespawn:crystal_shards"
+  ],
+  "result": {
+    "id": "orespawn:irukandji_arrow"
+  }
+}

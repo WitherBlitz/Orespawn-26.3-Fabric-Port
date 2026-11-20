@@ -1,0 +1,782 @@
+{
+  "items": {
+    "crystal_shards": {
+      "texture": "crystalsticks",
+      "name": "Crystal Shards"
+    },
+    "pink_tourmaline_ingot": {
+      "texture": "crystalpink_ingot",
+      "name": "Pink Tourmaline Ingot"
+    },
+    "tigers_eye_ingot": {
+      "texture": "tigerseye_ingot",
+      "name": "Tiger's Eye Ingot"
+    },
+    "crystal_apple": {
+      "texture": "crystalapple",
+      "name": "Crystal Apple"
+    },
+    "crystal_wood_sword": {
+      "texture": "crystalwoodsword",
+      "name": "Crystal Wood Sword",
+      "handheld": true
+    },
+    "crystal_wood_pickaxe": {
+      "texture": "crystalwoodpickaxe",
+      "name": "Crystal Wood Pickaxe",
+      "handheld": true
+    },
+    "crystal_wood_shovel": {
+      "texture": "crystalwoodshovel",
+      "name": "Crystal Wood Shovel",
+      "handheld": true
+    },
+    "crystal_wood_axe": {
+      "texture": "crystalwoodaxe",
+      "name": "Crystal Wood Axe",
+      "handheld": true
+    },
+    "crystal_wood_hoe": {
+      "texture": "crystalwoodhoe",
+      "name": "Crystal Wood Hoe",
+      "handheld": true
+    },
+    "kyanite_sword": {
+      "texture": "crystalstonesword",
+      "name": "Kyanite Sword",
+      "handheld": true
+    },
+    "kyanite_pickaxe": {
+      "texture": "crystalstonepickaxe",
+      "name": "Kyanite Pickaxe",
+      "handheld": true
+    },
+    "kyanite_shovel": {
+      "texture": "crystalstoneshovel",
+      "name": "Kyanite Shovel",
+      "handheld": true
+    },
+    "kyanite_axe": {
+      "texture": "crystalstoneaxe",
+      "name": "Kyanite Axe",
+      "handheld": true
+    },
+    "kyanite_hoe": {
+      "texture": "crystalstonehoe",
+      "name": "Kyanite Hoe",
+      "handheld": true
+    },
+    "pink_tourmaline_sword": {
+      "texture": "crystalpinksword",
+      "name": "Pink Tourmaline Sword",
+      "handheld": true
+    },
+    "pink_tourmaline_pickaxe": {
+      "texture": "crystalpinkpickaxe",
+      "name": "Pink Tourmaline Pickaxe",
+      "handheld": true
+    },
+    "pink_tourmaline_shovel": {
+      "texture": "crystalpinkshovel",
+      "name": "Pink Tourmaline Shovel",
+      "handheld": true
+    },
+    "pink_tourmaline_axe": {
+      "texture": "crystalpinkaxe",
+      "name": "Pink Tourmaline Axe",
+      "handheld": true
+    },
+    "pink_tourmaline_hoe": {
+      "texture": "crystalpinkhoe",
+      "name": "Pink Tourmaline Hoe",
+      "handheld": true
+    },
+    "tigers_eye_sword": {
+      "texture": "tigerseye_sword",
+      "name": "Tiger's Eye Sword",
+      "handheld": true
+    },
+    "tigers_eye_pickaxe": {
+      "texture": "tigerseye_pickaxe",
+      "name": "Tiger's Eye Pickaxe",
+      "handheld": true
+    },
+    "tigers_eye_shovel": {
+      "texture": "tigerseye_shovel",
+      "name": "Tiger's Eye Shovel",
+      "handheld": true
+    },
+    "tigers_eye_axe": {
+      "texture": "tigerseye_axe",
+      "name": "Tiger's Eye Axe",
+      "handheld": true
+    },
+    "tigers_eye_hoe": {
+      "texture": "tigerseye_hoe",
+      "name": "Tiger's Eye Hoe",
+      "handheld": true
+    }
+  },
+  "creatures": {
+    "crystal_apple_cow": {
+      "name": "Crystal Apple Cow",
+      "egg": "eggcrystalcow",
+      "egg_ore": {
+        "texture": "orecrystalcow",
+        "name": "Crystal Cow"
+      },
+      "textures": {
+        "crystal_cow.png": "crystal_cow.png"
+      },
+      "loot": [
+        {
+          "item": "orespawn:crystal_apple",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        },
+        {
+          "item": "minecraft:apple",
+          "min": 1,
+          "max": 3,
+          "looting": true
+        },
+        {
+          "item": "minecraft:leather",
+          "min": 0,
+          "max": 2,
+          "looting": true
+        },
+        {
+          "item": "minecraft:beef",
+          "min": 1,
+          "max": 3,
+          "looting": true
+        }
+      ],
+      "ragdoll": "from_model"
+    }
+  },
+  "recipes": {
+    "crystal_wood_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystal_planks",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:crystal_wood_sword"
+      }
+    },
+    "crystal_wood_pickaxe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystal_planks",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EEE",
+        " I ",
+        " I "
+      ],
+      "result": {
+        "id": "orespawn:crystal_wood_pickaxe"
+      }
+    },
+    "crystal_wood_shovel": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystal_planks",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "I",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:crystal_wood_shovel"
+      }
+    },
+    "crystal_wood_axe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystal_planks",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        "EI",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:crystal_wood_axe"
+      }
+    },
+    "crystal_wood_hoe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:crystal_planks",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        " I",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:crystal_wood_hoe"
+      }
+    },
+    "kyanite_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:kyanite",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:kyanite_sword"
+      }
+    },
+    "kyanite_pickaxe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:kyanite",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EEE",
+        " I ",
+        " I "
+      ],
+      "result": {
+        "id": "orespawn:kyanite_pickaxe"
+      }
+    },
+    "kyanite_shovel": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:kyanite",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "I",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:kyanite_shovel"
+      }
+    },
+    "kyanite_axe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:kyanite",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        "EI",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:kyanite_axe"
+      }
+    },
+    "kyanite_hoe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:kyanite",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        " I",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:kyanite_hoe"
+      }
+    },
+    "pink_tourmaline_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:pink_tourmaline_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_sword"
+      }
+    },
+    "pink_tourmaline_pickaxe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:pink_tourmaline_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EEE",
+        " I ",
+        " I "
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_pickaxe"
+      }
+    },
+    "pink_tourmaline_shovel": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:pink_tourmaline_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "I",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_shovel"
+      }
+    },
+    "pink_tourmaline_axe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:pink_tourmaline_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        "EI",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_axe"
+      }
+    },
+    "pink_tourmaline_hoe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:pink_tourmaline_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        " I",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_hoe"
+      }
+    },
+    "tigers_eye_sword": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:tigers_eye_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "E",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_sword"
+      }
+    },
+    "tigers_eye_pickaxe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:tigers_eye_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EEE",
+        " I ",
+        " I "
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_pickaxe"
+      }
+    },
+    "tigers_eye_shovel": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:tigers_eye_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "E",
+        "I",
+        "I"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_shovel"
+      }
+    },
+    "tigers_eye_axe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:tigers_eye_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        "EI",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_axe"
+      }
+    },
+    "tigers_eye_hoe": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "key": {
+        "E": "orespawn:tigers_eye_ingot",
+        "I": "orespawn:crystal_shards"
+      },
+      "pattern": [
+        "EE",
+        " I",
+        " I"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_hoe"
+      }
+    },
+    "crystal_planks": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "building",
+      "ingredients": [
+        "orespawn:crystal_tree_wood"
+      ],
+      "result": {
+        "id": "orespawn:crystal_planks",
+        "count": 4
+      }
+    },
+    "crystal_workbench": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:crystal_planks",
+        "orespawn:crystal_planks",
+        "orespawn:crystal_planks",
+        "orespawn:crystal_planks"
+      ],
+      "result": {
+        "id": "orespawn:crystal_workbench"
+      }
+    },
+    "crystal_furnace": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": "orespawn:kyanite"
+      },
+      "pattern": [
+        "FFF",
+        "F F",
+        "FFF"
+      ],
+      "result": {
+        "id": "orespawn:crystal_furnace"
+      }
+    },
+    "chest_from_crystal_planks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "F": "orespawn:crystal_planks"
+      },
+      "pattern": [
+        "FFF",
+        "F F",
+        "FFF"
+      ],
+      "result": {
+        "id": "minecraft:chest"
+      }
+    },
+    "oak_door_from_crystal_planks": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "F": "orespawn:crystal_planks"
+      },
+      "pattern": [
+        "FF",
+        "FF",
+        "FF"
+      ],
+      "result": {
+        "id": "minecraft:oak_door"
+      }
+    },
+    "bucket_from_pink_tourmaline_ingot": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "I I",
+        " I "
+      ],
+      "result": {
+        "id": "minecraft:bucket"
+      }
+    },
+    "pink_tourmaline_ingot": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.3,
+      "ingredient": "orespawn:pink_tourmaline",
+      "result": {
+        "id": "orespawn:pink_tourmaline_ingot"
+      }
+    },
+    "tigers_eye_ingot": {
+      "type": "minecraft:smelting",
+      "category": "misc",
+      "cookingtime": 200,
+      "experience": 0.3,
+      "ingredient": "orespawn:tigers_eye",
+      "result": {
+        "id": "orespawn:tigers_eye_ingot"
+      }
+    },
+    "pink_tourmaline_block": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "key": {
+        "T": "orespawn:pink_tourmaline_ingot"
+      },
+      "pattern": [
+        "TTT",
+        "TTT",
+        "TTT"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_block"
+      }
+    },
+    "pink_tourmaline_ingot_from_block": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:pink_tourmaline_block"
+      ],
+      "result": {
+        "id": "orespawn:pink_tourmaline_ingot",
+        "count": 9
+      }
+    },
+    "tigers_eye_block": {
+      "type": "minecraft:crafting_shaped",
+      "category": "building",
+      "key": {
+        "T": "orespawn:tigers_eye_ingot"
+      },
+      "pattern": [
+        "TTT",
+        "TTT",
+        "TTT"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_block"
+      }
+    },
+    "tigers_eye_ingot_from_block": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:tigers_eye_block"
+      ],
+      "result": {
+        "id": "orespawn:tigers_eye_ingot",
+        "count": 9
+      }
+    },
+    "crystal_shards": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:crystal_planks",
+        "orespawn:crystal_planks"
+      ],
+      "result": {
+        "id": "orespawn:crystal_shards",
+        "count": 6
+      }
+    },
+    "crystal_torch": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        "orespawn:crystal_energy",
+        "orespawn:crystal_shards"
+      ],
+      "result": {
+        "id": "orespawn:crystal_torch",
+        "count": 6
+      }
+    }
+  },
+  "tags": {
+    "item/minecraft/swords": [
+      "orespawn:crystal_wood_sword",
+      "orespawn:kyanite_sword",
+      "orespawn:pink_tourmaline_sword",
+      "orespawn:tigers_eye_sword"
+    ],
+    "item/minecraft/pickaxes": [
+      "orespawn:crystal_wood_pickaxe",
+      "orespawn:kyanite_pickaxe",
+      "orespawn:pink_tourmaline_pickaxe",
+      "orespawn:tigers_eye_pickaxe"
+    ],
+    "item/minecraft/shovels": [
+      "orespawn:crystal_wood_shovel",
+      "orespawn:kyanite_shovel",
+      "orespawn:pink_tourmaline_shovel",
+      "orespawn:tigers_eye_shovel"
+    ],
+    "item/minecraft/axes": [
+      "orespawn:crystal_wood_axe",
+      "orespawn:kyanite_axe",
+      "orespawn:pink_tourmaline_axe",
+      "orespawn:tigers_eye_axe"
+    ],
+    "item/minecraft/hoes": [
+      "orespawn:crystal_wood_hoe",
+      "orespawn:kyanite_hoe",
+      "orespawn:pink_tourmaline_hoe",
+      "orespawn:tigers_eye_hoe"
+    ],
+    "item/orespawn/crystal_wood_repair_materials": [
+      "orespawn:crystal_planks"
+    ],
+    "item/orespawn/kyanite_repair_materials": [
+      "orespawn:kyanite"
+    ],
+    "item/orespawn/pink_tourmaline_repair_materials": [
+      "orespawn:pink_tourmaline_ingot"
+    ],
+    "item/orespawn/tigers_eye_repair_materials": [
+      "orespawn:tigers_eye_ingot"
+    ],
+    "block/minecraft/mineable/pickaxe": [
+      "orespawn:kyanite",
+      "orespawn:crystal_energy",
+      "orespawn:pink_tourmaline",
+      "orespawn:tigers_eye",
+      "orespawn:crystalized_rats",
+      "orespawn:crystalized_fairies",
+      "orespawn:pink_tourmaline_block",
+      "orespawn:tigers_eye_block",
+      "orespawn:crystal_furnace"
+    ],
+    "block/minecraft/mineable/axe": [
+      "orespawn:crystal_planks",
+      "orespawn:crystal_tree_wood",
+      "orespawn:crystal_workbench"
+    ],
+    "block/minecraft/mineable/shovel": [
+      "orespawn:crystal_grass",
+      "orespawn:crystal_termite_nest"
+    ],
+    "block/minecraft/mineable/hoe": [
+      "orespawn:red_crystal_tree_leaves",
+      "orespawn:yellow_crystal_tree_leaves",
+      "orespawn:blue_crystal_tree_leaves"
+    ],
+    "block/minecraft/leaves": [
+      "orespawn:red_crystal_tree_leaves",
+      "orespawn:yellow_crystal_tree_leaves",
+      "orespawn:blue_crystal_tree_leaves"
+    ],
+    "item/orespawn/crystal_apple": [
+      "orespawn:crystal_apple"
+    ]
+  },
+  "lang": {
+    "block.orespawn.kyanite": "Kyanite",
+    "block.orespawn.crystal_grass": "Crystal Grass",
+    "block.orespawn.crystal_energy": "Crystal Energy",
+    "block.orespawn.pink_tourmaline": "Pink Tourmaline",
+    "block.orespawn.tigers_eye": "Tiger's Eye",
+    "block.orespawn.crystalized_rats": "Crystalized Rats",
+    "block.orespawn.crystalized_fairies": "Crystalized Fairies",
+    "block.orespawn.pink_tourmaline_block": "Pink Tourmaline Block",
+    "block.orespawn.tigers_eye_block": "Tiger's Eye Block",
+    "block.orespawn.crystal_termite_nest": "Crystal Termite Nest",
+    "block.orespawn.crystal_planks": "Crystal Planks",
+    "block.orespawn.crystal_tree_wood": "Crystal Tree Wood",
+    "block.orespawn.crystal_workbench": "Crystal Workbench",
+    "block.orespawn.crystal_furnace": "Crystal Furnace",
+    "block.orespawn.red_crystal_tree_sapling": "Red Crystal Tree Sapling",
+    "block.orespawn.yellow_crystal_tree_sapling": "Yellow Crystal Tree Sapling",
+    "block.orespawn.blue_crystal_tree_sapling": "Blue Crystal Tree Sapling",
+    "block.orespawn.red_crystal_tree_leaves": "Crystal Tree Leaves",
+    "block.orespawn.yellow_crystal_tree_leaves": "Crystal Tree Leaves",
+    "block.orespawn.blue_crystal_tree_leaves": "Crystal Tree Leaves",
+    "block.orespawn.red_crystal_flower": "Red Crystal Flower",
+    "block.orespawn.green_crystal_flower": "Green Crystal Flower",
+    "block.orespawn.blue_crystal_flower": "Blue Crystal Flower",
+    "block.orespawn.yellow_crystal_flower": "Yellow Crystal Flower",
+    "block.orespawn.crystal_torch": "Crystal Torch",
+    "item.orespawn.crystal_apple_cow_spawn_egg": "Spawn Crystal Cow",
+    "biome.orespawn.crystal": "Crystal"
+  },
+  "worldgen": {
+    "biome/crystal": {
+      "attributes": {
+        "minecraft:visual/sky_color": "#78a7ff"
+      },
+      "carvers": [],
+      "downfall": 0.01,
+      "effects": {
+        "water_color": "#3f76e4"
+      },
+      "features": [],
+      "has_precipitation": true,
+      "temperature": 0.8
+    }
+  }
+}

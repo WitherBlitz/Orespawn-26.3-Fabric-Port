@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:redstone_block",
+    "minecraft:stick",
+    "minecraft:cobblestone"
+  ],
+  "result": {
+    "id": "orespawn:instant_survival_shelter"
+  }
+}

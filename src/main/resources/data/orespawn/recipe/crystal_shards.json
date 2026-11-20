@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "orespawn:crystal_planks",
+    "orespawn:crystal_planks"
+  ],
+  "result": {
+    "id": "orespawn:crystal_shards",
+    "count": 6
+  }
+}

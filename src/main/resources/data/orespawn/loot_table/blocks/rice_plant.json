@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:rice",
+              "condition": {
+                "type": "minecraft:match_block",
+                "state": {
+                  "age": "7"
+                }
+              },
+              "modifier": {
+                "type": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "orespawn:rice",
+              "modifier": {
+                "type": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:rice",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:binomial",
+              "n": 3,
+              "p": 0.5333333333333333
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/rice_plant",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  }
+}

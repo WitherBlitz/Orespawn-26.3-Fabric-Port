@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "orespawn:butterfly_plant",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "orespawn:moth_plant",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    },
+    {
+      "feature": {
+        "type": "minecraft:block_column",
+        "direction": "up",
+        "allowed_placement": {
+          "type": "minecraft:true"
+        },
+        "prioritize_tip": false,
+        "layers": [
+          {
+            "height": 1,
+            "provider": {
+              "id": "orespawn:firefly_plant",
+              "properties": {
+                "age": "0"
+              }
+            }
+          }
+        ]
+      },
+      "placement": []
+    }
+  ]
+}

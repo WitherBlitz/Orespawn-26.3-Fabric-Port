@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": "orespawn:titanium_ingot",
+    "U": "orespawn:uranium_ingot",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "T",
+    "U",
+    "I"
+  ],
+  "result": {
+    "id": "orespawn:ultimate_sword"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:green_crystal_flower"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/green_crystal_flower"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": "minecraft:tool/can_shear",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn:experience_leaves"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn:blocks/experience_leaves"
+}

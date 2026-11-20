@@ -1,0 +1,48 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#78a7ff"
+  },
+  "carvers": [],
+  "downfall": 0.01,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "orespawn:chaos_ore_dirt",
+      "orespawn:chaos_ore_gravel",
+      "orespawn:chaos_ore_coal",
+      "orespawn:chaos_ore_iron",
+      "orespawn:chaos_ore_gold",
+      "orespawn:chaos_ore_redstone",
+      "orespawn:chaos_ore_diamond",
+      "orespawn:chaos_ore_lapis"
+    ],
+    [],
+    [
+      "orespawn:chaos_spring_water",
+      "orespawn:chaos_spring_lava"
+    ],
+    [
+      "orespawn:chaos_trees",
+      "orespawn:chaos_flowers",
+      "orespawn:chaos_grass",
+      "orespawn:chaos_brown_mushroom",
+      "orespawn:chaos_red_mushroom",
+      "orespawn:chaos_pumpkin"
+    ],
+    [
+      "orespawn:chaos_critter_plants",
+      "orespawn:chaos_veggies",
+      "orespawn:chaos_ant_nests"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.8
+}

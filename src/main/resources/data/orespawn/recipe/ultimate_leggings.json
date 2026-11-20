@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": "orespawn:titanium_ingot",
+    "U": "orespawn:uranium_ingot",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    "T T",
+    "U U"
+  ],
+  "result": {
+    "id": "orespawn:ultimate_leggings"
+  }
+}

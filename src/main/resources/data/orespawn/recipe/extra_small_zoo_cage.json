@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_block",
+    "minecraft:glass",
+    "minecraft:quartz_block"
+  ],
+  "result": {
+    "id": "orespawn:extra_small_zoo_cage"
+  }
+}
