@@ -6,6 +6,8 @@
 # (default: the zip in OreSpawnFabric/original). Exits 1 if any locked feature is broken in either run.
 #
 #   sh /d/Destinymods/OreSpawnFabric/tools/locked-features-with-orespawn.sh
+#   KEEP_ALLMODS=1 sh ...   keeps CSE's build/allmods as it is (say, with other sessions' new jars in it) and only puts
+#                           OreSpawn's jar in, in place of any OreSpawn jar there
 cse=/d/Destinymods/WithersCombatSystemExtensionFabric
 orespawn=$(ls /d/Destinymods/OreSpawnFabric/build/libs/OreSpawn-fabric-*.jar | grep -v sources | head -1)
 [ -f "$orespawn" ] || { echo "no OreSpawn jar in build/libs: run ./run-gradle.sh build first"; exit 1; }
@@ -32,8 +34,11 @@ run() { # $1 = name, $2 = gradle property
 
 echo "OreSpawn jar: $orespawn (original: $ORESPAWN_ORIGINAL)"
 run pack -PwithPack
-rm -rf build/allmods
-./run-gradle.sh --no-daemon --no-configuration-cache copyAllMods -PallMods > build/locked-features/copy.log 2>&1 || { echo "couldn't copy AllMods"; exit 1; }
+if [ -z "$KEEP_ALLMODS" ]; then
+	rm -rf build/allmods
+	./run-gradle.sh --no-daemon --no-configuration-cache copyAllMods -PallMods > build/locked-features/copy.log 2>&1 || { echo "couldn't copy AllMods"; exit 1; }
+fi
+rm -f build/allmods/OreSpawn-fabric-*.jar
 cp "$orespawn" build/allmods/
 ls build/allmods | grep OreSpawn
 run allmods-orespawn -PallMods
