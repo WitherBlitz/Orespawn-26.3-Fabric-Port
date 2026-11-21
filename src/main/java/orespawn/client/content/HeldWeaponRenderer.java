@@ -33,8 +33,15 @@ import orespawn.client.model.HammyModel;
 import orespawn.client.model.QueenBattleAxeModel;
 import orespawn.client.model.SliceModel;
 import orespawn.client.model.SquidZookaModel;
+import org.joml.Matrix3f;
+import org.joml.Quaternionf;
+import org.joml.Quaternionfc;
 import org.joml.Vector3f;
 import org.joml.Vector3fc;
+
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
 
 import java.util.EnumMap;
 import java.util.HashMap;
@@ -126,6 +133,8 @@ public final class HeldWeaponRenderer implements NoDataSpecialModelRenderer {
 		final Supplier<LayerDefinition> layer;
 		final Transform firstPerson;
 		final Transform thirdPerson;
+		/** The turn about the grip for Wither's Animations' first-person hand (see {@link #firstPersonTurn}), or none. */
+		Quaternionfc firstPersonTurn;
 
 		Held(String item, String layerName, Function<ModelPart, Model<Float>> model, Supplier<LayerDefinition> layer, Transform firstPerson,
 				Transform thirdPerson) {
@@ -141,6 +150,51 @@ public final class HeldWeaponRenderer implements NoDataSpecialModelRenderer {
 
 	private static final Map<Held, ModelLayerLocation> LAYERS = new EnumMap<>(Held.class);
 	private static final Identifier BASE = Identifier.withDefaultNamespace("block/air");
+
+	/*
+	 * Wither's Animations draws first-person items in its own 3D hand, in the third-person display context, so these
+	 * weapons get their 1.7.10 third-person grip there. That suits the swords and the Chainsaw, which point out of the
+	 * fist, but the axes and the Attitude Adjuster were held across the body and the SquidZooka sideways. In that hand
+	 * (its HeldItemModelsApi.firstPersonHandWeight, 1 there, 0 everywhere else, easing between the two as the hands hand
+	 * off to the body when looking down) they're turned about the grip: the axes and the Attitude Adjuster to lie like Big
+	 * Bertha's blade, the SquidZooka to point along the forearm. Without Wither's Animations nothing changes.
+	 */
+	/** Big Bertha's blade, from the grip, in the 1.7.10 third-person item frame (its model's -Y after renderSwordF5). */
+	private static final Vector3fc SWORD_TIP = new Vector3f(-1.0F, 0.0F, 0.0F);
+	/** Along the forearm towards the hand, in that frame (RenderPlayer's 20 and 45 degree turns and mirror, undone). */
+	private static final Vector3fc FOREARM = new Matrix3f().rotateX((float) Math.toRadians(20.0)).rotateY((float) Math.toRadians(45.0))
+		.scale(-1.0F, -1.0F, 1.0F).invert().transform(new Vector3f(0.0F, 1.0F, 0.0F)).normalize();
+	private static final MethodHandle HAND_WEIGHT = handWeight();
+
+	static {
+		// Where each model's head or muzzle points after its own third-person turn (renderSwordF5 / renderItem).
+		Vector3f axeHead = new Quaternionf().rotationAxis((float) Math.PI, new Vector3f(1.0F, 0.25F, 0.0F).normalize())
+			.transform(new Vector3f(0.0F, -1.0F, 0.0F));
+		Held.BATTLE_AXE.firstPersonTurn = new Quaternionf().rotationTo(axeHead, SWORD_TIP);
+		Held.QUEEN_BATTLE_AXE.firstPersonTurn = Held.BATTLE_AXE.firstPersonTurn;
+		Held.HAMMY.firstPersonTurn = new Quaternionf().rotationTo(new Vector3f(0.0F, 1.0F, 0.0F), SWORD_TIP);
+		Vector3f muzzle = new Quaternionf().rotationY((float) Math.toRadians(30.0)).transform(new Vector3f(0.0F, 0.0F, -1.0F));
+		Held.SQUIDZOOKA.firstPersonTurn = new Quaternionf().rotationTo(muzzle, FOREARM);
+	}
+
+	private static MethodHandle handWeight() {
+		try {
+			Class<?> api = Class.forName("com.trainguy9512.locomotion.api.HeldItemModelsApi");
+			return MethodHandles.publicLookup().findStatic(api, "firstPersonHandWeight", MethodType.methodType(float.class));
+		} catch (ReflectiveOperationException | LinkageError e) {
+			return null;
+		}
+	}
+
+	/** Wither's Animations' first-person hand weight for the draw in progress (0 without it). */
+	private static float firstPersonHandWeight() {
+		if (HAND_WEIGHT == null) return 0.0F;
+		try {
+			return Math.clamp((float) HAND_WEIGHT.invokeExact(), 0.0F, 1.0F);
+		} catch (Throwable t) {
+			return 0.0F;
+		}
+	}
 
 	private final Held held;
 	private final View view;
@@ -237,6 +291,8 @@ public final class HeldWeaponRenderer implements NoDataSpecialModelRenderer {
 			p.rotateDegrees(Axis.YP, 45.0F);
 			p.scale(-0.375F, -0.375F, 0.375F);
 			p.translate(-0.5F, -0.5F, -0.5F);
+			float weight = held.firstPersonTurn != null ? firstPersonHandWeight() : 0.0F;
+			if (weight > 0.0F) p.rotate(new Quaternionf().slerp(held.firstPersonTurn, weight));
 			held.thirdPerson.apply(p);
 		}
 		p.scale(16.0F, 16.0F, 16.0F);

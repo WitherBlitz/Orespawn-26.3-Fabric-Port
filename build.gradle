@@ -44,6 +44,12 @@ if (project.hasProperty('allMods')) {
 		localRuntime fileTree(layout.buildDirectory.dir('allmods')) { include '*.jar' }
 	}
 }
+// -PwithMods=<folder>: the mod jars in that folder too (for a quick run with one other mod, like Wither's Animations).
+if (project.hasProperty('withMods')) {
+	dependencies {
+		localRuntime fileTree(file(project.property('withMods'))) { include '*.jar' }
+	}
+}
 
 tasks.withType(JavaExec).configureEach {
 	def original = originalFile()
