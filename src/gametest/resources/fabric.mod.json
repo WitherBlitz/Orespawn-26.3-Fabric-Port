@@ -5,7 +5,25 @@
 	"name": "OreSpawn tests",
 	"environment": "client",
 	"entrypoints": {
-		"fabric-client-gametest": ["orespawn.test.IdDumpTest", "orespawn.test.OreSpawnTest", "orespawn.test.CreatureTest", "orespawn.test.SeaTest", "orespawn.test.PortalsTest", "orespawn.test.TerrorsTest", "orespawn.test.ToolsTest", "orespawn.test.OdditiesTest", "orespawn.test.DungeonsTest", "orespawn.test.MiningTest", "orespawn.test.CrystalTest", "orespawn.test.ChaosTest", "orespawn.test.DimensionsTest", "orespawn.test.CompatTest"]
+		"fabric-client-gametest": [
+			"orespawn.test.IdDumpTest",
+			"orespawn.test.OreSpawnTest",
+			"orespawn.test.CreatureTest",
+			"orespawn.test.SeaTest",
+			"orespawn.test.PortalsTest",
+			"orespawn.test.TerrorsTest",
+			"orespawn.test.ToolsTest",
+			"orespawn.test.HeldWeaponsTest",
+			"orespawn.test.OdditiesTest",
+			"orespawn.test.DungeonsTest",
+			"orespawn.test.MiningTest",
+			"orespawn.test.CrystalTest",
+			"orespawn.test.ChaosTest",
+			"orespawn.test.DimensionsTest",
+			"orespawn.test.CompatTest"
+		]
 	},
-	"depends": { "orespawn": "*" }
+	"depends": {
+		"orespawn": "*"
+	}
 }

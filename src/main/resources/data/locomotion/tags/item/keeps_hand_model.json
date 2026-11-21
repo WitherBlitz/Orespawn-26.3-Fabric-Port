@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn:big_bertha",
+    "orespawn:slice",
+    "orespawn:royal_guardian_sword",
+    "orespawn:attitude_adjuster",
+    "orespawn:battle_axe",
+    "orespawn:queen_scale_battle_axe",
+    "orespawn:chainsaw",
+    "orespawn:squidzooka"
+  ]
+}

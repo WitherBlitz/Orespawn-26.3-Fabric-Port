@@ -69,6 +69,11 @@ frog's kiss, Girlfriend Island, Love, and their cages, eggs and loot.
 | Structures, Dungeons | The overworld structures at OreSpawn's odds; every dungeon (End dungeons, Random Dungeon item, the dimensions' dungeons) |
 | Utopia, Mining, Village Mania, Islands, Crystal, Chaos | The six dimensions, each with OreSpawn's 1.7.10 terrain, biome, features, structures and spawn lists |
 
+**3D weapons:** Big Bertha, Slice, the Royal Guardian Sword, the Attitude Adjuster, the Battle Axe, the Queen Scale
+Battle Axe, the Chainsaw and the SquidZooka are drawn in the hand with OreSpawn's own models and 1.7.10 placement, and the
+Chainsaw's chain runs. Elsewhere (inventory, ground, frames) they show their flat icons, as in OreSpawn. The mod ships the
+item tag `locomotion:keeps_hand_model` with these eight, so Wither's Animations keeps their 3D models in the hand.
+
 Differences from OreSpawn 1.7.10 that come from 26.3:
 - **Health:** 26.3 caps max health at 1024. Mobzilla, The King, The Queen and the older princes get 1024 and scale the
   damage they take, so each needs as many hits as in OreSpawn.
@@ -128,6 +133,7 @@ The game tests are in `src/gametest`:
 | `OreSpawnTest` | Blocks, items, gear and worldgen |
 | `CreatureTest` | Every creature, with screenshots |
 | `SeaTest`, `PortalsTest`, `TerrorsTest`, `ToolsTest`, `OdditiesTest`, `DungeonsTest`, `MiningTest`, `CrystalTest`, `ChaosTest` | One content group each |
+| `HeldWeaponsTest` | The eight 3D weapons use their 3D model in every hand view, with screenshots; the Chainsaw's chain runs |
 | `DimensionsTest` | All six dimensions |
 | `CompatTest` | Epic Siege and Knockdown, only when those mods are loaded |
 | `IdDumpTest` | Writes `build/orespawn-ids.txt` for `tools/id_audit.py` |
