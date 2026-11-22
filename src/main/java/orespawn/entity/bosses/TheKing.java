@@ -77,8 +77,9 @@ import java.util.List;
  * Death drops: The Prince (spawned 10 blocks up), a full set of Royal Guardian armor and the Royal Guardian Sword, then
  * 150 random items and 150 random blocks, all scattered around. 25000 experience.
  * <p>
- * Health: 26.3 caps max health at 1024, so The King has 1024 and every hit (and heal) is scaled by 1024/7000; it takes
- * exactly as many hits as OreSpawn's 7000-health King, and its boss bar shows the same fraction.
+ * Health: OreSpawn's 7000 when max_health's cap allows it (with AttributeFix). Under 26.3's own cap of 1024, The King
+ * has 1024 and every hit (and heal) is scaled by 1024/7000; it takes exactly as many hits as OreSpawn's 7000-health
+ * King either way, and its boss bar shows the same fraction.
  * <p>
  * Not ported yet: the thunder bolts and ice balls are the weapons group's projectiles (OreSpawn's ThunderBolt and
  * IceBall); they are looked up by id ({@code orespawn:thunder_bolt} / {@code thunderbolt}, {@code orespawn:ice_ball}
@@ -91,8 +92,10 @@ public class TheKing extends Monster {
 	public static final int HEALTH = 7000;
 	public static final int ATTACK = 350;
 	public static final int DEFENSE = 21;
-	/** 26.3's max health is 1024: OreSpawn health and damage are scaled by this. */
-	private static final float SCALE = 1024.0F / HEALTH;
+	/** What hits and heals are scaled by: 1 when max_health's cap allows the full HEALTH, else cap / HEALTH. */
+	private static float scale() {
+		return BossUtil.healthScale(HEALTH);
+	}
 
 	private final BossBar bar = new BossBar(this, BossEvent.BossBarColor.YELLOW);
 	private @Nullable BossHead head;
@@ -410,10 +413,10 @@ public class TheKing extends Monster {
 		setYRot(getYRot() + var8 / 8.0F);
 
 		if (random.nextInt(30) == 1 && getHealth() < getMaxHealth()) {
-			heal(5.0F * SCALE);
-			if (largeUnknownDetected != 0) heal(200.0F * SCALE);
+			heal(5.0F * scale());
+			if (largeUnknownDetected != 0) heal(200.0F * scale());
 		}
-		if (playerHitCount < 10 && getHealth() < 2000.0F * SCALE) heal(2000.0F * SCALE - getHealth());
+		if (playerHitCount < 10 && getHealth() < 2000.0F * scale()) heal(2000.0F * scale() - getHealth());
 	}
 
 	private void endGame(ServerLevel level) {
@@ -686,7 +689,7 @@ public class TheKing extends Monster {
 		boolean ret = false;
 		if (!source.is(DamageTypes.CACTUS)) {
 			hurtTimer = 20;
-			ret = super.hurtServer(level, source, dm * SCALE);
+			ret = super.hurtServer(level, source, dm * scale());
 			if (e instanceof Player) playerHitCount++;
 			if (e instanceof LivingEntity enl && hasTarget && !BossUtil.isRoyalty(e)) {
 				rt = enl;
@@ -833,11 +836,13 @@ public class TheKing extends Monster {
 		output.putInt("PlayerHits", playerHitCount);
 		output.putInt("IsEnd", isEnd);
 		output.putInt("EndCounter", endCounter);
+		BossUtil.saveMaxHealth(this, output);
 	}
 
 	@Override
 	protected void readAdditionalSaveData(ValueInput input) {
 		super.readAdditionalSaveData(input);
+		BossUtil.keepHealthFraction(this, input, HEALTH);
 		homex = input.getIntOr("KingHomeX", 0);
 		homez = input.getIntOr("KingHomeZ", 0);
 		guardMode = input.getIntOr("GuardMode", 0);

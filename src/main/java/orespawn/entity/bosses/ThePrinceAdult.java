@@ -29,7 +29,8 @@ import orespawn.registry.ModSounds;
  * sets that off at once. 3000 health, 100 attack (its bite does 100, twice that to a Kraken), 20 armor, 0.36 speed, 3000
  * experience; it drops The Prince's spawn egg.
  * <p>
- * Health: 26.3 caps max health at 1024, so it has 1024 and hits and heals are scaled by 1024/3000.
+ * Health: OreSpawn's 3000 when max_health's cap allows it (with AttributeFix). Under 26.3's own cap of 1024, it has
+ * 1024 and hits and heals are scaled by 1024/3000.
  */
 public class ThePrinceAdult extends RoyalFlyer {
 	public static final int HEALTH = 3000;

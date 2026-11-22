@@ -11,6 +11,9 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.spider.Spider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
+import orespawn.entity.bosses.BossUtil;
 import orespawn.entity.Ignored;
 
 /**
@@ -23,14 +26,30 @@ import orespawn.entity.Ignored;
  * See {@link LeggedRobot} for the riding, and {@link RobotLegs} for the legs.
  */
 public class SpiderRobot extends LeggedRobot {
+	/** OreSpawn's health: over 26.3's own cap of 1024, so it has 1024 unless the cap is raised (AttributeFix). */
+	public static final float HEALTH = 1500.0F;
+
 	public SpiderRobot(EntityType<? extends SpiderRobot> type, Level level) {
 		super(type, level, RobotLegs.SPIDER);
 		this.xpReward = 750;
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
-		return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 1500.0).add(Attributes.MOVEMENT_SPEED, 0.35).add(Attributes.ATTACK_DAMAGE, 100.0)
+		return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, HEALTH).add(Attributes.MOVEMENT_SPEED, 0.35).add(Attributes.ATTACK_DAMAGE, 100.0)
 			.add(Attributes.ARMOR, 16.0);
+	}
+
+	@Override
+	protected void addAdditionalSaveData(ValueOutput output) {
+		super.addAdditionalSaveData(output);
+		BossUtil.saveMaxHealth(this, output);
+	}
+
+	@Override
+	protected void readAdditionalSaveData(ValueInput input) {
+		super.readAdditionalSaveData(input);
+		// Saved under a different cap (AttributeFix added or taken out): the same fraction of its health.
+		BossUtil.keepHealthFraction(this, input, HEALTH);
 	}
 
 	@Override

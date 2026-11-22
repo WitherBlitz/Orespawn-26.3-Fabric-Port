@@ -48,6 +48,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import orespawn.OreSpawn;
@@ -82,8 +83,8 @@ import java.util.List;
  * Death drops: an item frame, 50-79 Mobzilla Scales, 100-259 raw beef, 50-109 bones and 25-39 rolls of OreSpawn's gear
  * table (see {@link BossUtil#randomGear}), scattered around the body.
  * <p>
- * Health: 26.3 caps max health at 1024, so Mobzilla has 1024 and every hit and heal is scaled by 1024/4000; it takes
- * as many hits as OreSpawn's. Movement: 26.3's path finding sizes its search to the whole 10-block-wide body and
+ * Health: OreSpawn's 4000 when max_health's cap allows it (with AttributeFix). Under 26.3's own cap of 1024, Mobzilla
+ * has 1024 and every hit and heal is scaled by 1024/4000, so it takes as many hits as OreSpawn's either way. Movement: 26.3's path finding sizes its search to the whole 10-block-wide body and
  * rarely finds a way, so Mobzilla walks straight at where it's going (its wander spot or its prey) with its move
  * control, as OreSpawn's crushing clears the way; its step height is OreSpawn's 12.
  * <p>
@@ -95,8 +96,10 @@ public class Godzilla extends Monster {
 	public static final int HEALTH = 4000;
 	public static final int ATTACK = 175;
 	public static final int DEFENSE = 21;
-	/** 26.3's max health is 1024: OreSpawn health and damage are scaled by this. */
-	private static final float SCALE = 1024.0F / HEALTH;
+	/** What hits and heals are scaled by: 1 when max_health's cap allows the full HEALTH, else cap / HEALTH. */
+	private static float scale() {
+		return BossUtil.healthScale(HEALTH);
+	}
 	/** OreSpawnMain.godzilla_has_spawned: once one has lived this game session, no more spawn naturally. */
 	private static volatile boolean hasSpawned;
 
@@ -230,8 +233,15 @@ public class Godzilla extends Monster {
 	}
 
 	@Override
+	protected void addAdditionalSaveData(ValueOutput output) {
+		super.addAdditionalSaveData(output);
+		BossUtil.saveMaxHealth(this, output);
+	}
+
+	@Override
 	protected void readAdditionalSaveData(ValueInput input) {
 		super.readAdditionalSaveData(input);
+		BossUtil.keepHealthFraction(this, input, HEALTH);
 		bar.rename();
 	}
 
@@ -309,7 +319,7 @@ public class Godzilla extends Monster {
 		if (chase != null && (!chase.isAlive() || chase.isRemoved())) chase = null;
 		if (chase != null) getMoveControl().setWantedPosition(chase.getX(), chase.getY(), chase.getZ(), chaseSpeed);
 
-		if (random.nextInt(35) == 1 && getHealth() < getMaxHealth()) heal(5.0F * SCALE);
+		if (random.nextInt(35) == 1 && getHealth() < getMaxHealth()) heal(5.0F * scale());
 	}
 
 	/** The attack branch of OreSpawn's updateAITasks. */
@@ -536,7 +546,7 @@ public class Godzilla extends Monster {
 		}
 		boolean ret = false;
 		if (!source.is(DamageTypes.CACTUS)) {
-			ret = super.hurtServer(level, source, dm * SCALE);
+			ret = super.hurtServer(level, source, dm * scale());
 			hurtTimer = 20;
 			if (e instanceof LivingEntity enl && !(e instanceof Godzilla)) {
 				setTarget(enl);

@@ -106,7 +106,7 @@ public abstract class RoyalFlyer extends TamableAnimal {
 
 	// ---- The numbers that differ ----
 
-	/** OreSpawn's health (over 26.3's 1024 cap: hits and heals are scaled by 1024 / this). */
+	/** OreSpawn's health (under 26.3's own 1024 cap, hits and heals are scaled by cap / this: see {@link #scale}). */
 	protected abstract float oreSpawnHealth();
 
 	protected abstract float lookRange();
@@ -228,8 +228,9 @@ public abstract class RoyalFlyer extends TamableAnimal {
 		return entityData.get(i == 0 ? HEAD1 : i == 1 ? HEAD2 : HEAD3);
 	}
 
+	/** What hits and heals are scaled by: 1 when max_health's cap allows the full OreSpawn health, else cap / it. */
 	protected final float scale() {
-		return 1024.0F / oreSpawnHealth();
+		return BossUtil.healthScale(oreSpawnHealth());
 	}
 
 	// ---- Goals: only while walking (OreSpawn's flying skipped its vanilla AI) ----
@@ -880,11 +881,13 @@ public abstract class RoyalFlyer extends TamableAnimal {
 		output.putInt("RoyalAttacking", getAttacking());
 		output.putInt("RoyalActivity", getActivity());
 		output.putInt("RoyalFire", getFire());
+		BossUtil.saveMaxHealth(this, output);
 	}
 
 	@Override
 	protected void readAdditionalSaveData(ValueInput input) {
 		super.readAdditionalSaveData(input);
+		BossUtil.keepHealthFraction(this, input, oreSpawnHealth());
 		setAttacking(input.getIntOr("RoyalAttacking", 0));
 		setActivity(input.getIntOr("RoyalActivity", 0));
 		setFire(input.getIntOr("RoyalFire", 1));

@@ -10,6 +10,8 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.RangedAttribute;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.item.Item;
@@ -19,6 +21,8 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 import orespawn.OreSpawn;
 import orespawn.content.Bosses;
 import orespawn.registry.ModItems;
@@ -30,10 +34,47 @@ import java.util.function.Consumer;
 /**
  * What OreSpawn's bosses share: MyUtils.isRoyalty, the "large unknown" check they all make (anything big that isn't one
  * of the giants they know), dropItemRand (a drop scattered around the body), 1.7.10's addEnchantment, and the random
- * enchanted-gear table Mobzilla and The Kraken drop from.
+ * enchanted-gear table Mobzilla and The Kraken drop from; and health over 26.3's 1024 cap.
  */
 public final class BossUtil {
+	/** The max health a mob was saved with (see {@link #saveMaxHealth}). */
+	private static final String SAVED_MAX_HEALTH = "OreSpawnMaxHealth";
+
 	private BossUtil() {
+	}
+
+	// ---- Health over the cap ----
+
+	/** max_health's cap in this game: 1024 in 26.3, more with a mod that raises it (AttributeFix's default is 1,000,000). */
+	public static double healthCap() {
+		return Attributes.MAX_HEALTH.value() instanceof RangedAttribute ranged ? ranged.getMaxValue() : Double.MAX_VALUE;
+	}
+
+	/**
+	 * What the hits and heals of a mob with this OreSpawn health are scaled by, so it takes as many hits as in OreSpawn:
+	 * 1 when the cap allows its full health, else cap / its health (it then has the cap as its health). Read each time,
+	 * since the cap can be raised after the mod starts.
+	 */
+	public static float healthScale(float oreSpawnHealth) {
+		return (float) Math.min(1.0, healthCap() / oreSpawnHealth);
+	}
+
+	/** Saves the mob's max health, so {@link #keepHealthFraction} can tell when the cap has changed since. */
+	public static void saveMaxHealth(LivingEntity mob, ValueOutput output) {
+		output.putFloat(SAVED_MAX_HEALTH, mob.getMaxHealth());
+	}
+
+	/**
+	 * After loading: if the mob's max health isn't what it was saved with (the cap was raised, say by adding AttributeFix,
+	 * or lowered by taking it out), its health keeps the same fraction of the max. Saves from before this had OreSpawn's
+	 * health held to 26.3's 1024.
+	 */
+	public static void keepHealthFraction(LivingEntity mob, ValueInput input, float oreSpawnHealth) {
+		float savedMax = input.getFloatOr(SAVED_MAX_HEALTH, Math.min(1024.0F, oreSpawnHealth));
+		float savedHealth = input.getFloatOr(LivingEntity.TAG_HEALTH, mob.getHealth());
+		float max = mob.getMaxHealth();
+		if (savedMax <= 0.0F || savedHealth <= 0.0F || Math.abs(savedMax - max) < 0.001F) return;
+		mob.setHealth(Math.min(max, savedHealth / savedMax * max));
 	}
 
 	/** MyUtils.isRoyalty: the royal family, their heads and the purple power bolts. */

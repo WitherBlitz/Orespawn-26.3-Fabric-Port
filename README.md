@@ -75,8 +75,14 @@ Chainsaw's chain runs. Elsewhere (inventory, ground, frames) they show their fla
 item tag `locomotion:keeps_hand_model` with these eight, so Wither's Animations keeps their 3D models in the hand.
 
 Differences from OreSpawn 1.7.10 that come from 26.3:
-- **Health:** 26.3 caps max health at 1024. Mobzilla, The King, The Queen and the older princes get 1024 and scale the
-  damage they take, so each needs as many hits as in OreSpawn.
+- **Health:** 26.3 caps max health at 1024 on its own. With a mod that raises the cap, such as AttributeFix (its
+  default cap is 1,000,000), every mob has OreSpawn's own health: Mobzilla 4000, The King 7000, The Queen 6000, the
+  young adult Prince 3000, the young Prince and the Robot Spider 1500.
+  - Without one, they get 1024. Mobzilla, The King, The Queen and the two princes then scale the hits and heals they
+    take, so each still needs as many hits as in OreSpawn.
+  - The cap is read when it matters, so the same jar works either way.
+  - A mob saved under one cap and loaded under another keeps the same fraction of its health.
+  - The same goes for armor: Ultimate armor's 34 points need a raised armor cap, since 26.3 caps total armor at 30.
 - **Attack speed:** tools and weapons use 26.3's normal attack speeds, because 1.7.10 had no attack cooldown.
 - **Riding:** mounts use 26.3's rider controls, with the jump key in place of OreSpawn's Left Alt fly-up key.
 - **Big structures:** where 26.3 can't place a structure across chunks, the parts wait, saved with the dimension, and
@@ -134,6 +140,7 @@ The game tests are in `src/gametest`:
 | `CreatureTest` | Every creature, with screenshots |
 | `SeaTest`, `PortalsTest`, `TerrorsTest`, `ToolsTest`, `OdditiesTest`, `DungeonsTest`, `MiningTest`, `CrystalTest`, `ChaosTest` | One content group each |
 | `HeldWeaponsTest` | The eight 3D weapons use their 3D model in every hand view, with screenshots; the Chainsaw's chain runs |
+| `BossHealthTest` | The six mobs over 1024 health: OreSpawn's health with AttributeFix (`-PwithMods=<folder with AttributeFix and Prickle>`), 1024 with the scaled hits without it, and old saves keep their health fraction |
 | `DimensionsTest` | All six dimensions |
 | `CompatTest` | Epic Siege and Knockdown, only when those mods are loaded |
 | `IdDumpTest` | Writes `build/orespawn-ids.txt` for `tools/id_audit.py` |

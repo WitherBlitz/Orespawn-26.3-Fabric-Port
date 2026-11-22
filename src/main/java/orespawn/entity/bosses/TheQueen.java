@@ -75,7 +75,8 @@ import java.util.List;
  * Death drops: the Royal Guardian Sword, The Prince's spawn egg, 56 each of The Queen Scales, raw beef, bones and
  * rotten flesh, and The Princess, spawned 10 blocks up.
  * <p>
- * Health: 26.3 caps max health at 1024, so The Queen has 1024 and every hit and heal is scaled by 1024/6000.
+ * Health: OreSpawn's 6000 when max_health's cap allows it (with AttributeFix). Under 26.3's own cap of 1024, The
+ * Queen has 1024 and every hit and heal is scaled by 1024/6000.
  * <p>
  * Not ported yet: the thunder bolts are the weapons group's ({@code orespawn:thunder_bolt}, looked up by id, nothing until
  * it's in); OreSpawn's blue and pink flowers and the Crystal
@@ -89,8 +90,10 @@ public class TheQueen extends Monster {
 	public static final int HEALTH = 6000;
 	public static final int ATTACK = 225;
 	public static final int DEFENSE = 21;
-	/** 26.3's max health is 1024: OreSpawn health and damage are scaled by this. */
-	private static final float SCALE = 1024.0F / HEALTH;
+	/** What hits and heals are scaled by: 1 when max_health's cap allows the full HEALTH, else cap / HEALTH. */
+	private static float scale() {
+		return BossUtil.healthScale(HEALTH);
+	}
 	/** The flowers her good mood plants (OreSpawn's red and yellow, its own blue and pink, and the Crystal flowers). */
 	private static final String[][] FLOWERS = {{"minecraft:poppy"}, {"minecraft:dandelion"},
 		{"orespawn:blue_flower", "orespawn:flower_blue"}, {"orespawn:pink_flower", "orespawn:flower_pink"}, {"orespawn:red_crystal_flower"},
@@ -382,7 +385,7 @@ public class TheQueen extends Monster {
 			homex = Mth.floor(getX());
 			homez = Mth.floor(getZ());
 		}
-		if (getHealth() > getMaxHealth() - 2.0F * SCALE && random.nextInt(500) == 1) mood = 0;
+		if (getHealth() > getMaxHealth() - 2.0F * scale() && random.nextInt(500) == 1) mood = 0;
 		if (alwaysMad != 0) mood = 1;
 		if (mood == 0) attackLevel += 10;
 		if (++ticker > 30000) ticker = 0;
@@ -434,10 +437,10 @@ public class TheQueen extends Monster {
 		setYRot(getYRot() + Mth.wrapDegrees(var7 - getYRot()) / 8.0F);
 
 		if (random.nextInt(32) == 1 && getHealth() < getMaxHealth()) {
-			heal(5.0F * SCALE);
-			if (playerHitCount < 10) heal(50.0F * SCALE);
+			heal(5.0F * scale());
+			if (playerHitCount < 10) heal(50.0F * scale());
 		}
-		if (playerHitCount < 10 && getHealth() < 2000.0F * SCALE) heal(2000.0F * SCALE - getHealth());
+		if (playerHitCount < 10 && getHealth() < 2000.0F * scale()) heal(2000.0F * scale() - getHealth());
 	}
 
 	/** OreSpawn's ev/evh: the thing she last bit can't heal while she's near it. */
@@ -730,7 +733,7 @@ public class TheQueen extends Monster {
 		if (source.is(DamageTypes.IN_WALL)) return false;
 		mood = 1;
 		if (source.is(net.minecraft.tags.DamageTypeTags.IS_EXPLOSION)) {
-			setHealth(Math.min(getHealth() + damage / 2.0F * SCALE, getMaxHealth()));
+			setHealth(Math.min(getHealth() + damage / 2.0F * scale(), getMaxHealth()));
 			return false;
 		}
 		Entity e = source.getEntity();
@@ -744,7 +747,7 @@ public class TheQueen extends Monster {
 		boolean ret = false;
 		if (!source.is(DamageTypes.CACTUS)) {
 			hurtTimer = 20;
-			ret = super.hurtServer(level, source, dm * SCALE);
+			ret = super.hurtServer(level, source, dm * scale());
 			if (e instanceof Player) playerHitCount++;
 			if (e instanceof LivingEntity enl && hasTarget && !BossUtil.isRoyalty(e)) {
 				rt = enl;
@@ -857,11 +860,13 @@ public class TheQueen extends Monster {
 		output.putInt("PlayerHits", playerHitCount);
 		output.putInt("Mood", mood);
 		output.putInt("AlwaysMad", alwaysMad);
+		BossUtil.saveMaxHealth(this, output);
 	}
 
 	@Override
 	protected void readAdditionalSaveData(ValueInput input) {
 		super.readAdditionalSaveData(input);
+		BossUtil.keepHealthFraction(this, input, HEALTH);
 		homex = input.getIntOr("QueenHomeX", 0);
 		homez = input.getIntOr("QueenHomeZ", 0);
 		guardMode = input.getIntOr("GuardMode", 0);
